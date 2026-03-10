@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "role_title": "Heritage Consultant",
+    "alternate_titles": [
+      "Cultural Resource Manager",
+      "Heritage Preservation Specialist"
+    ],
+    "nco_code_official": "111101",
+    "sector": "Architecture & Design",
+    "sub_sector": "Heritage Conservation and Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Heritage Consultant works with government agencies, NGOs, and private companies to preserve and promote India's cultural heritage. They assess, conserve, and manage historical sites, monuments, and artifacts.",
+    "description_detailed": "Heritage Consultants work on-site to assess the condition of historical sites, monuments, and artifacts. They develop and implement conservation plans, collaborate with stakeholders, and ensure compliance with government regulations and international standards.",
+    "official_min_education": "Master's degree in Heritage Conservation, History, Archaeology, or a related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in history, culture, and the arts can pursue a degree in Heritage Studies or a related field.",
+      "target_exams": [
+        "NEET",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.A. in Heritage Studies",
+        "B.A. in History"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate diploma or certification in Heritage Conservation to bridge the gap.",
+      "acceptable_base_degrees": [
+        "B.A. in History",
+        "B.A. in Fine Arts"
+      ],
+      "certifications_or_bridge_needed": [
+        "Postgraduate Diploma in Heritage Conservation",
+        "Certification in Cultural Resource Management"
+      ]
+    },
+    "future_builder": {
+      "description": "Heritage Consultants with 2-5 years of experience can advance to senior roles or start their own consulting firms.",
+      "prerequisite_experience": "2-5 years as a Heritage Consultant",
+      "advanced_skills_to_learn": [
+        "Project Management",
+        "Grant Writing"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Heritage Consulting by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Research Skills",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Conservation Project Report",
+        "Heritage Site Assessment Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "frameworks": [],
+      "tools": [
+        "AutoCAD",
+        "GIS"
+      ],
+      "core_concepts": [
+        "Heritage Law",
+        "Conservation Techniques"
+      ]
+    },
+    "soft_skills": [
+      "Project Management",
+      "Communication Skills",
+      "Collaboration"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Heritage Assistant (0-2 yrs)",
+      "mid_level": "Heritage Consultant (3-5 yrs)",
+      "senior_level": "Senior Heritage Consultant (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Heritage Studies",
+      "topics": [
+        "Indian History",
+        "Heritage Law",
+        "Conservation Techniques"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Indian National Trust for Art and Cultural Heritage (INTACH)"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Practical Experience and Skills",
+      "topics": [
+        "Heritage Site Assessment",
+        "Conservation Project Management",
+        "Grant Writing"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera",
+        "Heritage Conservation Society"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio Development",
+      "topics": [
+        "Conservation Project Report",
+        "Heritage Site Assessment Report",
+        "Grant Proposal"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle",
+        "Heritage Conservation Society"
+      ]
+    }
+  ]
+}

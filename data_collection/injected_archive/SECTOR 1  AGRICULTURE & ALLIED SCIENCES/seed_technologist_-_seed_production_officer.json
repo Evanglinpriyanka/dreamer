@@ -1,0 +1,134 @@
+{
+  "identity": {
+    "role_title": "Seed Technologist",
+    "alternate_titles": [
+      "Seed Production Officer",
+      "Seed Quality Control Officer"
+    ],
+    "nco_code_official": "011101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Seed Production and Quality Control"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Seed Technologists are responsible for ensuring the quality and purity of seeds used in agriculture. They work in seed production, processing, and testing.",
+    "description_detailed": "Seed Technologists are involved in various activities such as seed production, processing, testing, and quality control. They work in laboratories, seed production units, and other related settings.",
+    "official_min_education": "B.Sc in Agriculture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture can pursue a B.Sc in Agriculture or related field.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc in Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate diploma or certification in seed technology.",
+      "acceptable_base_degrees": [
+        "B.Sc in Agriculture",
+        "B.Sc in Botany",
+        "B.Sc in Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Postgraduate Diploma in Seed Technology",
+        "Certification in Seed Quality Control"
+      ]
+    },
+    "future_builder": {
+      "description": "Seed Technologists with experience can advance to senior roles or specialize in specific areas like seed production or quality control.",
+      "prerequisite_experience": "2-3 years of experience as a Seed Technologist",
+      "advanced_skills_to_learn": [
+        "Seed production management",
+        "Quality control methodologies"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can switch to seed technology by acquiring relevant skills and certifications.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Basic knowledge of agriculture",
+        "Understanding of laboratory procedures"
+      ],
+      "portfolio_proof_required": [
+        "Project on seed quality control",
+        "Project on seed production management"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Seed testing equipment",
+        "Laboratory software"
+      ],
+      "core_concepts": [
+        "Seed anatomy",
+        "Seed physiology"
+      ]
+    },
+    "soft_skills": [
+      "Communication skills",
+      "Problem-solving skills"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Seed Technologist (0-2 yrs)",
+      "mid_level": "Seed Technologist (3-5 yrs)",
+      "senior_level": "Senior Seed Technologist or Seed Production Officer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-4.5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Agricultural principles",
+        "Soil science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT textbooks",
+        "Agricultural websites"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Seed Technology Fundamentals",
+      "topics": [
+        "Seed anatomy",
+        "Seed physiology"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "University course materials",
+        "Seed technology websites"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Seed quality control project",
+        "Seed production management project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Seed testing equipment",
+        "Laboratory software"
+      ]
+    }
+  ]
+}

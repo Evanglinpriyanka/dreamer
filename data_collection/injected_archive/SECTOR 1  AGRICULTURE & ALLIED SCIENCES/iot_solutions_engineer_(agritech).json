@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "role_title": "IoT Solutions Engineer",
+    "alternate_titles": [
+      "Agritech IoT Engineer",
+      "IoT Agritech Solutions Specialist"
+    ],
+    "nco_code_official": "825111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "IoT Solutions"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs, develops, and implements IoT solutions for agricultural applications, ensuring efficient data collection, processing, and decision-making.",
+    "description_detailed": "IoT Solutions Engineers in Agritech work on integrating sensors, devices, and software to monitor and manage agricultural processes, such as crop health, soil moisture, and weather conditions. They must have a strong understanding of IoT technologies, data analytics, and agricultural practices to develop effective solutions.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in Agritech IoT.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Tech in Agricultural Engineering",
+        "B.Tech in Computer Science and Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree looking to transition into Agritech IoT.",
+      "acceptable_base_degrees": [
+        "B.Tech in Electronics and Communication Engineering",
+        "B.Tech in Computer Science and Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified IoT Developer",
+        "Certified Data Scientist"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in Agritech or IoT looking to advance their skills and knowledge.",
+      "prerequisite_experience": "2+ years of experience in Agritech or IoT",
+      "advanced_skills_to_learn": [
+        "Machine Learning",
+        "Cloud Computing"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields looking to switch to Agritech IoT.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming in Python or C++",
+        "Data Structures and Algorithms"
+      ],
+      "portfolio_proof_required": [
+        "IoT-based project in agriculture or a related field"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "C++",
+        "Java"
+      ],
+      "frameworks": [
+        "Django",
+        "Flask",
+        "React"
+      ],
+      "tools": [
+        "Arduino",
+        "Raspberry Pi",
+        "MQTT"
+      ],
+      "core_concepts": [
+        "IoT Protocols",
+        "Data Analytics"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "IoT Engineer (0-2 yrs)",
+      "mid_level": "Senior IoT Engineer (3-5 yrs)",
+      "senior_level": "Lead IoT Engineer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 6-8 LPA",
+      "mid_senior_avg": "INR 12-18 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "IoT Fundamentals",
+      "topics": [
+        "IoT Architecture",
+        "IoT Protocols"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "IoT Fundamentals Course",
+        "Arduino Tutorials"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Programming and Development",
+      "topics": [
+        "Python Programming",
+        "Django Framework"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Python Crash Course",
+        "Django Tutorial"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build an IoT Project in Agriculture",
+        "Deploy on Cloud"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "IoT Project Ideas",
+        "Cloud Deployment Guide"
+      ]
+    }
+  ]
+}

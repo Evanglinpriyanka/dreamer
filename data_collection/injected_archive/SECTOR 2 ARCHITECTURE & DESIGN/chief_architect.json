@@ -1,0 +1,156 @@
+{
+  "identity": {
+    "role_title": "Chief Architect",
+    "alternate_titles": [
+      "Enterprise Architect",
+      "IT Architect"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Enterprise Software"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements large-scale software systems, ensuring scalability, security, and performance.",
+    "description_detailed": "Develops and maintains complex software architectures, collaborating with cross-functional teams to drive business growth and innovation.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in computer science and software development.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Computer Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree, seeking a career transition into software development.",
+      "acceptable_base_degrees": [
+        "B.A. in Computer Science",
+        "B.Sc. in Information Technology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Scrum Master",
+        "AWS Certified Developer"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced software professionals looking to advance their careers as Chief Architects.",
+      "prerequisite_experience": "5+ years of experience in software development and architecture",
+      "advanced_skills_to_learn": [
+        "Cloud Architecture",
+        "DevOps"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from non-technical backgrounds, seeking a career transition into software development.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming fundamentals",
+        "Data structures and algorithms"
+      ],
+      "portfolio_proof_required": [
+        "Personal projects showcasing software development skills"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Java",
+        "Python",
+        "C++"
+      ],
+      "frameworks": [
+        "Spring",
+        "Django",
+        "React"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Jenkins"
+      ],
+      "core_concepts": [
+        "Microservices architecture",
+        "Cloud computing"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Software Engineer (0-2 yrs)",
+      "mid_level": "Senior Software Engineer (3-5 yrs)",
+      "senior_level": "Chief Architect (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "High",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 8-12 LPA",
+      "mid_senior_avg": "INR 20-30 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Programming Fundamentals",
+      "topics": [
+        "Introduction to programming",
+        "Data structures and algorithms"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Codecademy",
+        "LeetCode"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Software Development",
+      "topics": [
+        "Software design patterns",
+        "Agile methodologies"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Architecture and Design",
+      "topics": [
+        "Microservices architecture",
+        "Cloud computing"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "AWS",
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "phase": 4,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design and implement a complex software system",
+        "Present a technical design document"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

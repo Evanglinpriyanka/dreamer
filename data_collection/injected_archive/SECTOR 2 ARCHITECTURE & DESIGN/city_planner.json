@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "City Planner",
+    "alternate_titles": [
+      "Urban Planner",
+      "Regional Planner"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Urban Development"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops plans for the physical development of cities and towns, ensuring efficient use of resources and infrastructure.",
+    "description_detailed": "City Planners analyze data, conduct research, and collaborate with stakeholders to create comprehensive plans for urban development, transportation systems, and public spaces, balancing economic, social, and environmental considerations.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in urban planning can start by taking courses in geography, economics, and mathematics.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Tech in Urban Planning",
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications in urban planning, such as the Certified Urban Planner (CUP) or the American Institute of Certified Planners (AICP) certification.",
+      "acceptable_base_degrees": [
+        "B.A. in Geography",
+        "B.E. in Civil Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "CUP",
+        "AICP"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced city planners can advance their careers by developing expertise in specialized areas, such as transportation planning, environmental planning, or urban design.",
+      "prerequisite_experience": "5 years as a Junior Urban Planner",
+      "advanced_skills_to_learn": [
+        "GIS mapping",
+        "Urban design software"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into city planning by acquiring relevant skills, such as data analysis, spatial reasoning, and communication.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data analysis",
+        "GIS skills"
+      ],
+      "portfolio_proof_required": [
+        "Urban planning project proposal"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "ArcGIS",
+        "QGIS"
+      ],
+      "tools": [
+        "Microsoft Excel",
+        "Tableau"
+      ],
+      "core_concepts": [
+        "Urban planning principles",
+        "Transportation planning"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Urban Planner (0-2 yrs)",
+      "mid_level": "Urban Planner (3-5 yrs)",
+      "senior_level": "Senior Urban Planner (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Urban Planning",
+      "topics": [
+        "Urban planning principles",
+        "Transportation planning"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Urban Planning Handbook",
+        "Transportation Planning Guide"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "GIS and Data Analysis",
+      "topics": [
+        "GIS mapping",
+        "Data analysis"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "ArcGIS tutorials",
+        "Data analysis courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone Project and Portfolio",
+      "topics": [
+        "Urban planning project proposal",
+        "Project implementation"
+      ],
+      "duration_weeks": 16,
+      "resources_keywords": [
+        "Urban planning project examples",
+        "Portfolio development resources"
+      ]
+    }
+  ]
+}

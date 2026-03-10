@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Farm Manager",
+    "alternate_titles": [
+      "Agricultural Manager",
+      "Crop Manager"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees farm operations, ensuring efficient crop production and resource management.",
+    "description_detailed": "Responsible for planning, implementing, and monitoring farm activities, including crop selection, soil management, irrigation, and pest control. Ensures compliance with agricultural regulations and maintains accurate records.",
+    "official_min_education": "B.Sc Agriculture"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Botany",
+        "B.Sc Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Crop Manager",
+        "Certified Agricultural Specialist"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Farm Manager",
+      "advanced_skills_to_learn": [
+        "Precision Farming",
+        "Data-Driven Decision Making"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Crop Management",
+        "Soil Science"
+      ],
+      "portfolio_proof_required": [
+        "Project Report: Farm Revitalization"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Crop Monitoring Software",
+        "Farm Management Software"
+      ],
+      "core_concepts": [
+        "Crop Selection",
+        "Soil Fertility Management"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Farm Manager (0-2 yrs)",
+      "mid_level": "Farm Manager (3-5 yrs)",
+      "senior_level": "Senior Farm Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Crop Science",
+        "Soil Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Crop Management",
+        "Farm Planning"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Farm Revitalization Project",
+        "Business Plan Development"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

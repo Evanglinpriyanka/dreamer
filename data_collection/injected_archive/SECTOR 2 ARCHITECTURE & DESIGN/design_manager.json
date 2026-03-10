@@ -1,0 +1,145 @@
+{
+  "identity": {
+    "role_title": "Design Manager",
+    "alternate_titles": [
+      "Creative Director",
+      "UX Lead"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Graphic Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Design Manager oversees the visual identity and user experience of a product or service, ensuring it meets business goals and user needs.",
+    "description_detailed": "Design Manager is responsible for leading a team of designers, developing design strategies, and creating design systems that align with the company's vision. They work closely with cross-functional teams to ensure design solutions meet business objectives and user requirements.",
+    "official_min_education": "B.Des"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in design can start by learning the basics of design principles, color theory, and typography.",
+      "target_exams": [
+        "NIFT Entrance Exam",
+        "UCEED"
+      ],
+      "target_degrees": [
+        "B.Des in Graphic Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a non-design degree can bridge the gap by learning design fundamentals, user experience (UX) principles, and design tools like Sketch or Figma.",
+      "acceptable_base_degrees": [
+        "B.A in Fine Arts",
+        "B.Sc in Visual Communication"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified UX Designer",
+        "Adobe Certified Expert in Photoshop"
+      ]
+    },
+    "future_builder": {
+      "description": "Designers with 2+ years of experience can advance their careers by learning design leadership, project management, and business acumen.",
+      "prerequisite_experience": "2 years as Senior Designer",
+      "advanced_skills_to_learn": [
+        "Design System Development",
+        "Design Leadership"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from non-design backgrounds can transition into design management by learning design principles, UX design, and design tools.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Design Thinking",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Design Portfolio with 3+ projects"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "HTML/CSS",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Sketch",
+        "Figma",
+        "Adobe XD"
+      ],
+      "tools": [
+        "Adobe Creative Cloud",
+        "InVision",
+        "Mural"
+      ],
+      "core_concepts": [
+        "Design Principles",
+        "User Experience (UX)"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Project Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Designer (0-2 yrs)",
+      "mid_level": "Senior Designer (3-5 yrs)",
+      "senior_level": "Design Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 10-15 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Design Fundamentals",
+      "topics": [
+        "Design Principles",
+        "Color Theory",
+        "Typography"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Canva Design School",
+        "Design Systems Handbook"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "UX Design and Tools",
+      "topics": [
+        "User Experience (UX) Principles",
+        "Sketch and Figma",
+        "Adobe XD"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy UX Design Course",
+        "Figma Design System"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Design Leadership and Portfolio",
+      "topics": [
+        "Design Leadership",
+        "Project Management",
+        "Design Portfolio"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Design Leadership Course",
+        "Behance Design Portfolio"
+      ]
+    }
+  ]
+}

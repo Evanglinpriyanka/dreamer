@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Horticulturist",
+    "alternate_titles": [
+      "Gardening Specialist",
+      "Plant Breeder"
+    ],
+    "nco_code_official": "825101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Horticulture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A horticulturist cultivates and maintains plants, gardens, and landscapes for aesthetic, recreational, or commercial purposes.",
+    "description_detailed": "Horticulturists work with a wide range of plants, from flowers and trees to fruits and vegetables. They may specialize in specific areas, such as plant breeding, soil science, or garden design.",
+    "official_min_education": "12th Pass with Science"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Horticulture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Botany",
+        "B.Sc Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Horticulturist",
+        "ICAR Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Horticulturist",
+      "advanced_skills_to_learn": [
+        "Precision Agriculture",
+        "Sustainable Gardening"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Soil Science",
+        "Plant Identification"
+      ],
+      "portfolio_proof_required": [
+        "Gardening Project",
+        "Plant Breeding Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Greenhouse Management Software",
+        "Gardening Apps"
+      ],
+      "core_concepts": [
+        "Photosynthesis",
+        "Soil Fertility"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Gardener (0-2 yrs)",
+      "mid_level": "Horticulturist (3-5 yrs)",
+      "senior_level": "Senior Horticulturist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3-5 LPA",
+      "mid_senior_avg": "INR 6-10 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Plant Biology",
+        "Soil Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Gardening Techniques",
+        "Pest Management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a Garden",
+        "Implement a Gardening Project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

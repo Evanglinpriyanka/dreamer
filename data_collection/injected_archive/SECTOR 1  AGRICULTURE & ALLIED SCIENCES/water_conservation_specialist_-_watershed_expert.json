@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "Water Conservation Specialist",
+    "alternate_titles": [
+      "Watershed Expert",
+      "Water Resource Manager"
+    ],
+    "nco_code_official": "924111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Water Resource Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements sustainable water conservation strategies for communities and industries.",
+    "description_detailed": "Conducts field surveys, analyzes data, and develops plans to optimize water usage, prevent pollution, and restore watersheds.",
+    "official_min_education": "B.Tech in Environmental Science or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in environmental science and conservation.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc in Environmental Science",
+        "B.Tech in Civil Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree, seeking a career shift to water conservation.",
+      "acceptable_base_degrees": [
+        "B.A in Geography",
+        "B.Sc in Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Water Conservation Specialist",
+        "GIS Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in water resource management, looking to advance their skills.",
+      "prerequisite_experience": "2+ years of experience in water conservation or related field",
+      "advanced_skills_to_learn": [
+        "Water Resources Modeling",
+        "IWRM"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields, seeking a career transition to water conservation.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data Analysis",
+        "Communication"
+      ],
+      "portfolio_proof_required": [
+        "Water Conservation Project Report",
+        "Community Engagement Plan"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "ArcGIS",
+        "QGIS"
+      ],
+      "tools": [
+        "WaterGAP",
+        "SWAT"
+      ],
+      "core_concepts": [
+        "Hydrology",
+        "Water Quality Management"
+      ]
+    },
+    "soft_skills": [
+      "Project Management",
+      "Team Leadership"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Water Conservation Specialist (0-2 yrs)",
+      "mid_level": "Water Conservation Specialist (3-5 yrs)",
+      "senior_level": "Senior Water Conservation Specialist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Environmental Science",
+      "topics": [
+        "Environmental Policy",
+        "Water Cycle"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "UNEP"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Water Conservation Principles",
+      "topics": [
+        "Water Demand Management",
+        "Irrigation Systems"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "IWMI",
+        "World Bank"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Water Conservation Project Planning",
+        "Community Engagement"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "USAID",
+        "WaterAid"
+      ]
+    }
+  ]
+}

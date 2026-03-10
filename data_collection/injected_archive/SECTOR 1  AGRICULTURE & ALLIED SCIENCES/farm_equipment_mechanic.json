@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Farm Equipment Mechanic",
+    "alternate_titles": [
+      "Agricultural Equipment Technician",
+      "Tractor Mechanic"
+    ],
+    "nco_code_official": "825111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Farm Equipment Maintenance"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Farm Equipment Mechanic installs, maintains, and repairs farm equipment to ensure optimal performance and efficiency.",
+    "description_detailed": "Farm Equipment Mechanic performs routine maintenance tasks, troubleshoots equipment malfunctions, and conducts repairs on a variety of farm equipment, including tractors, plows, and harvesters. They must have a strong understanding of mechanical systems, electrical systems, and hydraulics, as well as the ability to work with a variety of tools and equipment.",
+    "official_min_education": "10th Pass with ITI in Mechanic Trade"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ITI Entrance Exam"
+      ],
+      "target_degrees": [
+        "Diploma in Mechanic Trade"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "Diploma in Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Agricultural Equipment Maintenance"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years of experience as a Farm Equipment Mechanic",
+      "advanced_skills_to_learn": [
+        "Advanced Troubleshooting Techniques",
+        "Equipment Design and Development"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Basic Mechanical Skills",
+        "Troubleshooting Techniques"
+      ],
+      "portfolio_proof_required": [
+        "Project Report on Equipment Repair"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Multimeter",
+        "Oscilloscope",
+        "Welding Equipment"
+      ],
+      "core_concepts": [
+        "Mechanical Systems",
+        "Electrical Systems",
+        "Hydraulics"
+      ]
+    },
+    "soft_skills": [
+      "Time Management",
+      "Communication Skills",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Farm Equipment Mechanic (0-2 yrs)",
+      "mid_level": "Senior Farm Equipment Mechanic (3-5 yrs)",
+      "senior_level": "Lead Farm Equipment Mechanic (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-4.5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Basic Mechanical Systems",
+        "Electrical Systems Fundamentals"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Mechanical Systems Troubleshooting",
+        "Hydraulics Fundamentals"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Full Project on Equipment Repair",
+        "Deploy and Present"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

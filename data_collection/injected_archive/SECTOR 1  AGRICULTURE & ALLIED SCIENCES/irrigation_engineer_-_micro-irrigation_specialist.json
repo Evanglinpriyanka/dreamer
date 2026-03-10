@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Irrigation Engineer",
+    "alternate_titles": [
+      "Micro-irrigation Specialist",
+      "Water Conservation Engineer"
+    ],
+    "nco_code_official": "NCO 111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Water Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements efficient irrigation systems for agricultural purposes, focusing on water conservation and optimal crop yield.",
+    "description_detailed": "An Irrigation Engineer/Micro-irrigation Specialist is responsible for planning, designing, and executing irrigation systems for agricultural fields, taking into account soil type, crop requirements, and water availability. They must have a deep understanding of hydrology, hydraulics, and crop water requirements to ensure optimal water use and minimize waste.",
+    "official_min_education": "B.Tech in Agricultural Engineering or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in irrigation engineering can start by taking courses in mathematics, physics, and chemistry.",
+      "target_exams": [
+        "JEE Main",
+        "AIEEE"
+      ],
+      "target_degrees": [
+        "B.Tech in Agricultural Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge their skills by taking courses in hydrology, hydraulics, and irrigation engineering.",
+      "acceptable_base_degrees": [
+        "B.Tech in Civil Engineering",
+        "B.Tech in Mechanical Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Irrigation Designer (CID)",
+        "Certified Water Conservation Specialist (CWCS)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced irrigation engineers can advance their careers by taking courses in advanced irrigation technologies, such as precision irrigation and drip irrigation.",
+      "prerequisite_experience": "Minimum 2 years of experience as an Irrigation Engineer",
+      "advanced_skills_to_learn": [
+        "Precision Irrigation Systems",
+        "Drip Irrigation Systems"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can switch to irrigation engineering by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming skills in languages like Python or R",
+        "Data analysis and interpretation skills"
+      ],
+      "portfolio_proof_required": [
+        "Project reports on water conservation and irrigation management"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [],
+      "tools": [
+        "AutoCAD",
+        "GIS software"
+      ],
+      "core_concepts": [
+        "Hydrology",
+        "Hydraulics",
+        "Crop Water Requirements"
+      ]
+    },
+    "soft_skills": [
+      "Communication skills",
+      "Problem-solving skills",
+      "Teamwork and collaboration"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Irrigation Engineer (0-2 yrs)",
+      "mid_level": "Senior Irrigation Engineer (3-5 yrs)",
+      "senior_level": "Lead Irrigation Engineer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Hydrology and Hydraulics",
+        "Crop Water Requirements"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT textbooks",
+        "Official irrigation engineering documents"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Irrigation System Design",
+        "Water Conservation Techniques"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy courses",
+        "Coursera courses on irrigation engineering"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design and implement an irrigation system for a real-world project",
+        "Present a portfolio of irrigation engineering projects"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub repository for irrigation engineering projects",
+        "Kaggle competitions on water conservation"
+      ]
+    }
+  ]
+}

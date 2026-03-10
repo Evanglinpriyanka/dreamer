@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Apiculturist",
+    "alternate_titles": [
+      "Beekeeper",
+      "Apiary Manager"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Animal Husbandry"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Apiculturists manage bee colonies for honey production and pollination services.",
+    "description_detailed": "They oversee the health and productivity of bee colonies, ensuring optimal honey production and pollination services for crops. Apiculturists also educate farmers and the public about beekeeping and its importance.",
+    "official_min_education": "12th Pass with Science"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA (Agriculture)"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Horticulture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Zoology",
+        "B.Sc Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Diploma in Beekeeping",
+        "Certified Beekeeper (CB)"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Beekeeper or Assistant Apiculturist",
+      "advanced_skills_to_learn": [
+        "Apiary Management Software",
+        "Bee Health Monitoring"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Basic Beekeeping Knowledge",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Beekeeping Project Report",
+        "Apiary Management Plan"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Beekeeping Suit",
+        "Smoker",
+        "Hive Tool"
+      ],
+      "core_concepts": [
+        "Bee Biology",
+        "Apiary Management"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Beekeeper (0-2 yrs)",
+      "mid_level": "Assistant Apiculturist (3-5 yrs)",
+      "senior_level": "Senior Apiculturist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Beekeeping Fundamentals",
+      "topics": [
+        "Bee Biology",
+        "Apiary Management"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Beekeeping Associations"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Apiary Management",
+      "topics": [
+        "Apiary Planning",
+        "Bee Health Monitoring"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Beekeeping Courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop an Apiary Management Plan",
+        "Implement a Beekeeping Project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Beekeeping Communities"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "role_title": "Plant Pathologist",
+    "alternate_titles": [
+      "Plant Disease Specialist",
+      "Plant Health Expert"
+    ],
+    "nco_code_official": "NCO 111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Science"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Plant Pathologist diagnoses and manages plant diseases to ensure crop health and productivity.",
+    "description_detailed": "Plant Pathologists work with farmers, researchers, and policymakers to develop and implement strategies for disease management, crop protection, and sustainable agriculture practices.",
+    "official_min_education": "M.Sc. in Plant Pathology or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and plant science can pursue a degree in Plant Pathology.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc. in Agriculture",
+        "B.Sc. in Plant Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in life sciences can pursue a postgraduate degree in Plant Pathology.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Biology",
+        "B.Sc. in Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Crop Advisor",
+        "Certified Plant Health Specialist"
+      ]
+    },
+    "future_builder": {
+      "description": "Plant Pathologists with experience in research, extension, or industry can advance to leadership roles or specialized positions.",
+      "prerequisite_experience": "2-5 years of experience in plant pathology or related field",
+      "advanced_skills_to_learn": [
+        "Molecular diagnostics",
+        "Precision agriculture"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition to Plant Pathology by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Laboratory techniques",
+        "Data analysis"
+      ],
+      "portfolio_proof_required": [
+        "Research project in plant pathology",
+        "Case study on disease management"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "R Studio",
+        "Python libraries (e.g., scikit-learn)"
+      ],
+      "tools": [
+        "Microscope",
+        "PCR machine"
+      ],
+      "core_concepts": [
+        "Plant anatomy",
+        "Microbial ecology"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Research Assistant (0-2 yrs)",
+      "mid_level": "Senior Research Scientist (3-5 yrs)",
+      "senior_level": "Lead Plant Pathologist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Plant Science",
+      "topics": [
+        "Plant anatomy",
+        "Photosynthesis",
+        "Plant growth and development"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Plant Physiology textbooks"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Laboratory Techniques and Data Analysis",
+      "topics": [
+        "Microscopy",
+        "Molecular diagnostics",
+        "Data analysis with R or Python"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera",
+        "Plant pathology courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone Project and Portfolio Development",
+      "topics": [
+        "Research project in plant pathology",
+        "Case study on disease management"
+      ],
+      "duration_weeks": 16,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle",
+        "Plant pathology journals"
+      ]
+    }
+  ]
+}

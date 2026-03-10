@@ -1,0 +1,132 @@
+{
+  "identity": {
+    "role_title": "Facility Manager",
+    "alternate_titles": [
+      "Facilities Manager",
+      "Operations Manager"
+    ],
+    "nco_code_official": "9211",
+    "sector": "Architecture & Design",
+    "sub_sector": "Facilities Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees the maintenance, repair, and upkeep of buildings, ensuring a safe and efficient work environment.",
+    "description_detailed": "Responsible for managing the day-to-day operations of a facility, including maintenance, repairs, and upkeep. Ensures compliance with safety regulations, manages budgets, and coordinates with stakeholders to achieve operational excellence.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "Diploma in Architecture or Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Tech in Civil Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Facility Manager (CFM)",
+        "OSHA Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Assistant Facility Manager",
+      "advanced_skills_to_learn": [
+        "Lean Six Sigma",
+        "Energy Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Budgeting"
+      ],
+      "portfolio_proof_required": [
+        "Facility Management Project Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "AutoCAD",
+        "MS Project"
+      ],
+      "core_concepts": [
+        "Building Codes",
+        "Facility Management Systems"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Leadership",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Facilities Assistant (0-2 yrs)",
+      "mid_level": "Assistant Facility Manager (3-5 yrs)",
+      "senior_level": "Facility Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Facility Management",
+      "topics": [
+        "Building Codes",
+        "Facility Management Systems"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "ICFAI University, Hyderabad",
+        "RICS School of Built Environment"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Technical Skills Development",
+      "topics": [
+        "AutoCAD",
+        "MS Project"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Facility Management Project Report",
+        "Presentation Skills"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

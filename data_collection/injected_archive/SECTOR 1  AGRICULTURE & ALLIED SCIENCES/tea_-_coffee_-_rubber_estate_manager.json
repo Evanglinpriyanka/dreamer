@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "role_title": "Estate Manager",
+    "alternate_titles": [
+      "Tea Estate Manager",
+      "Coffee Estate Manager",
+      "Rubber Estate Manager"
+    ],
+    "nco_code_official": "111101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Plantation Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees the day-to-day operations of a tea, coffee, or rubber estate, ensuring optimal production and quality.",
+    "description_detailed": "Manages the entire lifecycle of the estate, from crop planning and harvesting to processing and quality control, while maintaining a profitable and sustainable business model.",
+    "official_min_education": "Bachelor's Degree in Agriculture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "ICAR AICE JRF"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Tech Agricultural Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Botany",
+        "B.Sc Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Tea Taster",
+        "Certified Coffee Roaster"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "Minimum 3 years of experience as an Assistant Estate Manager",
+      "advanced_skills_to_learn": [
+        "Supply Chain Management",
+        "Financial Planning"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Data Analysis"
+      ],
+      "portfolio_proof_required": [
+        "Project Report on Estate Management",
+        "Case Study on Sustainable Practices"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "Tableau",
+        "Power BI"
+      ],
+      "tools": [
+        "Microsoft Office",
+        "Google Suite"
+      ],
+      "core_concepts": [
+        "Crop Yield Analysis",
+        "Quality Control"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Assistant Estate Manager (0-2 yrs)",
+      "mid_level": "Estate Manager (3-5 yrs)",
+      "senior_level": "Senior Estate Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Crop Science",
+        "Estate Management"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Quality Control",
+        "Supply Chain Management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Estate Management Project",
+        "Business Plan"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

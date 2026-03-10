@@ -1,0 +1,137 @@
+{
+  "identity": {
+    "role_title": "Fashion Designer",
+    "alternate_titles": [
+      "Fashion Stylist",
+      "Textile Designer"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Architecture & Design",
+    "sub_sector": "Fashion and Apparel"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and creates original clothing and accessories for fashion brands, considering aesthetics, functionality, and market trends.",
+    "description_detailed": "Fashion designers conceptualize, sketch, and develop prototypes of clothing and accessories, collaborating with manufacturers, models, and photographers to bring their designs to life. They stay updated on fashion trends, fabrics, and technologies to create innovative and marketable products.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NIFT Entrance Exam",
+        "UCEED"
+      ],
+      "target_degrees": [
+        "B.Des in Fashion Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "BFA in Fine Arts"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Fashion Stylist",
+        "Fashion Design Course by NID"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Fashion Designer",
+      "advanced_skills_to_learn": [
+        "Digital Pattern Making",
+        "Sustainable Fashion Practices"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Sketching",
+        "Color Theory"
+      ],
+      "portfolio_proof_required": [
+        "Fashion Design Portfolio",
+        "Sketchbook"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Adobe Creative Suite",
+        "Sketchbook"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Sewing Machine",
+        "Mannequin"
+      ],
+      "core_concepts": [
+        "Fabric Science",
+        "Textile Technology"
+      ]
+    },
+    "soft_skills": [
+      "Creativity",
+      "Attention to Detail",
+      "Communication"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Fashion Designer (0-2 yrs)",
+      "mid_level": "Senior Fashion Designer (3-5 yrs)",
+      "senior_level": "Creative Director (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Fashion Design Principles",
+        "Textile Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Fashion Design Books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Pattern Making",
+        "Garment Construction"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Fashion Design Courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Create a Fashion Collection",
+        "Develop a Brand Identity"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Fashion Design Communities"
+      ]
+    }
+  ]
+}

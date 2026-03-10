@@ -1,0 +1,142 @@
+{
+  "identity": {
+    "role_title": "Food Technologist",
+    "alternate_titles": [
+      "Food Scientist",
+      "Food Engineer"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Food Technology"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Food Technologists develop and improve food products, processes, and technologies to ensure food safety, quality, and sustainability.",
+    "description_detailed": "Food Technologists work in various industries, including food manufacturing, research and development, quality control, and regulatory affairs. They apply scientific principles to develop new food products, improve existing ones, and ensure compliance with food safety regulations.",
+    "official_min_education": "Bachelor's degree in Food Technology or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Tech in Food Technology",
+        "B.Sc in Food Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Tech in Chemical Engineering",
+        "B.Sc in Microbiology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Food Safety Manager",
+        "Food Technology Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2-3 years of experience in food technology or related field",
+      "advanced_skills_to_learn": [
+        "Food Process Simulation",
+        "Food Packaging Technology"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Food Safety Knowledge",
+        "Food Processing Skills"
+      ],
+      "portfolio_proof_required": [
+        "Food Product Development Project",
+        "Food Safety Audit Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "MATLAB"
+      ],
+      "frameworks": [
+        "LabVIEW",
+        "Simulink"
+      ],
+      "tools": [
+        "HPLC",
+        "GC-MS"
+      ],
+      "core_concepts": [
+        "Food Microbiology",
+        "Food Chemistry"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Food Quality Control Assistant (0-2 yrs)",
+      "mid_level": "Food Technologist (3-5 yrs)",
+      "senior_level": "Food Product Development Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Food Science",
+        "Food Technology Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Food Processing",
+        "Food Safety and Quality Control"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Food Product Development",
+        "Food Safety Audit"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "Automobile Designer",
+    "alternate_titles": [
+      "Car Designer",
+      "Vehicle Designer"
+    ],
+    "nco_code_official": "115110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Automotive"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops the aesthetic and functional aspects of automobiles, considering factors like safety, ergonomics, and sustainability.",
+    "description_detailed": "An automobile designer is responsible for creating the visual and functional aspects of vehicles, including the exterior and interior design, user experience, and overall performance. They must balance aesthetics with safety, ergonomics, and sustainability considerations.",
+    "official_min_education": "B.Des"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in art, design, and technology can pursue a degree in automobile design.",
+      "target_exams": [
+        "JEE Main",
+        "NATA"
+      ],
+      "target_degrees": [
+        "B.Des in Automobile Design",
+        "B.Des in Industrial Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in design or a related field can pursue a postgraduate degree in automobile design or acquire relevant certifications.",
+      "acceptable_base_degrees": [
+        "B.Des in Fashion Design",
+        "B.Des in Interior Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Automotive Designer (CAD)",
+        "Autodesk Certified User - AutoCAD"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced designers can advance their careers by developing expertise in specific areas like electric vehicle design, autonomous vehicle design, or sustainable design.",
+      "prerequisite_experience": "Minimum 3 years of experience as a Junior Designer",
+      "advanced_skills_to_learn": [
+        "Computer-Aided Design (CAD) software",
+        "3D modeling and rendering"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into automobile design by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Sketching and drawing",
+        "Design thinking and problem-solving"
+      ],
+      "portfolio_proof_required": [
+        "Personal projects showcasing design skills",
+        "Relevant design competitions or awards"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "Java"
+      ],
+      "frameworks": [
+        "SolidWorks",
+        "CATIA"
+      ],
+      "tools": [
+        "Adobe Creative Suite",
+        "SketchUp"
+      ],
+      "core_concepts": [
+        "Design for manufacturability",
+        "User experience (UX) design"
+      ]
+    },
+    "soft_skills": [
+      "Communication and collaboration",
+      "Time management and organization"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Designer (0-2 yrs)",
+      "mid_level": "Senior Designer (3-5 yrs)",
+      "senior_level": "Lead Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundational Knowledge",
+      "topics": [
+        "Design principles and elements",
+        "Design software and tools"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Design textbooks and online resources"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Design Fundamentals",
+      "topics": [
+        "Sketching and drawing",
+        "Design thinking and problem-solving"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a full vehicle",
+        "Create a design portfolio"
+      ],
+      "duration_weeks": 16,
+      "resources_keywords": [
+        "GitHub",
+        "Behance"
+      ]
+    }
+  ]
+}

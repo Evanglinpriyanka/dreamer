@@ -1,0 +1,150 @@
+{
+  "identity": {
+    "role_title": "Game Designer",
+    "alternate_titles": [
+      "Game Artist",
+      "Level Designer"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Game Development"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Design engaging game experiences, balancing art, mechanics, and storytelling.",
+    "description_detailed": "Create immersive game worlds, characters, and levels, while ensuring smooth gameplay and user experience.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in game design can start by learning the basics of art, design, and programming.",
+      "target_exams": [
+        "NATA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Des in Game Design",
+        "B.Tech in Game Development"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge the gap by acquiring relevant skills and certifications.",
+      "acceptable_base_degrees": [
+        "B.Des",
+        "B.Tech"
+      ],
+      "certifications_or_bridge_needed": [
+        "Unity Certified Developer",
+        "Udemy Game Development Course"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced game designers can advance by learning new technologies, tools, and methodologies.",
+      "prerequisite_experience": "2+ years as Junior Game Designer",
+      "advanced_skills_to_learn": [
+        "Game Engine Development",
+        "Artificial Intelligence in Games"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into game design by acquiring relevant skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Game Development Fundamentals",
+        "Visual Design Principles"
+      ],
+      "portfolio_proof_required": [
+        "Game Jam Project",
+        "Personal Game Development Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "C#",
+        "Java",
+        "Python"
+      ],
+      "frameworks": [
+        "Unity",
+        "Unreal Engine",
+        "Godot"
+      ],
+      "tools": [
+        "Blender",
+        "Adobe Creative Suite",
+        "Git"
+      ],
+      "core_concepts": [
+        "Game Mechanics",
+        "Level Design Principles"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Game Designer (0-2 yrs)",
+      "mid_level": "Game Designer (3-5 yrs)",
+      "senior_level": "Senior Game Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Game Development Fundamentals",
+      "topics": [
+        "Game Engines",
+        "Game Programming",
+        "Game Design Principles"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera",
+        "Game Development Tutorials"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Game Art and Design",
+      "topics": [
+        "Visual Design Principles",
+        "Game Art Creation",
+        "Level Design"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Blender Tutorials",
+        "Adobe Creative Suite",
+        "Game Development Communities"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Full Game Project",
+        "Deploy on Platforms"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Game Development Forums",
+        "Game Jams"
+      ]
+    }
+  ]
+}

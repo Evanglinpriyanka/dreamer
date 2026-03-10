@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Animal Geneticist",
+    "alternate_titles": [
+      "Livestock Geneticist",
+      "Animal Breeding Specialist"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Animal Husbandry"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Animal Geneticists study the genetic makeup of animals to improve their breeding and productivity. They work with farmers, breeders, and researchers to develop new animal breeds and improve existing ones.",
+    "description_detailed": "Animal Geneticists use advanced genetic techniques to analyze the DNA of animals and identify genes that influence desirable traits such as milk production, meat quality, and disease resistance. They work with a range of animals, including livestock, poultry, and fish, and use their knowledge to develop new breeding programs and improve existing ones.",
+    "official_min_education": "M.Sc. in Animal Genetics or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in animal science and genetics can pursue a degree in animal science or a related field.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc. in Animal Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in a life science or related field can pursue a postgraduate degree in animal genetics or a related field.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Biology",
+        "B.Sc. in Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Animal Genetics",
+        "Certification in Molecular Biology"
+      ]
+    },
+    "future_builder": {
+      "description": "Animal Geneticists with experience in the field can advance to senior roles such as team lead or research scientist.",
+      "prerequisite_experience": "2-3 years of experience as an Animal Geneticist",
+      "advanced_skills_to_learn": [
+        "Genomic selection",
+        "Precision breeding"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into animal genetics by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming skills in R or Python",
+        "Knowledge of molecular biology"
+      ],
+      "portfolio_proof_required": [
+        "Project on animal breeding and genetics"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Genomic selection software",
+        "Precision breeding software"
+      ],
+      "core_concepts": [
+        "Genetics",
+        "Molecular biology"
+      ]
+    },
+    "soft_skills": [
+      "Communication skills",
+      "Teamwork skills"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Animal Geneticist (0-2 yrs)",
+      "mid_level": "Senior Animal Geneticist (3-5 yrs)",
+      "senior_level": "Team Lead/Research Scientist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Animal Science",
+      "topics": [
+        "Animal breeding and genetics",
+        "Molecular biology"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Genetic Analysis and Interpretation",
+      "topics": [
+        "Genetic analysis software",
+        "Genomic selection"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a breeding program",
+        "Deploy a genomic selection software"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

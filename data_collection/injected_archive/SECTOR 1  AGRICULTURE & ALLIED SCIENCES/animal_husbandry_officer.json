@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Animal Husbandry Officer",
+    "alternate_titles": [
+      "Animal Care Specialist",
+      "Livestock Officer"
+    ],
+    "nco_code_official": "011101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Animal Husbandry"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Animal Husbandry Officers are responsible for the health and well-being of livestock, ensuring their proper care and management to maximize productivity and minimize disease.",
+    "description_detailed": "They work closely with farmers, veterinarians, and other stakeholders to develop and implement strategies for improving animal health, productivity, and welfare. This includes monitoring animal health, providing vaccinations and medications, and implementing biosecurity measures to prevent disease outbreaks.",
+    "official_min_education": "12th Pass with Science Stream"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Life Sciences",
+        "B.Sc Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Animal Welfare Officer",
+        "Certified Livestock Manager"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Animal Husbandry Officer",
+      "advanced_skills_to_learn": [
+        "Livestock Nutrition",
+        "Animal Health Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Communication Skills",
+        "Problem-Solving Skills"
+      ],
+      "portfolio_proof_required": [
+        "Project on Animal Health and Welfare"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "MS Excel",
+        "Statistical Software"
+      ],
+      "core_concepts": [
+        "Animal Nutrition",
+        "Livestock Production Systems"
+      ]
+    },
+    "soft_skills": [
+      "Communication Skills",
+      "Problem-Solving Skills",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Animal Husbandry Officer (0-2 yrs)",
+      "mid_level": "Senior Animal Husbandry Officer (3-5 yrs)",
+      "senior_level": "Deputy Director (Animal Husbandry) (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Animal Nutrition",
+        "Livestock Production Systems"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Animal Health Management",
+        "Livestock Disease Management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a Livestock Management Plan",
+        "Implement a Disease Control Program"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

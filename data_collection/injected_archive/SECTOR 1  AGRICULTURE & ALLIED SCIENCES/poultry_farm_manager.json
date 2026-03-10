@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Poultry Farm Manager",
+    "alternate_titles": [
+      "Poultry Farm Supervisor",
+      "Avian Farm Manager"
+    ],
+    "nco_code_official": "924111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Livestock and Poultry"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees the daily operations of a poultry farm, ensuring efficient production, animal welfare, and compliance with regulations.",
+    "description_detailed": "Manages the entire lifecycle of poultry farming, from breeding to processing, including feed management, health monitoring, and waste disposal. Ensures adherence to quality standards, animal welfare, and environmental regulations.",
+    "official_min_education": "12th Pass with Science"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.V.Sc & A.H."
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Zoology",
+        "B.Sc Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Poultry Farming Certification",
+        "Animal Nutrition Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Farm Manager",
+      "advanced_skills_to_learn": [
+        "Data Analysis for Farm Management",
+        "Poultry Health Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Animal Handling",
+        "Feed Management"
+      ],
+      "portfolio_proof_required": [
+        "Poultry Farm Management Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Farm Management Software",
+        "Animal Health Monitoring Tools"
+      ],
+      "core_concepts": [
+        "Poultry Nutrition",
+        "Animal Welfare"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Farm Manager (0-2 yrs)",
+      "mid_level": "Farm Manager (3-5 yrs)",
+      "senior_level": "Poultry Farm Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Poultry Farming Basics",
+        "Animal Nutrition"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Poultry Health Management",
+        "Farm Management Software"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a Poultry Farm Management Plan",
+        "Implement and Monitor"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

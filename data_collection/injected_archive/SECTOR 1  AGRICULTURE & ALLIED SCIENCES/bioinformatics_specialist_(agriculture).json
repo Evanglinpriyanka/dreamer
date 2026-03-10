@@ -1,0 +1,145 @@
+{
+  "identity": {
+    "role_title": "Bioinformatics Specialist (Agriculture)",
+    "alternate_titles": [
+      "Bioinformatics Analyst (Agriculture)",
+      "Agricultural Informatics Specialist"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Agricultural Biotechnology"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Bioinformatics Specialist (Agriculture) applies computational tools and techniques to analyze and interpret biological data in the context of agriculture, enabling informed decision-making for crop improvement, disease management, and sustainable agriculture practices.",
+    "description_detailed": "Bioinformatics Specialist (Agriculture) works with large datasets, genomic information, and other biological data to identify patterns, predict outcomes, and develop new strategies for agricultural productivity, environmental sustainability, and food security.",
+    "official_min_education": "M.Sc. in Bioinformatics or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and computer science can pursue a degree in bioinformatics or a related field.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc. in Bioinformatics",
+        "B.Tech. in Biotechnology"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in life sciences or computer science can pursue certifications or bridge courses in bioinformatics to transition into this role.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Life Sciences",
+        "B.Tech. in Computer Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Bioinformatics",
+        "Course in Programming for Biologists"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in agriculture or biotechnology can advance their careers by acquiring advanced skills in bioinformatics, such as machine learning, data analysis, and programming.",
+      "prerequisite_experience": "2+ years of experience in agriculture or biotechnology",
+      "advanced_skills_to_learn": [
+        "Machine Learning",
+        "Data Analysis with R"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into bioinformatics by acquiring relevant skills and building a portfolio of projects demonstrating their ability to work with biological data.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming in Python",
+        "Data Structures"
+      ],
+      "portfolio_proof_required": [
+        "Project on Genomic Data Analysis",
+        "Project on Agricultural Data Visualization"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "frameworks": [
+        "Biopython",
+        "Scikit-learn",
+        "TensorFlow"
+      ],
+      "tools": [
+        "Bioconductor",
+        "Galaxy",
+        "QGIS"
+      ],
+      "core_concepts": [
+        "Genomics",
+        "Bioinformatics pipelines"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Bioinformatics Analyst (0-2 yrs)",
+      "mid_level": "Senior Bioinformatics Analyst (3-5 yrs)",
+      "senior_level": "Lead Bioinformatics Specialist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Bioinformatics",
+      "topics": [
+        "Introduction to Bioinformatics",
+        "Bioinformatics Tools and Techniques"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Bioinformatics textbooks"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Programming and Data Analysis",
+      "topics": [
+        "Programming in Python",
+        "Data Structures and Algorithms"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio Development",
+      "topics": [
+        "Genomic Data Analysis Project",
+        "Agricultural Data Visualization Project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Landscape Architect",
+    "alternate_titles": [
+      "Urban Planner",
+      "Environmental Designer"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Urban Planning and Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and plans outdoor spaces, such as parks, gardens, and public spaces, to create aesthetically pleasing and functional environments.",
+    "description_detailed": "Landscape architects use their knowledge of horticulture, ecology, and design principles to create outdoor spaces that are not only visually appealing but also sustainable and functional. They work with clients to understand their needs and preferences, and then use computer-aided design (CAD) software and other tools to create detailed plans and models of the proposed landscape design.",
+    "official_min_education": "B.Tech in Landscape Architecture or equivalent"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in landscape architecture should focus on developing their skills in art, design, and mathematics.",
+      "target_exams": [
+        "JEE Main",
+        "NATA"
+      ],
+      "target_degrees": [
+        "B.Tech in Landscape Architecture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in a related field, such as architecture or environmental science, may need to acquire additional education and training in landscape architecture.",
+      "acceptable_base_degrees": [
+        "B.Arch",
+        "B.Sc in Environmental Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Landscape Architect (CLA)"
+      ]
+    },
+    "future_builder": {
+      "description": "Landscape architects with 2-5 years of experience may look to advance their careers by taking on more complex projects, leading teams, and developing their skills in areas such as sustainable design and urban planning.",
+      "prerequisite_experience": "2-5 years as a Landscape Architect",
+      "advanced_skills_to_learn": [
+        "Sustainable Design Principles",
+        "Urban Planning Software"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals with a background in an unrelated field may be able to transition into a career in landscape architecture by acquiring the necessary education and training, as well as developing relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Graphic Design",
+        "Project Management"
+      ],
+      "portfolio_proof_required": [
+        "Landscape Design Projects"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "AutoCAD",
+        "SketchUp",
+        "Revit"
+      ],
+      "frameworks": [],
+      "tools": [
+        "GIS Software",
+        "Landscape Design Software"
+      ],
+      "core_concepts": [
+        "Sustainable Design Principles",
+        "Urban Planning"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Landscape Architect (0-2 yrs)",
+      "mid_level": "Senior Landscape Architect (3-5 yrs)",
+      "senior_level": "Principal Landscape Architect (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Design",
+      "topics": [
+        "Introduction to Landscape Architecture",
+        "Design Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Landscape Architecture Books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Technical Skills",
+      "topics": [
+        "AutoCAD",
+        "SketchUp",
+        "GIS Software"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Online Tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Landscape Design Project",
+        "Portfolio Development"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Landscape Architecture Communities"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Retail Space Designer",
+    "alternate_titles": [
+      "Retail Interior Designer",
+      "Visual Merchandiser"
+    ],
+    "nco_code_official": "924111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Interior Design and Decoration"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops visually appealing retail spaces that enhance customer experience and drive sales.",
+    "description_detailed": "Responsible for creating immersive brand experiences through thoughtful space planning, visual merchandising, and interior design. Utilizes creativity, technical skills, and industry knowledge to deliver innovative retail spaces that meet business objectives and exceed customer expectations.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Des in Interior Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Arch",
+        "B.Des in Fashion Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certificate in Retail Design",
+        "Certified Visual Merchandiser"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Interior Designer",
+      "advanced_skills_to_learn": [
+        "SketchUp",
+        "Revit"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Adobe Creative Suite",
+        "Space Planning"
+      ],
+      "portfolio_proof_required": [
+        "Retail Store Design Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "SketchUp",
+        "AutoCAD"
+      ],
+      "frameworks": [
+        "Revit",
+        "3ds Max"
+      ],
+      "tools": [
+        "Adobe Creative Suite",
+        "Photoshop"
+      ],
+      "core_concepts": [
+        "Space Planning",
+        "Visual Merchandising"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Creativity",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Interior Designer (0-2 yrs)",
+      "mid_level": "Senior Interior Designer (3-5 yrs)",
+      "senior_level": "Lead Retail Space Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Introduction to Interior Design",
+        "Space Planning Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Interior Design Books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Visual Merchandising Techniques",
+        "Retail Store Design"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a Retail Store",
+        "Create a Visual Merchandising Plan"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "SketchUp",
+        "Adobe Creative Suite"
+      ]
+    }
+  ]
+}

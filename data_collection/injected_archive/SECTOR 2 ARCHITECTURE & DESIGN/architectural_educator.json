@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Architectural Educator",
+    "alternate_titles": [
+      "Architecture Professor",
+      "Design Educator"
+    ],
+    "nco_code_official": "111101",
+    "sector": "Architecture & Design",
+    "sub_sector": "Higher Education"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Teaches and guides students in architectural design, history, and theory.",
+    "description_detailed": "Develops and delivers curriculum, assesses student progress, and fosters a learning environment that encourages creativity and critical thinking in architectural education.",
+    "official_min_education": "Master's Degree"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school student interested in pursuing a career in architectural education.",
+      "target_exams": [
+        "JEE Main",
+        "NATA"
+      ],
+      "target_degrees": [
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge to architectural education.",
+      "acceptable_base_degrees": [
+        "B.Arch",
+        "B.Des"
+      ],
+      "certifications_or_bridge_needed": [
+        "M.Arch",
+        "PG Diploma in Architecture"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance in architectural education.",
+      "prerequisite_experience": "2 years of teaching experience in architecture",
+      "advanced_skills_to_learn": [
+        "Learning Management Systems",
+        "Assessment Techniques"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field to architectural education. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Communication Skills",
+        "Project Management"
+      ],
+      "portfolio_proof_required": [
+        "Architecture Portfolio",
+        "Teaching Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Autodesk Revit",
+        "SketchUp"
+      ],
+      "core_concepts": [
+        "Building Information Modelling",
+        "Sustainable Design"
+      ]
+    },
+    "soft_skills": [
+      "Communication Skills",
+      "Leadership",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Teaching Assistant (0-2 yrs)",
+      "mid_level": "Lecturer (3-5 yrs)",
+      "senior_level": "Professor (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Architecture",
+      "topics": [
+        "Introduction to Architecture",
+        "Design Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Architecture Books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Design and Technical Skills",
+      "topics": [
+        "Building Design",
+        "Construction Methods"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Autodesk Tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Teaching and Learning",
+      "topics": [
+        "Teaching Methods",
+        "Assessment Techniques"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Education Courses",
+        "Teaching Blogs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Agricultural Inspector",
+    "alternate_titles": [
+      "Crop Inspector",
+      "Soil Analyst"
+    ],
+    "nco_code_official": "NCO 111101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop and Soil Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Agricultural Inspectors examine crops and soil to ensure quality and compliance with regulations.",
+    "description_detailed": "Agricultural Inspectors conduct on-site inspections of crops and soil to identify any defects, diseases, or pests. They collect and analyze data to determine the quality and quantity of crops, and ensure compliance with government regulations and industry standards.",
+    "official_min_education": "12th Pass with Science Stream"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Life Sciences",
+        "B.Sc Environmental Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Crop Inspector",
+        "Certified Soil Analyst"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Agricultural Inspector",
+      "advanced_skills_to_learn": [
+        "Data Analysis using R",
+        "GIS Mapping"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Crop identification",
+        "Soil sampling"
+      ],
+      "portfolio_proof_required": [
+        "Project Report on Crop Yield Analysis"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [],
+      "tools": [
+        "QGIS",
+        "ArcGIS"
+      ],
+      "core_concepts": [
+        "Crop physiology",
+        "Soil science"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Agricultural Inspector (0-2 yrs)",
+      "mid_level": "Senior Agricultural Inspector (3-5 yrs)",
+      "senior_level": "Lead Agricultural Inspector (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Crop physiology",
+        "Soil science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Crop identification",
+        "Soil sampling"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Full Project on Crop Yield Analysis",
+        "Deploy on QGIS"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

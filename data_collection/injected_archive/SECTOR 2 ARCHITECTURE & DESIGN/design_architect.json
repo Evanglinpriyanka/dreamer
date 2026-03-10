@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "role_title": "Design Architect",
+    "alternate_titles": [
+      "Architecture Designer",
+      "Building Information Modelling (BIM) Specialist"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Architecture and Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Design Architects create aesthetically pleasing and functional designs for buildings and spaces, considering factors like sustainability, safety, and user experience.",
+    "description_detailed": "Design Architects work with clients to understand their needs and preferences, then use computer-aided design (CAD) software and other tools to create detailed designs, including floor plans, elevations, and cross-sections. They must balance artistic vision with technical requirements and budget constraints.",
+    "official_min_education": "B.E./B.Tech in Architecture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in design and architecture can start by taking courses in art, math, and computer science.",
+      "target_exams": [
+        "JEE Main",
+        "NATA"
+      ],
+      "target_degrees": [
+        "B.Arch",
+        "B.E./B.Tech in Architecture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge into the field by taking courses in architecture, design, and computer-aided design (CAD).",
+      "acceptable_base_degrees": [
+        "B.E./B.Tech in Civil Engineering",
+        "B.E./B.Tech in Computer Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Autodesk Certified User - AutoCAD",
+        "Revit Certified Professional"
+      ]
+    },
+    "future_builder": {
+      "description": "Design Architects with experience can advance by taking on leadership roles, specializing in a particular area, or pursuing a master's degree.",
+      "prerequisite_experience": "2+ years of experience as a Junior Design Architect",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Sustainable Design"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Design Architecture by developing skills in CAD, design principles, and building systems.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "SketchUp",
+        "Adobe Creative Suite"
+      ],
+      "portfolio_proof_required": [
+        "Architecture project portfolio",
+        "Design portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Revit",
+        "SketchUp"
+      ],
+      "tools": [
+        "AutoCAD",
+        "Adobe Creative Suite"
+      ],
+      "core_concepts": [
+        "Building Information Modelling (BIM)",
+        "Sustainable Design"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Design Architect (0-2 yrs)",
+      "mid_level": "Design Architect (3-5 yrs)",
+      "senior_level": "Senior Design Architect (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Design",
+      "topics": [
+        "Design principles",
+        "Building systems",
+        "CAD basics"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Autodesk tutorials"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Design Software and Tools",
+      "topics": [
+        "Revit",
+        "SketchUp",
+        "Adobe Creative Suite"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio",
+      "topics": [
+        "Design project",
+        "Portfolio development"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Behance"
+      ]
+    }
+  ]
+}

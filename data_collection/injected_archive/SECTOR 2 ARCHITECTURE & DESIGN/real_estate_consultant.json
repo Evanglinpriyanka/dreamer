@@ -1,0 +1,142 @@
+{
+  "identity": {
+    "role_title": "Real Estate Consultant",
+    "alternate_titles": [
+      "Property Consultant",
+      "Real Estate Advisor"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Architecture & Design",
+    "sub_sector": "Consulting"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Real Estate Consultants advise clients on buying, selling, or renting properties. They analyze market trends, property values, and client needs to provide expert guidance.",
+    "description_detailed": "Real Estate Consultants work with clients to understand their property needs, analyze market data, and provide recommendations on property purchases, sales, or rentals. They stay up-to-date with market trends, regulations, and industry developments to deliver expert advice.",
+    "official_min_education": "Graduate"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in real estate can start by learning about property markets, laws, and regulations.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "CLAT"
+      ],
+      "target_degrees": [
+        "B.Sc Real Estate",
+        "B.A (Hons) Economics"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge into real estate consulting by acquiring relevant certifications and skills.",
+      "acceptable_base_degrees": [
+        "B.A (Hons) Economics",
+        "B.Com"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Real Estate Agent (CREA)",
+        "Real Estate Investment Analysis (REIA)"
+      ]
+    },
+    "future_builder": {
+      "description": "Real Estate Consultants with experience can advance by developing advanced skills, such as data analysis and market research.",
+      "prerequisite_experience": "2+ years as Real Estate Consultant",
+      "advanced_skills_to_learn": [
+        "Data Analysis",
+        "Market Research"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into real estate consulting by acquiring relevant skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Communication",
+        "Negotiation"
+      ],
+      "portfolio_proof_required": [
+        "Property Valuation Project",
+        "Market Analysis Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "Tableau",
+        "Power BI"
+      ],
+      "tools": [
+        "Google Maps",
+        "PropertyGuru"
+      ],
+      "core_concepts": [
+        "Property Valuation",
+        "Market Analysis"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Negotiation",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Real Estate Consultant (0-2 yrs)",
+      "mid_level": "Senior Real Estate Consultant (3-5 yrs)",
+      "senior_level": "Real Estate Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 10-15 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Real Estate",
+      "topics": [
+        "Property Laws and Regulations",
+        "Market Analysis"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "RICS",
+        "CREA"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Data-Driven Decision Making",
+      "topics": [
+        "Data Analysis",
+        "Property Valuation"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Market Analysis Report",
+        "Property Valuation Project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

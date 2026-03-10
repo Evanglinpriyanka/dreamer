@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "role_title": "UI/UX Designer",
+    "alternate_titles": [
+      "User Experience Designer",
+      "User Interface Designer"
+    ],
+    "nco_code_official": "221000",
+    "sector": "Architecture & Design",
+    "sub_sector": "Software and IT Services"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops user interfaces and user experiences for software applications, websites, and other digital products.",
+    "description_detailed": "Responsible for creating visually appealing and user-friendly designs that meet business requirements and user needs. Utilizes design tools and software to create prototypes, wireframes, and high-fidelity designs.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NATA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Des in UI/UX Design",
+        "B.Des in Visual Communication"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Des in Fashion Design",
+        "B.A in Graphic Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified UX Designer",
+        "Adobe XD Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior UI/UX Designer",
+      "advanced_skills_to_learn": [
+        "Sketch",
+        "Figma"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Adobe Creative Suite",
+        "UI/UX Design Principles"
+      ],
+      "portfolio_proof_required": [
+        "Mobile App Design",
+        "Web Design Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "HTML/CSS",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "React",
+        "Angular"
+      ],
+      "tools": [
+        "Sketch",
+        "Figma",
+        "Adobe XD"
+      ],
+      "core_concepts": [
+        "User Experience Design",
+        "User Interface Design"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior UI/UX Designer (0-2 yrs)",
+      "mid_level": "Senior UI/UX Designer (3-5 yrs)",
+      "senior_level": "Lead UI/UX Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "High",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "UI/UX Design Principles",
+        "Design Thinking"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Canva Design School",
+        "Design Systems"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Sketch",
+        "Figma",
+        "Adobe XD"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Skillshare"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Mobile App Design",
+        "Web Design Portfolio"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "Dribbble"
+      ]
+    }
+  ]
+}

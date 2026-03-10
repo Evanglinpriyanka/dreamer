@@ -1,0 +1,142 @@
+{
+  "identity": {
+    "role_title": "3D Visualizer",
+    "alternate_titles": [
+      "3D Artist",
+      "3D Modeler"
+    ],
+    "nco_code_official": "512111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Graphic Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A 3D Visualizer creates 3D models and visualizations to communicate ideas and concepts in various fields such as architecture, product design, and video games.",
+    "description_detailed": "A 3D Visualizer uses computer-aided design (CAD) software and other tools to create 3D models, animations, and visualizations. They work closely with designers, architects, and other stakeholders to understand project requirements and deliver high-quality visualizations.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in art, design, and technology can pursue a career as a 3D Visualizer.",
+      "target_exams": [
+        "NATA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Des in Animation and Visual Effects",
+        "BFA in Graphic Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in a related field can transition into a 3D Visualizer role by acquiring relevant skills and certifications.",
+      "acceptable_base_degrees": [
+        "BFA in Fine Arts",
+        "B.Des in Industrial Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified 3D Artist",
+        "Autodesk Certified User - Maya"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced 3D Visualizers can advance their careers by learning new software, techniques, and tools to stay up-to-date with industry trends.",
+      "prerequisite_experience": "2+ years of experience as a 3D Visualizer",
+      "advanced_skills_to_learn": [
+        "Lumion",
+        "V-Ray"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into a 3D Visualizer role by acquiring relevant skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "SketchUp",
+        "Blender"
+      ],
+      "portfolio_proof_required": [
+        "3D modeling project",
+        "Visual effects project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "C++",
+        "Python"
+      ],
+      "frameworks": [
+        "Maya",
+        "3ds Max"
+      ],
+      "tools": [
+        "SketchUp",
+        "Blender"
+      ],
+      "core_concepts": [
+        "3D modeling",
+        "Texturing and shading"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Time management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior 3D Visualizer (0-2 yrs)",
+      "mid_level": "3D Visualizer (3-5 yrs)",
+      "senior_level": "Senior 3D Visualizer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Introduction to 3D modeling",
+        "Basic animation techniques"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Autodesk Tutorials",
+        "YouTube tutorials"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Advanced 3D modeling techniques",
+        "Texturing and shading"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy courses",
+        "Skillshare tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Building a 3D modeling project",
+        "Creating a visual effects project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Behance"
+      ]
+    }
+  ]
+}

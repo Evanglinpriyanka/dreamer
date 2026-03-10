@@ -1,0 +1,137 @@
+{
+  "identity": {
+    "role_title": "Nematologist",
+    "alternate_titles": [
+      "Nematode Specialist",
+      "Plant Parasitic Nematode Expert"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Science"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A nematologist is a scientist who studies nematodes, microscopic worms that can harm crops and plants. They develop strategies to control and manage nematode populations.",
+    "description_detailed": "Nematologists work in agricultural research institutions, universities, and government organizations. They conduct experiments, collect and analyze data, and develop new technologies to control nematodes. They may also collaborate with farmers, extension workers, and other stakeholders to implement nematode management practices.",
+    "official_min_education": "M.Sc. in Agriculture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Pursue a degree in agriculture or a related field, focusing on plant pathology or entomology.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc. in Agriculture",
+        "B.Sc. in Botany"
+      ]
+    },
+    "choice_maker": {
+      "description": "Bridge the gap by acquiring relevant certifications or courses in nematology.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Agriculture",
+        "B.Sc. in Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Nematologist",
+        "Nematode Management Course"
+      ]
+    },
+    "future_builder": {
+      "description": "Gain experience in agricultural research or extension services, and develop advanced skills in nematode management.",
+      "prerequisite_experience": "2-3 years as Junior Research Fellow or Extension Officer",
+      "advanced_skills_to_learn": [
+        "Molecular diagnostics",
+        "Nematode genomics"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field, focus on developing survival skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Laboratory techniques",
+        "Data analysis"
+      ],
+      "portfolio_proof_required": [
+        "Research project on nematode management",
+        "Extension work in nematode control"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Microscope",
+        "PCR machine"
+      ],
+      "core_concepts": [
+        "Nematode biology",
+        "Plant pathology"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Research Fellow (0-2 yrs)",
+      "mid_level": "Senior Research Fellow (3-5 yrs)",
+      "senior_level": "Principal Scientist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Agricultural principles",
+        "Plant biology"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Nematode Biology and Management",
+      "topics": [
+        "Nematode life cycle",
+        "Nematode control methods"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Research and Extension",
+      "topics": [
+        "Research design",
+        "Extension work"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

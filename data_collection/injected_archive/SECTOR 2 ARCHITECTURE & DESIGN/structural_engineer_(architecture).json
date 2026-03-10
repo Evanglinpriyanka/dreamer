@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "Structural Engineer",
+    "alternate_titles": [
+      "Building Designer",
+      "Structural Analyst"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Architecture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops structural systems for buildings and bridges, ensuring safety and stability.",
+    "description_detailed": "Structural Engineers in Architecture design and develop structural systems for buildings and bridges, ensuring safety and stability. They analyze loads, stresses, and strains on structures, and develop plans and specifications for construction.",
+    "official_min_education": "B.E./B.Tech in Civil Engineering"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in Structural Engineering.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.E./B.Tech in Civil Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree, looking to transition into Structural Engineering.",
+      "acceptable_base_degrees": [
+        "B.E./B.Tech in Mechanical Engineering",
+        "B.E./B.Tech in Electrical Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Structural Engineer (CSE)",
+        "Finite Element Analysis (FEA) certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced Structural Engineers looking to advance in their careers.",
+      "prerequisite_experience": "Minimum 2 years of experience as a Structural Engineer",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Computational Fluid Dynamics (CFD)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields looking to transition into Structural Engineering.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Mathematical Modelling",
+        "Programming skills in Python or MATLAB"
+      ],
+      "portfolio_proof_required": [
+        "Structural analysis projects using software like STAAD or ETABS"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "MATLAB"
+      ],
+      "frameworks": [
+        "STAAD",
+        "ETABS"
+      ],
+      "tools": [
+        "Autodesk Revit",
+        "Adobe Creative Suite"
+      ],
+      "core_concepts": [
+        "Structural Analysis",
+        "Building Codes and Standards"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Structural Engineer (0-2 yrs)",
+      "mid_level": "Senior Structural Engineer (3-5 yrs)",
+      "senior_level": "Principal Structural Engineer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 6-8 LPA",
+      "mid_senior_avg": "INR 12-18 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Civil Engineering",
+      "topics": [
+        "Structural Analysis",
+        "Building Materials"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "IS Codes"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Structural Analysis and Design",
+      "topics": [
+        "STAAD",
+        "ETABS",
+        "Building Codes and Standards"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Structural analysis project using software like STAAD or ETABS",
+        "Presentation skills"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

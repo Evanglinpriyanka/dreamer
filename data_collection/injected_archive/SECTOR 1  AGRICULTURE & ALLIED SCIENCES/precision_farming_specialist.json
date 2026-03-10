@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "role_title": "Precision Farming Specialist",
+    "alternate_titles": [
+      "Precision Agriculture Specialist",
+      "Agricultural Data Analyst"
+    ],
+    "nco_code_official": "924111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Precision Farming"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Precision Farming Specialists use data analytics and technology to optimize crop yields, reduce waste, and improve farming efficiency.",
+    "description_detailed": "They collect and analyze data from various sources, including sensors, drones, and satellite imagery, to identify areas of improvement and develop strategies for sustainable agriculture."
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and technology can pursue a degree in agriculture, computer science, or a related field.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Tech in Agricultural Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications in precision agriculture, data analytics, or a related field to bridge the gap.",
+      "acceptable_base_degrees": [
+        "B.Sc in Agriculture",
+        "B.Tech in Computer Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Precision Agriculture Specialist",
+        "Certified Data Analyst"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in agriculture or data analytics can transition into precision farming by acquiring advanced skills in data science, machine learning, and programming.",
+      "prerequisite_experience": "2+ years of experience in agriculture or data analytics",
+      "advanced_skills_to_learn": [
+        "Python programming",
+        "Machine learning algorithms"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can switch to precision farming by acquiring relevant skills and building a portfolio of projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data analysis",
+        "Programming skills"
+      ],
+      "portfolio_proof_required": [
+        "Project on crop yield prediction using machine learning"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "frameworks": [
+        "TensorFlow",
+        "PyTorch",
+        "Django"
+      ],
+      "tools": [
+        "QGIS",
+        "ArcGIS",
+        "Tableau"
+      ],
+      "core_concepts": [
+        "Data structures",
+        "Machine learning algorithms"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-solving",
+      "Collaboration"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Agricultural Data Analyst (0-2 yrs)",
+      "mid_level": "Precision Farming Specialist (3-5 yrs)",
+      "senior_level": "Agricultural Data Scientist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture and Data Science",
+      "topics": [
+        "Introduction to agriculture",
+        "Data structures and algorithms"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Precision Farming Fundamentals",
+      "topics": [
+        "Precision agriculture concepts",
+        "Machine learning for agriculture"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio Development",
+      "topics": [
+        "Build a precision farming project",
+        "Deploy and present"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

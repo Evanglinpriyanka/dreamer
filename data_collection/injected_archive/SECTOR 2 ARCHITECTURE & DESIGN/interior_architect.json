@@ -1,0 +1,134 @@
+{
+  "identity": {
+    "role_title": "Interior Architect",
+    "alternate_titles": [
+      "Interior Designer",
+      "Space Planner"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Interior Design and Architecture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and plans interior spaces to meet client needs, balancing aesthetics, functionality, and safety.",
+    "description_detailed": "Interior Architects create functional and aesthetically pleasing interior spaces for residential, commercial, and industrial buildings. They consider factors like natural light, ventilation, acoustics, and ergonomics to ensure spaces are comfortable, efficient, and safe.",
+    "official_min_education": "B.Arch or equivalent"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in design and architecture can pursue a degree in Interior Architecture.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Arch (5-year degree)"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate diploma or certification in Interior Architecture.",
+      "acceptable_base_degrees": [
+        "B.Arch",
+        "B.Des (Interior Design)"
+      ],
+      "certifications_or_bridge_needed": [
+        "CID (Certified Interior Designer)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced Interior Architects can advance to senior roles or start their own practices.",
+      "prerequisite_experience": "5+ years of experience as an Interior Architect",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Sustainable Design"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Interior Architecture with relevant skills and a strong portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "SketchUp",
+        "AutoCAD"
+      ],
+      "portfolio_proof_required": [
+        "Interior Design Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "SketchUp",
+        "AutoCAD",
+        "Revit"
+      ],
+      "core_concepts": [
+        "Space Planning",
+        "Lighting Design"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-solving",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Interior Architect (0-2 yrs)",
+      "mid_level": "Senior Interior Architect (3-5 yrs)",
+      "senior_level": "Principal Interior Architect (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Design",
+      "topics": [
+        "Design Principles",
+        "Color Theory"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Design Books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Technical Skills",
+      "topics": [
+        "SketchUp",
+        "AutoCAD",
+        "Revit"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "YouTube Tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a Full Interior Space",
+        "Create a Portfolio"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "Design Blogs"
+      ]
+    }
+  ]
+}

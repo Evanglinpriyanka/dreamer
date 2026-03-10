@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Art Director",
+    "alternate_titles": [
+      "Creative Director",
+      "Visual Director"
+    ],
+    "nco_code_official": "111101",
+    "sector": "Architecture & Design",
+    "sub_sector": "Graphic Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Art Directors oversee the visual aspects of a project, ensuring creative and technical excellence.",
+    "description_detailed": "They lead a team of designers, artists, and other creatives to develop innovative and engaging visual content for various mediums, including print, digital, and film.",
+    "official_min_education": "Bachelor's Degree in Fine Arts or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in art and design can pursue a degree in Fine Arts or a related field.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "BFA (Bachelor of Fine Arts)"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can acquire relevant skills through certifications and bridge courses.",
+      "acceptable_base_degrees": [
+        "B.A. in Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Adobe Certified Expert (ACE) in Creative Cloud",
+        "Certified Graphic Designer (CGD)"
+      ]
+    },
+    "future_builder": {
+      "description": "Art Directors with experience can advance by developing advanced skills and taking on leadership roles.",
+      "prerequisite_experience": "2+ years as Junior Art Director",
+      "advanced_skills_to_learn": [
+        "UI/UX Design",
+        "Motion Graphics"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Art Direction by acquiring relevant skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Visual Design Principles",
+        "Color Theory"
+      ],
+      "portfolio_proof_required": [
+        "Digital Portfolio with 3+ projects"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Adobe Creative Cloud (Photoshop, Illustrator, InDesign)"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Sketch",
+        "Figma"
+      ],
+      "core_concepts": [
+        "Visual Hierarchy",
+        "Typography"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Leadership",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Art Director (0-2 yrs)",
+      "mid_level": "Senior Art Director (3-5 yrs)",
+      "senior_level": "Creative Director (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Art and Design",
+      "topics": [
+        "Color Theory",
+        "Visual Design Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Adobe Creative Cloud Tutorials"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Developing Technical Skills",
+      "topics": [
+        "Adobe Creative Cloud (Photoshop, Illustrator, InDesign)",
+        "Sketch",
+        "Figma"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Skillshare"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Building a Portfolio and Leadership Skills",
+      "topics": [
+        "Digital Portfolio Development",
+        "Leadership and Team Management"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "LinkedIn Learning"
+      ]
+    }
+  ]
+}

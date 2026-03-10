@@ -1,0 +1,147 @@
+{
+  "identity": {
+    "role_title": "Block Technology Manager",
+    "alternate_titles": [
+      "Blockchain Manager",
+      "Digital Asset Manager"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Blockchain and Distributed Ledger Technology"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees the development and implementation of blockchain-based solutions to drive business growth and efficiency.",
+    "description_detailed": "Responsible for designing, deploying, and maintaining blockchain networks, ensuring scalability, security, and compliance with regulatory requirements.",
+    "official_min_education": "Bachelor's degree in Computer Science, Information Technology, or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in blockchain technology.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Computer Science and Engineering",
+        "B.Tech in Information Technology"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree looking to transition into blockchain technology.",
+      "acceptable_base_degrees": [
+        "B.A in Economics",
+        "B.Com in Finance"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Blockchain Developer",
+        "Certified Data Scientist"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in the blockchain sector looking to advance their careers.",
+      "prerequisite_experience": "Minimum 3 years of experience in blockchain development or related field",
+      "advanced_skills_to_learn": [
+        "Smart Contract Development",
+        "Decentralized Finance (DeFi)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields looking to switch to blockchain technology.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming skills in languages like Java, Python, or C++",
+        "Understanding of data structures and algorithms"
+      ],
+      "portfolio_proof_required": [
+        "Blockchain-based project development",
+        "Smart contract deployment"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Java",
+        "Python",
+        "Solidity"
+      ],
+      "frameworks": [
+        "Hyperledger Fabric",
+        "Ethereum"
+      ],
+      "tools": [
+        "Ganache",
+        "Truffle Suite",
+        "Web3.js"
+      ],
+      "core_concepts": [
+        "Blockchain architecture",
+        "Smart contract development"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-solving",
+      "Collaboration"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Blockchain Developer (0-2 yrs)",
+      "mid_level": "Blockchain Project Manager (3-5 yrs)",
+      "senior_level": "Blockchain Technology Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "High",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 6-8 LPA",
+      "mid_senior_avg": "INR 15-25 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Blockchain Fundamentals",
+      "topics": [
+        "Blockchain basics",
+        "Cryptocurrencies",
+        "Smart contracts"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Blockchain Council",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Blockchain Development",
+      "topics": [
+        "Programming languages for blockchain",
+        "Blockchain frameworks",
+        "Smart contract development"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "edX"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Blockchain Project Development",
+      "topics": [
+        "Blockchain-based project development",
+        "Smart contract deployment",
+        "Blockchain testing"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

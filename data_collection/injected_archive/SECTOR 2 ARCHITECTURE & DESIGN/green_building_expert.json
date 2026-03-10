@@ -1,0 +1,134 @@
+{
+  "identity": {
+    "role_title": "Green Building Expert",
+    "alternate_titles": [
+      "Sustainable Building Specialist",
+      "Green Infrastructure Consultant"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Sustainable Development"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements sustainable building practices to minimize environmental impact.",
+    "description_detailed": "Develops and implements green building strategies, conducts energy audits, and ensures compliance with green building standards.",
+    "official_min_education": "Bachelor's Degree in Architecture, Engineering, or Environmental Science"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in sustainable development can pursue a degree in architecture, engineering, or environmental science.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Civil Engineering",
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications in green building and sustainable development.",
+      "acceptable_base_degrees": [
+        "B.A. in Environmental Studies"
+      ],
+      "certifications_or_bridge_needed": [
+        "LEED AP BD+C",
+        "Green Building Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in the construction industry can advance to green building expert roles by acquiring advanced skills and certifications.",
+      "prerequisite_experience": "5 years of experience in construction management or a related field",
+      "advanced_skills_to_learn": [
+        "Building Information Modeling (BIM)",
+        "Green Building Design Software"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition to green building expert roles by acquiring relevant skills and certifications.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Communication"
+      ],
+      "portfolio_proof_required": [
+        "Sustainable Building Project Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Autodesk Revit",
+        "SketchUp"
+      ],
+      "core_concepts": [
+        "Sustainable Design Principles",
+        "Green Building Materials"
+      ]
+    },
+    "soft_skills": [
+      "Project Management",
+      "Communication",
+      "Team Leadership"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Sustainability Consultant (0-2 yrs)",
+      "mid_level": "Sustainability Specialist (3-5 yrs)",
+      "senior_level": "Green Building Expert (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Sustainable Development",
+      "topics": [
+        "Sustainable Design Principles",
+        "Green Building Materials"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Green Building Design and Implementation",
+      "topics": [
+        "Building Information Modeling (BIM)",
+        "Green Building Design Software"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a Sustainable Building Project",
+        "Present to Stakeholders"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

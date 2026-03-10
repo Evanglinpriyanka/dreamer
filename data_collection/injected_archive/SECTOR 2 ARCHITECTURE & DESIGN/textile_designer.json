@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Textile Designer",
+    "alternate_titles": [
+      "Fashion Designer",
+      "Print Designer"
+    ],
+    "nco_code_official": "115110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Apparel and Fashion"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops textile patterns, prints, and colors for various textile products.",
+    "description_detailed": "Textile designers create original designs for fabrics, prints, and colors, considering factors like aesthetics, functionality, and sustainability. They work with various materials, techniques, and technologies to produce high-quality textile products.",
+    "official_min_education": "Diploma in Textile Design"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NIFT Entrance Exam",
+        "UCEED"
+      ],
+      "target_degrees": [
+        "B.Des in Textile Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "BFA in Fine Arts"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certificate in Textile Design",
+        "Adobe Creative Suite Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2+ years of experience as a Junior Textile Designer",
+      "advanced_skills_to_learn": [
+        "Digital Printing Techniques",
+        "Sustainable Textile Practices"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Adobe Creative Suite",
+        "Color Theory"
+      ],
+      "portfolio_proof_required": [
+        "Textile Design Portfolio",
+        "Print Design Samples"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Adobe Illustrator",
+        "Adobe Photoshop"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Sewing Machine",
+        "Textile Printing Equipment"
+      ],
+      "core_concepts": [
+        "Color Theory",
+        "Fabric Science"
+      ]
+    },
+    "soft_skills": [
+      "Creativity",
+      "Attention to Detail"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Textile Designer (0-2 yrs)",
+      "mid_level": "Textile Designer (3-5 yrs)",
+      "senior_level": "Senior Textile Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Color Theory",
+        "Fabric Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Textile Design Books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Adobe Creative Suite",
+        "Textile Printing Techniques"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Textile Design Courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Textile Design Portfolio",
+        "Print Design Samples"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "Textile Design Communities"
+      ]
+    }
+  ]
+}

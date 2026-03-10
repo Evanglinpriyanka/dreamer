@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "role_title": "Biotechnologist (Agricultural)",
+    "alternate_titles": [
+      "Agricultural Biotechnologist",
+      "Crop Biotechnologist"
+    ],
+    "nco_code_official": "NCO 1111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Science"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops innovative biotechnological solutions for agricultural crop improvement, disease resistance, and yield enhancement.",
+    "description_detailed": "Biotechnologists in agriculture apply genetic engineering, molecular biology, and biotechnology principles to develop new crop varieties, improve crop yields, and enhance disease resistance. They work with plant breeders, geneticists, and other scientists to design and implement experiments, analyze data, and interpret results."
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Tech Biotechnology"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Life Sciences",
+        "B.Tech Biomedical Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "ICAR NET",
+        "DBT-BTIS NET"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Research Assistant in Agricultural Biotechnology",
+      "advanced_skills_to_learn": [
+        "CRISPR-Cas9 gene editing",
+        "Plant genomics"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Molecular biology techniques",
+        "Bioinformatics tools"
+      ],
+      "portfolio_proof_required": [
+        "Research project on crop improvement using biotechnology"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "Bioconductor",
+        "Galaxy"
+      ],
+      "tools": [
+        "QIIME",
+        "BLAST"
+      ],
+      "core_concepts": [
+        "Molecular biology",
+        "Genetics"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Research Assistant (0-2 yrs)",
+      "mid_level": "Senior Research Fellow (3-5 yrs)",
+      "senior_level": "Principal Scientist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Introduction to biotechnology",
+        "Molecular biology techniques"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Genetics and genomics",
+        "Bioinformatics tools"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design and develop a biotechnological solution for crop improvement",
+        "Deploy and present the project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

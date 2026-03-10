@@ -1,0 +1,137 @@
+{
+  "identity": {
+    "role_title": "Dairy Technologist",
+    "alternate_titles": [
+      "Dairy Scientist",
+      "Dairy Engineer"
+    ],
+    "nco_code_official": "825101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Animal Husbandry and Dairy"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Dairy Technologists develop and implement processes to improve dairy production, quality, and safety.",
+    "description_detailed": "They work on the development of new dairy products, quality control, and ensuring compliance with regulations. They also conduct research and provide technical guidance to dairy farmers and industry professionals.",
+    "official_min_education": "B.Tech in Dairy Technology or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Tech in Dairy Technology or related field"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Tech in Food Technology",
+        "B.Tech in Biotechnology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Dairy Technologist (CDT)",
+        "Certified Food Safety Manager (CFSM)"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years of experience as a Dairy Technologist or related role",
+      "advanced_skills_to_learn": [
+        "Data Analysis using R or Python",
+        "Machine Learning for Dairy Industry"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Basic knowledge of dairy production",
+        "Understanding of dairy industry regulations"
+      ],
+      "portfolio_proof_required": [
+        "Project on dairy product development",
+        "Case study on dairy farm management"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Microsoft Excel",
+        "Statistical Analysis Software (SAS)"
+      ],
+      "core_concepts": [
+        "Dairy Microbiology",
+        "Dairy Chemistry"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-solving",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Dairy Technologist (0-2 yrs)",
+      "mid_level": "Dairy Technologist (3-5 yrs)",
+      "senior_level": "Senior Dairy Technologist or Dairy Scientist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Dairy Microbiology",
+        "Dairy Chemistry"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Data Analysis using R or Python",
+        "Machine Learning for Dairy Industry"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Project on dairy product development",
+        "Case study on dairy farm management"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

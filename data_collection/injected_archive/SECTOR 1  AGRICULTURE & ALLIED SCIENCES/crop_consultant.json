@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Crop Consultant",
+    "alternate_titles": [
+      "Agricultural Advisor",
+      "Crop Specialist"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Science"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Crop Consultant provides expert advice on crop management, soil health, and pest control to farmers, ensuring optimal crop yields and sustainable agricultural practices.",
+    "description_detailed": "Crop Consultants work closely with farmers to assess soil conditions, recommend suitable crop varieties, and develop customized crop management plans. They stay updated on the latest agricultural research, technologies, and best practices to provide evidence-based advice.",
+    "official_min_education": "B.Sc Agriculture"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture can pursue a degree in agriculture or a related field.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Horticulture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate degree in agriculture or a related field to transition into the role.",
+      "acceptable_base_degrees": [
+        "B.Sc Life Sciences",
+        "B.Sc Environmental Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Crop Advisor (CCA)",
+        "Certified Agricultural Consultant (CAC)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced agricultural professionals can advance to senior roles by developing expertise in specific areas, such as precision agriculture or crop breeding.",
+      "prerequisite_experience": "2-3 years as Junior Crop Consultant",
+      "advanced_skills_to_learn": [
+        "Precision Agriculture",
+        "Crop Modeling"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into crop consulting by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Soil Science",
+        "Crop Physiology"
+      ],
+      "portfolio_proof_required": [
+        "Project Report on Crop Yield Improvement"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Crop monitoring software",
+        "Precision agriculture tools"
+      ],
+      "core_concepts": [
+        "Crop physiology",
+        "Soil science"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Crop Consultant (0-2 yrs)",
+      "mid_level": "Crop Consultant (3-5 yrs)",
+      "senior_level": "Senior Crop Consultant (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Crop Science",
+        "Soil Science"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Crop Management and Consulting",
+      "topics": [
+        "Crop Physiology",
+        "Precision Agriculture"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a Crop Management Plan",
+        "Present to Farmers"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

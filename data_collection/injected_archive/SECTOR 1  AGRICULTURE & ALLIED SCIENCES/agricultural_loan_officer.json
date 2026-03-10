@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Agricultural Loan Officer",
+    "alternate_titles": [
+      "Agricultural Finance Specialist",
+      "Rural Credit Officer"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Agricultural Finance"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Agricultural Loan Officers facilitate agricultural lending by assessing creditworthiness, evaluating loan applications, and managing loan portfolios.",
+    "description_detailed": "Agricultural Loan Officers work with farmers, agricultural businesses, and other stakeholders to understand their financial needs, assess credit risk, and provide loan products that meet their requirements. They must stay up-to-date with market trends, agricultural policies, and regulatory requirements to ensure effective loan management and risk mitigation.",
+    "official_min_education": "Graduate"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in agricultural lending can start by developing a strong foundation in mathematics, economics, and communication.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NABARD Grade A Exam"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Com Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can transition into agricultural lending by acquiring relevant certifications and gaining experience in the sector.",
+      "acceptable_base_degrees": [
+        "B.A",
+        "B.Sc"
+      ],
+      "certifications_or_bridge_needed": [
+        "NABARD Certification",
+        "ICICI Bank Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Agricultural Loan Officers with experience can advance their careers by developing advanced skills in data analysis, risk management, and financial modeling.",
+      "prerequisite_experience": "2-3 years as Agricultural Loan Officer",
+      "advanced_skills_to_learn": [
+        "Data Analysis using Excel",
+        "Risk Management using Python"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into agricultural lending by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Communication",
+        "Problem-Solving"
+      ],
+      "portfolio_proof_required": [
+        "Project Report on Agricultural Finance"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Microsoft Excel",
+        "Tableau"
+      ],
+      "core_concepts": [
+        "Agricultural Finance",
+        "Credit Risk Management"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Agricultural Loan Officer (0-2 yrs)",
+      "mid_level": "Senior Agricultural Loan Officer (3-5 yrs)",
+      "senior_level": "Head of Agricultural Lending (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Agricultural Economics",
+        "Crop Management"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Agricultural Finance Fundamentals",
+      "topics": [
+        "Agricultural Finance",
+        "Credit Risk Management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Full Project on Agricultural Finance",
+        "Deploy on a Cloud Platform"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

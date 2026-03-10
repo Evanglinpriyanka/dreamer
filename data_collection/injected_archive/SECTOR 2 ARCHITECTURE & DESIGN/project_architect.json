@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Project Architect",
+    "alternate_titles": [
+      "Project Manager",
+      "Infrastructure Architect"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Building and Infrastructure"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Project Architect is responsible for designing and overseeing the construction of buildings and infrastructure projects.",
+    "description_detailed": "Project Architects work closely with clients, engineers, and contractors to ensure that projects are completed on time, within budget, and to the required quality standards.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in architecture and construction can pursue a degree in architecture or a related field.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Arch",
+        "B.Tech in Civil Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate degree in architecture or a related field to transition into the role.",
+      "acceptable_base_degrees": [
+        "B.A. in Fine Arts",
+        "B.Tech in Computer Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "LEED AP",
+        "PMP Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced architects and engineers can transition into project management roles by acquiring relevant certifications and experience.",
+      "prerequisite_experience": "5 years of experience as an architect or engineer",
+      "advanced_skills_to_learn": [
+        "Project Management Software",
+        "Construction Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into project architecture by acquiring relevant skills and certifications.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Autodesk Revit",
+        "Microsoft Project"
+      ],
+      "portfolio_proof_required": [
+        "Construction Project Management Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Autodesk Revit",
+        "Microsoft Project",
+        "QGIS"
+      ],
+      "core_concepts": [
+        "Building Information Modeling",
+        "Construction Management"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Leadership",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Architect (0-2 yrs)",
+      "mid_level": "Senior Architect (3-5 yrs)",
+      "senior_level": "Project Architect (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 10-15 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Architecture",
+      "topics": [
+        "Building Design",
+        "Construction Materials"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Project Management Fundamentals",
+      "topics": [
+        "Project Planning",
+        "Scheduling"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Construction Project Management Portfolio",
+        "Presentation Skills"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

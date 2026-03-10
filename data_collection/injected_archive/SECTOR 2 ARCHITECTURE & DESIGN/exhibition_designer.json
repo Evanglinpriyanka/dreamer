@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Exhibition Designer",
+    "alternate_titles": [
+      "Exhibition Planner",
+      "Event Designer"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Exhibition and Event Services"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and plans exhibitions, events, and displays to engage audiences and convey messages.",
+    "description_detailed": "Develops concepts, themes, and visual elements for exhibitions, events, and displays, considering factors like audience demographics, space constraints, and budget limitations. Utilizes creativity, technical skills, and project management expertise to bring designs to life and ensure successful execution.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in art, design, and event management can pursue this career.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Des in Exhibition Design or related fields"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in design or a related field can transition into exhibition design with additional training.",
+      "acceptable_base_degrees": [
+        "B.Des in Graphic Design",
+        "B.A in Fine Arts"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Exhibition Designer (CED)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced exhibition designers can advance their careers by developing expertise in specific areas, such as digital exhibitions or event management.",
+      "prerequisite_experience": "2+ years of experience as an Exhibition Designer",
+      "advanced_skills_to_learn": [
+        "Digital Exhibition Design",
+        "Event Project Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into exhibition design by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Graphic Design",
+        "Project Management"
+      ],
+      "portfolio_proof_required": [
+        "Exhibition Design Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Adobe Creative Suite",
+        "SketchUp",
+        "Autodesk Maya"
+      ],
+      "core_concepts": [
+        "Visual Design",
+        "Space Planning"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Time Management",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Exhibition Designer (0-2 yrs)",
+      "mid_level": "Exhibition Designer (3-5 yrs)",
+      "senior_level": "Senior Exhibition Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Design",
+      "topics": [
+        "Visual Design Principles",
+        "Design Software Basics"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Adobe Creative Suite Tutorials"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Exhibition Design Fundamentals",
+      "topics": [
+        "Space Planning",
+        "Exhibition Design Principles"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Exhibition Design Courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio Development",
+      "topics": [
+        "Design a Full Exhibition",
+        "Create a Professional Portfolio"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "Design Communities"
+      ]
+    }
+  ]
+}

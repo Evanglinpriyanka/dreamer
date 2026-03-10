@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "role_title": "Architectural VR/AR Consultant",
+    "alternate_titles": [
+      "Architectural Consultant",
+      "VR/AR Specialist"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Architecture and Engineering Services"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements Virtual Reality (VR) and Augmented Reality (AR) solutions for architectural projects.",
+    "description_detailed": "Collaborates with architects, engineers, and clients to create immersive experiences that enhance building design, construction, and operation. Utilizes VR/AR technologies to visualize and interact with building models, improving communication and decision-making."
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in architecture, design, and technology.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Arch",
+        "B.Tech in Computer Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge to architectural consulting.",
+      "acceptable_base_degrees": [
+        "B.Tech in Civil Engineering",
+        "B.Arch"
+      ],
+      "certifications_or_bridge_needed": [
+        "Autodesk Certified User - Revit",
+        "Unity Certified Developer"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance as a VR/AR consultant.",
+      "prerequisite_experience": "2+ years of experience in architectural design or engineering",
+      "advanced_skills_to_learn": [
+        "Unity",
+        "Unreal Engine"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "3D modeling",
+        "Programming (C#, Java)"
+      ],
+      "portfolio_proof_required": [
+        "VR/AR project portfolio",
+        "Architecture-related coding projects"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "C#",
+        "Java",
+        "Python"
+      ],
+      "frameworks": [
+        "Unity",
+        "Unreal Engine",
+        "A-Frame"
+      ],
+      "tools": [
+        "Autodesk Revit",
+        "SketchUp",
+        "Blender"
+      ],
+      "core_concepts": [
+        "3D modeling",
+        "Computer-aided design (CAD)"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Architectural Consultant (0-2 yrs)",
+      "mid_level": "Senior Architectural Consultant (3-5 yrs)",
+      "senior_level": "Lead Architectural Consultant (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Architecture and Design",
+      "topics": [
+        "Introduction to Architecture",
+        "Design Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "VR/AR Fundamentals",
+      "topics": [
+        "3D Modeling",
+        "VR/AR Basics"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a VR/AR project",
+        "Deploy on a platform"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

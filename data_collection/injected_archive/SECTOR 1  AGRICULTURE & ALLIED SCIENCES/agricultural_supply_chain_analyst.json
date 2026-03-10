@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "role_title": "Agricultural Supply Chain Analyst",
+    "alternate_titles": [
+      "Supply Chain Manager",
+      "Logistics Coordinator"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Supply Chain Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An Agricultural Supply Chain Analyst analyzes and optimizes the flow of goods, services, and information from the farm to the consumer, ensuring efficient and sustainable agricultural supply chains.",
+    "description_detailed": "The role involves analyzing data on crop yields, weather patterns, market trends, and transportation networks to identify areas of improvement and develop strategies to reduce costs, increase efficiency, and enhance customer satisfaction.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in agricultural supply chain management can start by taking courses in mathematics, statistics, and computer science.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Tech Agricultural Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge their skills by taking certifications in supply chain management, data analysis, and agricultural economics.",
+      "acceptable_base_degrees": [
+        "B.Com",
+        "BBA"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Supply Chain Professional (CSCP)",
+        "Certified Analytics Professional (CAP)"
+      ]
+    },
+    "future_builder": {
+      "description": "Agricultural supply chain analysts with 2-5 years of experience can advance their careers by developing expertise in data science, machine learning, and IoT technologies.",
+      "prerequisite_experience": "2 years as Junior Supply Chain Analyst",
+      "advanced_skills_to_learn": [
+        "Python programming",
+        "Data visualization tools"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into agricultural supply chain analysis by developing skills in data analysis, statistical modeling, and supply chain management.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data analysis",
+        "Statistical modeling"
+      ],
+      "portfolio_proof_required": [
+        "Supply chain optimization project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "Tableau",
+        "Power BI"
+      ],
+      "tools": [
+        "Excel",
+        "SQL"
+      ],
+      "core_concepts": [
+        "Supply chain optimization",
+        "Data-driven decision making"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-solving",
+      "Collaboration"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Supply Chain Coordinator (0-2 yrs)",
+      "mid_level": "Supply Chain Analyst (3-5 yrs)",
+      "senior_level": "Supply Chain Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Supply Chain Management",
+      "topics": [
+        "Supply chain fundamentals",
+        "Logistics and transportation"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "APICS",
+        "Council of Supply Chain Management Professionals (CSCMP)"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Data Analysis and Visualization",
+      "topics": [
+        "Data analysis with Python",
+        "Data visualization with Tableau"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "DataCamp",
+        "Tableau tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Supply Chain Optimization and Capstone",
+      "topics": [
+        "Supply chain optimization techniques",
+        "Capstone project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Supply Chain Management Review",
+        "Journal of Supply Chain Management"
+      ]
+    }
+  ]
+}

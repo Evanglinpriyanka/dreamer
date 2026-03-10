@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Rural Development Officer",
+    "alternate_titles": [
+      "RDO",
+      "Rural Development Specialist"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Rural Planning and Development"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements rural development projects to improve the quality of life for rural communities.",
+    "description_detailed": "Develops and implements policies, programs, and projects to promote rural development, improve infrastructure, and enhance the economic and social well-being of rural communities.",
+    "official_min_education": "Master's Degree in Rural Development or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NDA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.A. Rural Development"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.A. Economics",
+        "B.Com"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Rural Development Professional",
+        "Certified Project Manager"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Rural Development Assistant",
+      "advanced_skills_to_learn": [
+        "Geographic Information Systems (GIS)",
+        "Data Analysis"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Community Engagement"
+      ],
+      "portfolio_proof_required": [
+        "Rural Development Project Report",
+        "Community Outreach Plan"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Microsoft Office",
+        "Google Suite"
+      ],
+      "core_concepts": [
+        "Rural Development Policy",
+        "Community Development"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving",
+      "Leadership"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Rural Development Assistant (0-2 yrs)",
+      "mid_level": "Rural Development Officer (3-5 yrs)",
+      "senior_level": "District Rural Development Officer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Rural Development",
+      "topics": [
+        "Rural Development Policy",
+        "Community Development"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency in Rural Development",
+      "topics": [
+        "Project Management",
+        "Community Engagement"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio in Rural Development",
+      "topics": [
+        "Rural Development Project Report",
+        "Community Outreach Plan"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}
