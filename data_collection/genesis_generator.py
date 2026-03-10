@@ -6,9 +6,7 @@ from groq import Groq
 # PASTE YOUR KEY HERE
 API_KEY = os.getenv("GROQ_API_KEY")
 
-if API_KEY == "YOUR_GROQ_API_KEY":
-    print("❌ ERROR: You forgot to paste your Groq API Key in the script!")
-    exit()
+
 
 client = Groq(api_key=API_KEY)
 os.makedirs("career_database", exist_ok=True)
