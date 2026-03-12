@@ -16,10 +16,14 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-const navItems = [
+// Navigation items - kept for sidebar reference
+const allNavItems = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
   { label: "Roadmap", href: "/roadmap/product-manager", icon: Map },
 ];
+
+// If you need to filter items from an array in the future, use:
+// const filteredNavItems = allNavItems.filter(item => item.label !== "Dashboard" && item.label !== "Roadmap");
 
 const AppLayout = () => {
   const navigate = useNavigate();
@@ -77,30 +81,8 @@ const AppLayout = () => {
             </button>
           </div>
 
-          {/* Center: Navigation Links (Desktop) */}
-          <div className="hidden lg:flex items-center gap-2">
-            {navItems.map((item) => {
-              const isActive =
-                location.pathname === item.href ||
-                (item.href === "/dashboard" &&
-                  location.pathname === "/dashboard");
-              return (
-                <button
-                  key={item.label}
-                  onClick={() => navigate(item.href)}
-                  className={cn(
-                    "flex items-center gap-2 px-4 py-2 rounded-lg transition-colors",
-                    isActive
-                      ? "bg-primary/10 text-primary"
-                      : "text-muted-foreground hover:text-foreground hover:bg-primary/5",
-                  )}
-                >
-                  <item.icon className="w-4 h-4" />
-                  {item.label}
-                </button>
-              );
-            })}
-          </div>
+          {/* Center: Navigation Links - REMOVED (Dashboard & Roadmap removed) */}
+          {/* Previously contained: filteredNavItems.map(...) */}
 
           {/* Right: User Menu */}
           <div className="flex items-center gap-3">
@@ -134,21 +116,7 @@ const AppLayout = () => {
           className="fixed top-16 left-0 right-0 z-40 glass border-b border-border/50 lg:hidden"
         >
           <div className="p-4 space-y-2">
-            {navItems.map((item) => (
-              <button
-                key={item.label}
-                onClick={() => {
-                  navigate(item.href);
-                  setIsMobileMenuOpen(false);
-                }}
-                className="flex items-center gap-3 w-full px-4 py-3 rounded-lg text-left hover:bg-primary/10 transition-colors"
-              >
-                <item.icon className="w-5 h-5" />
-                {item.label}
-                <ChevronRight className="w-4 h-4 ml-auto" />
-              </button>
-            ))}
-            <hr className="my-2 border-border" />
+            {/* Mobile menu - Dashboard & Roadmap removed from center nav */}
             <button
               onClick={() => {
                 navigate("/");
@@ -164,7 +132,7 @@ const AppLayout = () => {
         </motion.div>
       )}
 
-      {/* Sidebar (Desktop) */}
+      {/* Sidebar (Desktop) - Uses allNavItems for Quick Links */}
       {isSidebarOpen && (
         <motion.aside
           initial={{ x: -280 }}
@@ -175,7 +143,7 @@ const AppLayout = () => {
             <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-3 mb-2">
               Quick Links
             </p>
-            {navItems.map((item) => {
+            {allNavItems.map((item) => {
               const isActive = location.pathname === item.href;
               return (
                 <button

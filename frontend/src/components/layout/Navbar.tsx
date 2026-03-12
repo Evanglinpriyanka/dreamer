@@ -24,7 +24,6 @@ import {
 const navItems = [
   { label: "Features", href: "#features" },
   { label: "How It Works", href: "#process" },
-  { label: "Pricing", href: "#pricing" },
   { label: "About", href: "#about" },
 ];
 

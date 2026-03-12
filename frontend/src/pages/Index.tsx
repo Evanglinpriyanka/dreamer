@@ -1,7 +1,6 @@
 import CareerHero from "@/components/CareerHero";
 import CareerFeatures from "@/components/CareerFeatures";
 import CareerProcess from "@/components/CareerProcess";
-import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 
 const Index = () => {
@@ -22,16 +21,9 @@ const Index = () => {
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Join thousands of students who've found their dream careers with
-              Project Beacon's AI-powered guidance.
+              CareerDreamer's AI-powered guidance.
             </p>
-            <Button
-              size="lg"
-              variant="hero"
-              onClick={() => navigate("/persona-selection")}
-              className="text-lg px-8 py-4"
-            >
-              Start Your Journey Now
-            </Button>
+            {/* CTA Button removed as per user request */}
           </div>
         </section>
       </main>

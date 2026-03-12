@@ -8,8 +8,7 @@ const CareerNavigation = () => {
   const navItems = [
     { label: "Features", href: "#features" },
     { label: "How It Works", href: "#process" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "About", href: "#about" }
+    { label: "About", href: "#about" },
   ];
 
   return (
@@ -21,13 +20,15 @@ const CareerNavigation = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
               <Sparkles className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold gradient-text">CareerDreamer</span>
+            <span className="text-xl font-bold gradient-text">
+              CareerDreamer
+            </span>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <a 
+              <a
                 key={item.label}
                 href={item.href}
                 className="text-foreground/80 hover:text-primary transition-colors font-medium"
@@ -39,24 +40,13 @@ const CareerNavigation = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="ghost">
-              Sign In
-            </Button>
-            <Button variant="hero">
-              Get Started
-            </Button>
+            <Button variant="ghost">Sign In</Button>
+            <Button variant="hero">Get Started</Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? (
-              <X className="w-6 h-6" />
-            ) : (
-              <Menu className="w-6 h-6" />
-            )}
+          <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
@@ -65,7 +55,7 @@ const CareerNavigation = () => {
           <div className="md:hidden py-6 border-t border-border/50">
             <div className="space-y-4">
               {navItems.map((item) => (
-                <a 
+                <a
                   key={item.label}
                   href={item.href}
                   className="block text-foreground/80 hover:text-primary transition-colors font-medium"
