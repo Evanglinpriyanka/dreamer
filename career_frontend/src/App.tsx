@@ -9,6 +9,8 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PersonaSelection from "./pages/PersonaSelection";
 import PotentialPrism from "./pages/PotentialPrism";
+import SkillAssessment from "./pages/SkillAssessment";
+import IdentityStatement from "./pages/IdentityStatement";
 import SkillSelector from "./pages/SkillSelector";
 import GoalDeclaration from "./pages/GoalDeclaration";
 import Dashboard from "./pages/Dashboard";
@@ -36,6 +38,8 @@ const App = () => (
           <Route element={<AppLayout />}>
             <Route path="/persona-selection" element={<PersonaSelection />} />
             <Route path="/potential-prism" element={<PotentialPrism />} />
+            <Route path="/skill-assessment" element={<SkillAssessment />} />
+            <Route path="/identity-statement" element={<IdentityStatement />} />
             <Route path="/skill-selector" element={<SkillSelector />} />
             <Route path="/goal-declaration" element={<GoalDeclaration />} />
             <Route path="/dashboard" element={<Dashboard />} />

@@ -1,220 +1,236 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Progress } from "@/components/ui/progress";
 import { useNavigate } from "react-router-dom";
-import { Users, Code, Palette, Calculator, Megaphone, Heart, Globe, Zap } from "lucide-react";
+import { toast } from "sonner";
+import { 
+  BrainCircuit, Sparkles, MonitorSmartphone, 
+  Users, ShoppingBag, BookOpen, Calculator, FlaskConical, ArrowRight
+} from "lucide-react";
 
-const skillCategories = [
-  {
-    id: "technical",
-    title: "Technical Skills",
-    icon: Code,
-    color: "from-blue-500 to-blue-600",
-    skills: [
-      "Programming", "Web Development", "Data Analysis", "AI/Machine Learning", 
-      "Cybersecurity", "Mobile Development", "Cloud Computing", "DevOps",
-      "Database Management", "UI/UX Design", "Game Development", "Blockchain"
-    ]
-  },
-  {
-    id: "creative",
-    title: "Creative Skills", 
-    icon: Palette,
-    color: "from-purple-500 to-purple-600",
-    skills: [
-      "Graphic Design", "Photography", "Video Editing", "Writing", 
-      "Music Production", "3D Modeling", "Animation", "Digital Art",
-      "Content Creation", "Storytelling", "Brand Design", "Illustration"
-    ]
-  },
-  {
-    id: "analytical",
-    title: "Analytical Skills",
-    icon: Calculator, 
-    color: "from-green-500 to-green-600",
-    skills: [
-      "Market Research", "Financial Analysis", "Statistics", "Problem Solving",
-      "Strategic Planning", "Risk Assessment", "Quality Assurance", "Process Optimization",
-      "Research Methods", "Critical Thinking", "Data Visualization", "Forecasting"
-    ]
-  },
-  {
-    id: "communication",
-    title: "Communication Skills",
-    icon: Megaphone,
-    color: "from-orange-500 to-orange-600", 
-    skills: [
-      "Public Speaking", "Writing", "Social Media", "Marketing",
-      "Sales", "Negotiation", "Presentation", "Copywriting",
-      "Public Relations", "Event Planning", "Journalism", "Podcasting"
-    ]
-  },
-  {
-    id: "interpersonal",
-    title: "Interpersonal Skills",
-    icon: Heart,
-    color: "from-pink-500 to-pink-600",
-    skills: [
-      "Leadership", "Team Management", "Counseling", "Teaching",
-      "Customer Service", "Conflict Resolution", "Mentoring", "Coaching",
-      "Human Resources", "Community Building", "Networking", "Empathy"
-    ]
-  },
-  {
-    id: "business",
-    title: "Business Skills",
-    icon: Globe,
-    color: "from-cyan-500 to-cyan-600",
-    skills: [
-      "Project Management", "Entrepreneurship", "Operations", "Strategy",
-      "Finance", "Accounting", "Supply Chain", "Business Development",
-      "Consulting", "Legal", "Compliance", "Innovation Management"
-    ]
-  }
-];
+// --- STRICT SCHEMAS ---
+interface VerifiedSkills {
+  math_aptitude: number;
+  math_affinity: number;
+  english_communication: number;
+  science_logic: number;
+  digital_creation: number;
+  system_troubleshooting: number;
+  community_management: number;
+  commercial_hustle: number;
+}
 
-const SkillSelector = () => {
+export default function SkillSelector() {
   const navigate = useNavigate();
-  const [selectedSkills, setSelectedSkills] = useState<string[]>([]);
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [step, setStep] = useState(1);
+  const [isFusing, setIsFusing] = useState(false);
 
-  const handleSkillToggle = (skill: string) => {
-    setSelectedSkills(prev => 
-      prev.includes(skill) 
-        ? prev.filter(s => s !== skill)
-        : [...prev, skill]
+  // The Silent Skill Tracker
+  const [skills, setSkills] = useState<VerifiedSkills>({
+    math_aptitude: 50, math_affinity: 50,
+    english_communication: 50, science_logic: 50,
+    digital_creation: 0, system_troubleshooting: 0,
+    community_management: 0, commercial_hustle: 0
+  });
+
+  // --- ACADEMIC STATE ---
+  const [mathApt, setMathApt] = useState<number | null>(null);
+  const [mathAff, setMathAff] = useState<number | null>(null);
+
+  // --- HOBBY CHECKLIST STATE ---
+  const [selectedHobbies, setSelectedHobbies] = useState<string[]>([]);
+
+  const hobbies = [
+    { id: "video", label: "Edit videos or design posts for social media", icon: <MonitorSmartphone className="w-5 h-5" />, impact: { digital_creation: 80 } },
+    { id: "discord", label: "Manage a Discord server or gaming clan", icon: <Users className="w-5 h-5" />, impact: { community_management: 80, english_communication: 20 } },
+    { id: "fix", label: "Fix the family Wi-Fi, PC, or phone issues", icon: <BrainCircuit className="w-5 h-5" />, impact: { system_troubleshooting: 80, science_logic: 20 } },
+    { id: "sell", label: "Buy, sell, or trade things online (shoes, game items)", icon: <ShoppingBag className="w-5 h-5" />, impact: { commercial_hustle: 80, math_aptitude: 10 } },
+    { id: "write", label: "Write stories, blogs, or deep-dive threads", icon: <BookOpen className="w-5 h-5" />, impact: { english_communication: 80, digital_creation: 20 } },
+  ];
+
+  const toggleHobby = (id: string) => {
+    setSelectedHobbies(prev => 
+      prev.includes(id) ? prev.filter(h => h !== id) : [...prev, id]
     );
   };
 
-  const handleComplete = () => {
-    localStorage.setItem('skillSelectorResults', JSON.stringify({
-      selectedSkills,
-      completed: true
-    }));
-    navigate("/dashboard");
+  const handleNextStep = () => {
+    if (step === 1) {
+      if (mathApt === null || mathAff === null) {
+        toast.error("Please answer both questions to proceed.");
+        return;
+      }
+      setSkills(prev => ({ ...prev, math_aptitude: mathApt, math_affinity: mathAff }));
+      setStep(2);
+    } else if (step === 2) {
+      finalizeFusion();
+    }
   };
 
+  const finalizeFusion = async () => {
+    setIsFusing(true);
+
+    // Calculate final hobby impacts
+    const finalSkills = { ...skills };
+    selectedHobbies.forEach(hobbyId => {
+      const hobby = hobbies.find(h => h.id === hobbyId);
+      if (hobby) {
+        Object.entries(hobby.impact).forEach(([key, value]) => {
+          finalSkills[key as keyof VerifiedSkills] += value;
+        });
+      }
+    });
+
+    try {
+      // 1. Retrieve the Psychological Profile from Part A
+      const storedDraft = localStorage.getItem("prismDraft");
+      if (!storedDraft) throw new Error("No Psychometric Profile found. Please retake Part A.");
+      const psychometric_draft = JSON.parse(storedDraft);
+
+      // 2. Fire the Graph Fusion Payload to Gemini
+      const response = await fetch("http://127.0.0.1:8000/api/v1/roles/match", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          user_id: "student_mvp_01",
+          psychometric_draft: psychometric_draft,
+          verified_skills: finalSkills
+        }),
+      });
+
+      if (!response.ok) throw new Error("Graph Fusion failed");
+      const data = await response.json();
+
+      // 3. Save the final jobs and route to Dashboard
+      localStorage.setItem("finalMatches", JSON.stringify(data.matches));
+      toast.success("Graph Fusion Complete!");
+      navigate("/dashboard");
+
+    } catch (error) {
+      console.error("Fusion Error:", error);
+      toast.error("Failed to connect to the Graph Engine.");
+      setIsFusing(false);
+    }
+  };
+
+  if (isFusing) {
+    return (
+      <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center p-6 font-mono text-emerald-500">
+        <BrainCircuit className="w-20 h-20 animate-pulse mb-8" />
+        <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-4 text-center">Initiating Graph Fusion...</h2>
+        <p className="text-emerald-500/70 font-medium text-center max-w-md mb-8">
+          Gemini 1.5 Flash is mapping your psychology and verified skills against 10,000+ Indian career nodes.
+        </p>
+        <Progress value={100} className="w-full max-w-md h-1 bg-slate-800 [&>div]:bg-emerald-500 animate-pulse" />
+      </div>
+    );
+  }
+
   return (
-    <div className="min-h-screen bg-gradient-subtle">
-      <div className="container mx-auto px-6 py-8">
-        {/* Header */}
-        <div className="text-center space-y-4 mb-8">
-          <div className="flex items-center justify-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-secondary to-secondary-glow rounded-xl flex items-center justify-center">
-              <Users className="w-5 h-5 text-white" />
+    <div className="min-h-screen bg-[#F8FAFC] flex flex-col items-center justify-center p-4 sm:p-6 lg:p-8">
+      <div className="w-full max-w-2xl mb-8">
+        <div className="flex justify-between items-end mb-3 px-1">
+          <span className="text-sm font-bold tracking-widest text-slate-400 uppercase">
+            Capability Check {step} of 2
+          </span>
+        </div>
+        <Progress value={step * 50} className="h-2 bg-slate-200" />
+      </div>
+
+      <Card className="w-full max-w-2xl shadow-2xl border-0 bg-white rounded-[2rem] overflow-hidden p-8 md:p-10">
+        
+        {step === 1 && (
+          <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
+            <h2 className="text-2xl font-bold text-slate-800 mb-2">The Academic Matrix</h2>
+            <p className="text-slate-500 mb-8">Let's separate your actual ability from your interests.</p>
+
+            <div className="space-y-8">
+              {/* APTITUDE ROW */}
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Calculator className="w-5 h-5 text-blue-500" />
+                  <h3 className="text-lg font-semibold text-slate-700">How would you rate your Math Aptitude?</h3>
+                </div>
+                <div className="grid grid-cols-3 gap-3">
+                  {[
+                    { label: "I struggle to pass", val: 20 },
+                    { label: "I get average marks", val: 50 },
+                    { label: "I easily score high", val: 90 }
+                  ].map(opt => (
+                    <button
+                      key={opt.val}
+                      onClick={() => setMathApt(opt.val)}
+                      className={`p-4 rounded-xl border-2 text-sm font-medium transition-all ${mathApt === opt.val ? 'border-blue-500 bg-blue-50 text-blue-700' : 'border-slate-100 hover:border-blue-200 text-slate-600'}`}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* AFFINITY ROW */}
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Sparkles className="w-5 h-5 text-purple-500" />
+                  <h3 className="text-lg font-semibold text-slate-700">How much do you actually enjoy Math?</h3>
+                </div>
+                <div className="grid grid-cols-3 gap-3">
+                  {[
+                    { label: "I absolutely hate it", val: 10 },
+                    { label: "I tolerate it", val: 50 },
+                    { label: "I love the challenge", val: 90 }
+                  ].map(opt => (
+                    <button
+                      key={opt.val}
+                      onClick={() => setMathAff(opt.val)}
+                      className={`p-4 rounded-xl border-2 text-sm font-medium transition-all ${mathAff === opt.val ? 'border-purple-500 bg-purple-50 text-purple-700' : 'border-slate-100 hover:border-purple-200 text-slate-600'}`}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
-            <h1 className="text-2xl font-bold gradient-text">Visual Skill Selector</h1>
           </div>
-          <h2 className="text-3xl font-bold">What are your skills & interests?</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Select all the skills you have or are interested in developing. Don't worry about expertise level!
-          </p>
-          
-          {selectedSkills.length > 0 && (
-            <div className="bg-primary/10 rounded-lg p-4 max-w-md mx-auto">
-              <p className="text-primary font-medium">
-                {selectedSkills.length} skills selected
-              </p>
-            </div>
-          )}
-        </div>
-
-        {/* Skill Categories */}
-        <div className="space-y-6">
-          {skillCategories.map((category) => (
-            <Card key={category.id} className="glass p-6">
-              <div 
-                className="flex items-center gap-4 mb-4 cursor-pointer"
-                onClick={() => setActiveCategory(
-                  activeCategory === category.id ? null : category.id
-                )}
-              >
-                <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${category.color} flex items-center justify-center`}>
-                  <category.icon className="w-6 h-6 text-white" />
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold">{category.title}</h3>
-                  <p className="text-muted-foreground text-sm">
-                    {category.skills.filter(skill => selectedSkills.includes(skill)).length} of {category.skills.length} selected
-                  </p>
-                </div>
-                <div className="text-muted-foreground">
-                  {activeCategory === category.id ? "−" : "+"}
-                </div>
-              </div>
-
-              {/* Skills Grid */}
-              <div className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 transition-all duration-200 ${
-                activeCategory === category.id || activeCategory === null 
-                  ? "opacity-100 max-h-none" 
-                  : "opacity-50 max-h-20 overflow-hidden"
-              }`}>
-                {category.skills.map((skill) => (
-                  <Badge
-                    key={skill}
-                    variant={selectedSkills.includes(skill) ? "default" : "outline"}
-                    className={`cursor-pointer p-3 text-center transition-all duration-200 hover:scale-105 ${
-                      selectedSkills.includes(skill) 
-                        ? "bg-primary text-primary-foreground shadow-glow" 
-                        : "hover:bg-muted"
-                    }`}
-                    onClick={() => handleSkillToggle(skill)}
-                  >
-                    {skill}
-                  </Badge>
-                ))}
-              </div>
-            </Card>
-          ))}
-        </div>
-
-        {/* Selected Skills Summary */}
-        {selectedSkills.length > 0 && (
-          <Card className="glass p-6 mt-8">
-            <h3 className="text-lg font-semibold mb-4">Your Selected Skills ({selectedSkills.length})</h3>
-            <div className="flex flex-wrap gap-2 mb-4">
-              {selectedSkills.map((skill) => (
-                <Badge 
-                  key={skill} 
-                  variant="default"
-                  className="bg-primary text-primary-foreground"
-                >
-                  {skill}
-                  <button 
-                    className="ml-2 hover:bg-primary-foreground/20 rounded-full p-0.5"
-                    onClick={() => handleSkillToggle(skill)}
-                  >
-                    ×
-                  </button>
-                </Badge>
-              ))}
-            </div>
-          </Card>
         )}
 
-        {/* Navigation */}
-        <div className="flex justify-center mt-8">
-          <Button
-            onClick={handleComplete}
-            disabled={selectedSkills.length === 0}
-            size="lg"
-            variant="hero"
-            className="flex items-center gap-2"
-          >
-            <Zap className="w-4 h-4" />
-            Find My Career Matches ({selectedSkills.length} skills)
-          </Button>
-        </div>
+        {step === 2 && (
+          <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
+            <h2 className="text-2xl font-bold text-slate-800 mb-2">The "Proof of Action" Tracker</h2>
+            <p className="text-slate-500 mb-8">Select any activities you do naturally in your free time.</p>
 
-        <div className="text-center mt-4">
-          <p className="text-muted-foreground text-sm">
-            Select at least one skill to continue
-          </p>
+            <div className="space-y-3">
+              {hobbies.map((hobby) => {
+                const isSelected = selectedHobbies.includes(hobby.id);
+                return (
+                  <button
+                    key={hobby.id}
+                    onClick={() => toggleHobby(hobby.id)}
+                    className={`w-full flex items-center p-4 rounded-2xl border-2 transition-all duration-200 text-left ${isSelected ? 'border-blue-500 bg-blue-50' : 'border-slate-100 hover:border-blue-200 bg-white'}`}
+                  >
+                    <div className={`p-3 rounded-xl mr-4 transition-colors ${isSelected ? 'bg-blue-100 text-blue-600' : 'bg-slate-50 text-slate-400'}`}>
+                      {hobby.icon}
+                    </div>
+                    <span className={`text-base md:text-lg font-medium ${isSelected ? 'text-blue-900' : 'text-slate-700'}`}>
+                      {hobby.label}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        <div className="mt-10 flex justify-end">
+          <button
+            onClick={handleNextStep}
+            className="bg-black hover:bg-slate-800 text-white px-8 py-4 rounded-xl flex items-center gap-2 font-medium transition-all active:scale-95"
+          >
+            {step === 1 ? "Next Step" : "Initialize Fusion"}
+            <ArrowRight className="w-5 h-5" />
+          </button>
         </div>
-      </div>
+      </Card>
     </div>
   );
-};
-
-export default SkillSelector;
+}
