@@ -1,0 +1,134 @@
+{
+  "identity": {
+    "role_title": "Veterinary Officer / Surgeon",
+    "alternate_titles": [
+      "Veterinary Surgeon",
+      "Veterinary Doctor"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Veterinary Services"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Veterinary Officer / Surgeon is responsible for the health and well-being of animals, providing medical care, vaccinations, and performing surgeries.",
+    "description_detailed": "Veterinary Officers / Surgeons work in clinics, hospitals, or research institutions, diagnosing and treating animal diseases, performing surgeries, and providing preventative care. They may also be involved in research, education, and public health initiatives.",
+    "official_min_education": "B.V.Sc. & A.H."
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Pursue a degree in Animal Husbandry or a related field after completing high school.",
+      "target_exams": [
+        "NEET-UG"
+      ],
+      "target_degrees": [
+        "B.V.Sc. & A.H."
+      ]
+    },
+    "choice_maker": {
+      "description": "If you have a generic degree, consider a bridge course in Animal Husbandry or a related field.",
+      "acceptable_base_degrees": [
+        "B.Sc. Life Sciences",
+        "B.Sc. Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Diploma in Animal Husbandry",
+        "Certified Veterinary Assistant"
+      ]
+    },
+    "future_builder": {
+      "description": "If you are already working in the veterinary sector, consider advancing your skills by learning specialized techniques or taking on leadership roles.",
+      "prerequisite_experience": "2 years as a Veterinary Assistant or Junior Veterinary Officer",
+      "advanced_skills_to_learn": [
+        "Advanced surgical techniques",
+        "Veterinary public health"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "If you are switching from an unrelated field, focus on developing relevant skills and building a portfolio of work experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Animal handling",
+        "Basic veterinary knowledge"
+      ],
+      "portfolio_proof_required": [
+        "Volunteer experience at an animal shelter",
+        "Relevant projects in animal health"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Veterinary software",
+        "Medical equipment"
+      ],
+      "core_concepts": [
+        "Animal anatomy",
+        "Veterinary pharmacology"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Empathy",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Veterinary Assistant (0-2 yrs)",
+      "mid_level": "Junior Veterinary Officer (3-5 yrs)",
+      "senior_level": "Veterinary Officer / Surgeon (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Animal Science",
+      "topics": [
+        "Animal Nutrition",
+        "Animal Behavior"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Veterinary Medicine and Surgery",
+      "topics": [
+        "Veterinary Anatomy",
+        "Veterinary Pharmacology"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Clinical Experience and Portfolio Building",
+      "topics": [
+        "Clinical rotations",
+        "Portfolio development"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Veterinary clinics",
+        "Animal shelters"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "identity": {
+    "role_title": "Agricultural Engineer",
+    "alternate_titles": [
+      "Agric Engineer",
+      "Agri Engineer"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Agricultural Engineering"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops sustainable agricultural systems, infrastructure, and equipment to improve crop yields and reduce environmental impact.",
+    "description_detailed": "Agricultural Engineers apply engineering principles to develop and implement efficient and sustainable agricultural systems, including irrigation systems, drainage systems, and farm equipment. They work to improve crop yields, reduce waste, and minimize environmental impact.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "JEE Main",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Tech in Agricultural Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Tech in Civil Engineering",
+        "B.Tech in Mechanical Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Agricultural Engineering",
+        "Diploma in Irrigation Engineering"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Agricultural Engineer",
+      "advanced_skills_to_learn": [
+        "Machine Learning for Agriculture",
+        "Precision Farming"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming in Python",
+        "Data Analysis with Excel"
+      ],
+      "portfolio_proof_required": [
+        "Project on Farm Automation",
+        "Case Study on Sustainable Agriculture"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "tools": [
+        "QGIS",
+        "ArcGIS",
+        "MATLAB"
+      ],
+      "core_concepts": [
+        "Soil Mechanics",
+        "Hydraulics"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Agricultural Engineer (0-2 yrs)",
+      "mid_level": "Senior Agricultural Engineer (3-5 yrs)",
+      "senior_level": "Lead Agricultural Engineer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Soil Mechanics",
+        "Irrigation Systems"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Hydraulics",
+        "Farm Equipment Design"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a Sustainable Farming System",
+        "Implement a Farm Automation Project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

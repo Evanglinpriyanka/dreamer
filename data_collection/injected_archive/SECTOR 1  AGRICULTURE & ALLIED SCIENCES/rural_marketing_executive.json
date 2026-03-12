@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Rural Marketing Executive",
+    "alternate_titles": [
+      "Rural Marketing Specialist",
+      "Rural Brand Manager"
+    ],
+    "nco_code_official": "924101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Rural Marketing"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Develops and implements marketing strategies to promote products and services in rural areas.",
+    "description_detailed": "Responsible for understanding rural consumer behavior, identifying market opportunities, and creating effective marketing campaigns to reach rural customers.",
+    "official_min_education": "Graduate"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.A. Economics"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.A.",
+        "B.Com."
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Rural Marketing Professional",
+        "Digital Marketing Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Rural Marketing Assistant",
+      "advanced_skills_to_learn": [
+        "Data Analysis",
+        "Market Research"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Communication",
+        "Project Management"
+      ],
+      "portfolio_proof_required": [
+        "Rural Marketing Project Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "frameworks": [],
+      "tools": [
+        "MS Office",
+        "Google Suite"
+      ],
+      "core_concepts": [
+        "Rural Market Research",
+        "Marketing Strategy"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Rural Marketing Assistant (0-2 yrs)",
+      "mid_level": "Rural Marketing Executive (3-5 yrs)",
+      "senior_level": "Rural Marketing Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Understanding Rural Markets",
+      "topics": [
+        "Rural Market Research",
+        "Consumer Behavior"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Marketing Strategy Development",
+      "topics": [
+        "Marketing Mix",
+        "Segmentation"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a Rural Marketing Plan",
+        "Present to Stakeholders"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

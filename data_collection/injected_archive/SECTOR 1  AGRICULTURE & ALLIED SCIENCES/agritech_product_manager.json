@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "role_title": "Agritech Product Manager",
+    "alternate_titles": [
+      "Agricultural Product Manager",
+      "FarmTech Product Manager"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Agritech"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Agritech Product Manager is responsible for developing and launching innovative agricultural products and services that improve crop yields, reduce costs, and enhance farmer experiences.",
+    "description_detailed": "The role involves market research, product development, testing, and launch planning, as well as collaboration with cross-functional teams, including farmers, suppliers, and internal stakeholders.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and technology can pursue a degree in agriculture, computer science, or a related field.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Tech in Agricultural Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications or bridge courses in agriculture, data science, or product management to transition into the agritech sector.",
+      "acceptable_base_degrees": [
+        "B.Com",
+        "B.A"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Agritech Professional",
+        "Data Science with Python"
+      ]
+    },
+    "future_builder": {
+      "description": "Agritech professionals with 2-5 years of experience can advance to senior roles by developing advanced skills in data analysis, machine learning, and product development.",
+      "prerequisite_experience": "2 years as Agritech Product Specialist",
+      "advanced_skills_to_learn": [
+        "Machine Learning with TensorFlow",
+        "Cloud Computing with AWS"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into agritech by developing relevant skills and building a portfolio of projects that demonstrate their ability to solve agricultural problems.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data Analysis with Excel",
+        "Communication with Stakeholders"
+      ],
+      "portfolio_proof_required": [
+        "Agritech Project with IoT Sensors",
+        "Farm Management System with Mobile App"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "Java",
+        "SQL"
+      ],
+      "frameworks": [
+        "Django",
+        "Flask",
+        "React"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "QGIS"
+      ],
+      "core_concepts": [
+        "Data Structures",
+        "Machine Learning",
+        "Cloud Computing"
+      ]
+    },
+    "soft_skills": [
+      "Project Management",
+      "Communication",
+      "Collaboration"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Agritech Product Specialist (0-2 yrs)",
+      "mid_level": "Agritech Product Manager (3-5 yrs)",
+      "senior_level": "Head of Agritech Product (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 6-8 LPA",
+      "mid_senior_avg": "INR 12-18 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Introduction to Agritech",
+        "Agricultural Economics"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Data Analysis with Python",
+        "Machine Learning with TensorFlow"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build an Agritech Project with IoT Sensors",
+        "Deploy on Cloud Platform"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

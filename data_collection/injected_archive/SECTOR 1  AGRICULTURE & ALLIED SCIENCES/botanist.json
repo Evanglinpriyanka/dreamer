@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "role_title": "Botanist",
+    "alternate_titles": [
+      "Plant Biologist",
+      "Plant Ecologist"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Plant Sciences"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Botanists study the structure, growth, evolution, classification, and distribution of plants, algae, and fungi. They work in various fields, including research, conservation, and education.",
+    "description_detailed": "Botanists conduct experiments, collect and analyze data, and develop new theories and models to understand plant biology. They may work in laboratories, greenhouses, or outdoor environments, and often collaborate with other scientists and experts.",
+    "official_min_education": "M.Sc. in Botany or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in botany can start by taking courses in biology, chemistry, and mathematics.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc. in Botany",
+        "B.Sc. in Life Sciences"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate degree in botany or a related field to transition into this career.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Biology",
+        "B.Sc. in Chemistry"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Plant Taxonomy",
+        "Certification in Plant Ecology"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced botanists can advance to senior roles by developing expertise in specific areas, such as plant breeding, genetics, or conservation.",
+      "prerequisite_experience": "2-3 years of experience as a Research Assistant or Junior Botanist",
+      "advanced_skills_to_learn": [
+        "Molecular biology techniques",
+        "Statistical analysis"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into botany by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Laboratory techniques",
+        "Data analysis"
+      ],
+      "portfolio_proof_required": [
+        "Research project in plant biology",
+        "Publication in a scientific journal"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Microscope",
+        "Greenhouse management software"
+      ],
+      "core_concepts": [
+        "Photosynthesis",
+        "Plant anatomy"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Time management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Research Assistant (0-2 yrs)",
+      "mid_level": "Junior Botanist (3-5 yrs)",
+      "senior_level": "Senior Botanist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Botany",
+      "topics": [
+        "Plant anatomy",
+        "Photosynthesis"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Botany textbooks"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Laboratory Techniques",
+      "topics": [
+        "Microscopy",
+        "Molecular biology techniques"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Research project in plant biology",
+        "Publication in a scientific journal"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

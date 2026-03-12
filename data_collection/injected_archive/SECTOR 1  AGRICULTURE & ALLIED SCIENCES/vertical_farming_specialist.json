@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "role_title": "Vertical Farming Specialist",
+    "alternate_titles": [
+      "Vertical Farming Engineer",
+      "Indoor Agriculture Specialist"
+    ],
+    "nco_code_official": "924111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Sustainable Agriculture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements vertical farming systems to increase crop yields while minimizing environmental impact.",
+    "description_detailed": "Develops and maintains vertical farming systems, including hydroponics, aeroponics, and LED lighting, to optimize crop growth and reduce water and land usage.",
+    "official_min_education": "B.Tech in Agricultural Engineering or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and technology can pursue a degree in agricultural engineering or a related field.",
+      "target_exams": [
+        "JEE Main",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Tech in Agricultural Engineering",
+        "B.Sc in Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications or bridge courses in agricultural engineering or related fields.",
+      "acceptable_base_degrees": [
+        "B.Tech in Mechanical Engineering",
+        "B.Sc in Biology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Vertical Farming Specialist",
+        "Agricultural Engineering Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in agriculture or engineering can transition to vertical farming by acquiring advanced skills in hydroponics, aeroponics, and LED lighting.",
+      "prerequisite_experience": "2+ years of experience in agriculture or engineering",
+      "advanced_skills_to_learn": [
+        "Hydroponics",
+        "Aeroponics",
+        "LED Lighting Design"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition to vertical farming by acquiring relevant skills and building a portfolio of projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Data Analysis"
+      ],
+      "portfolio_proof_required": [
+        "Vertical Farming Project Proposal",
+        "Crop Yield Optimization Plan"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "Django",
+        "Flask"
+      ],
+      "tools": [
+        "Arduino",
+        "Raspberry Pi"
+      ],
+      "core_concepts": [
+        "Hydroponics",
+        "Aeroponics"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Vertical Farming Specialist (0-2 yrs)",
+      "mid_level": "Vertical Farming Specialist (3-5 yrs)",
+      "senior_level": "Senior Vertical Farming Specialist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture and Technology",
+      "topics": [
+        "Introduction to Agriculture",
+        "Basic Programming Concepts"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Codecademy"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Vertical Farming Fundamentals",
+      "topics": [
+        "Hydroponics",
+        "Aeroponics",
+        "LED Lighting Design"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design and Implement a Vertical Farming System",
+        "Optimize Crop Yield"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

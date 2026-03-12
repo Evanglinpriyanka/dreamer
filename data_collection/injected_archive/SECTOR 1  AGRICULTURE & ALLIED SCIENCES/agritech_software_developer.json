@@ -1,0 +1,147 @@
+{
+  "identity": {
+    "role_title": "Agritech Software Developer",
+    "alternate_titles": [
+      "Agritech Dev",
+      "AgriTech Software Engineer"
+    ],
+    "nco_code_official": "825111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Agritech"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops software solutions for the agriculture sector, leveraging technology to improve crop yields, reduce waste, and enhance farmer livelihoods.",
+    "description_detailed": "Develops software applications, tools, and platforms that cater to the specific needs of the agriculture sector, including precision farming, crop monitoring, and supply chain management. Collaborates with cross-functional teams to ensure seamless integration with existing systems and infrastructure.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in agritech software development.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Tech in Computer Science",
+        "B.Tech in Information Technology"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree, looking to transition into agritech software development.",
+      "acceptable_base_degrees": [
+        "B.Sc in Computer Science",
+        "B.A in Mathematics"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Java Developer",
+        "Certified Data Scientist"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced software developers looking to transition into agritech software development.",
+      "prerequisite_experience": "2+ years of experience in software development, preferably in a related domain.",
+      "advanced_skills_to_learn": [
+        "Machine Learning",
+        "Cloud Computing"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from non-technical backgrounds looking to switch into agritech software development.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming Fundamentals",
+        "Data Structures"
+      ],
+      "portfolio_proof_required": [
+        "Personal Projects in Python",
+        "Contributions to Open-Source Agritech Projects"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Spring Boot",
+        "Django",
+        "React"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "QGIS"
+      ],
+      "core_concepts": [
+        "Data Structures",
+        "Algorithms",
+        "Cloud Computing"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Agritech Software Developer (0-2 yrs)",
+      "mid_level": "Agritech Software Developer (3-5 yrs)",
+      "senior_level": "Senior Agritech Software Developer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "High",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 6-8 LPA",
+      "mid_senior_avg": "INR 12-18 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Programming Fundamentals",
+        "Data Structures"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Java",
+        "Python",
+        "Spring Boot"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Full Project in Agritech",
+        "Deploy on Cloud"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

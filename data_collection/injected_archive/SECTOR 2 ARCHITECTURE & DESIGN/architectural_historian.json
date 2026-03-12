@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Architectural Historian",
+    "alternate_titles": [
+      "Historic Preservationist",
+      "Cultural Heritage Specialist"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Heritage Conservation"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An Architectural Historian studies and interprets the historical development of buildings, monuments, and landscapes, analyzing their cultural, social, and economic contexts.",
+    "description_detailed": "Architectural Historians work with governments, private companies, and non-profit organizations to preserve and protect cultural heritage sites, monuments, and buildings. They conduct research, write reports, and develop conservation plans to ensure the long-term preservation of these sites.",
+    "official_min_education": "Master's Degree"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in history, architecture, and culture can pursue a Bachelor's degree in History, Architecture, or a related field.",
+      "target_exams": [
+        "JEE Main",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.A. History",
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a Master's degree in Architectural History or a related field to gain specialized knowledge and skills.",
+      "acceptable_base_degrees": [
+        "B.A. History",
+        "B.Arch"
+      ],
+      "certifications_or_bridge_needed": [
+        "ICOMOS Certification",
+        "IUCN Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Architectural Historians with experience in the field can pursue advanced degrees, certifications, or specialized training to advance their careers.",
+      "prerequisite_experience": "2-3 years of experience in heritage conservation",
+      "advanced_skills_to_learn": [
+        "Geographic Information Systems (GIS)",
+        "Building Information Modeling (BIM)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Architectural History by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Research skills",
+        "Writing skills"
+      ],
+      "portfolio_proof_required": [
+        "Historic preservation project",
+        "Cultural heritage analysis report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Adobe Creative Suite",
+        "Microsoft Office"
+      ],
+      "core_concepts": [
+        "Historical research methods",
+        "Cultural heritage conservation"
+      ]
+    },
+    "soft_skills": [
+      "Communication skills",
+      "Collaboration skills"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Heritage Conservation Assistant (0-2 yrs)",
+      "mid_level": "Heritage Conservation Specialist (3-5 yrs)",
+      "senior_level": "Heritage Conservation Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in History and Architecture",
+      "topics": [
+        "Introduction to Architectural History",
+        "Historical Research Methods"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT History Textbooks",
+        "Architectural History Online Courses"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Specialized Knowledge and Skills",
+      "topics": [
+        "Cultural Heritage Conservation",
+        "Historic Preservation Techniques"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "ICOMOS Online Courses",
+        "IUCN Training Programs"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio Development",
+      "topics": [
+        "Historic Preservation Project",
+        "Cultural Heritage Analysis Report"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Architectural Assistant",
+    "alternate_titles": [
+      "Assistant Architect",
+      "Junior Architect"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Architecture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Assists architects in designing and planning buildings, ensuring compliance with building codes and regulations.",
+    "description_detailed": "Responsible for creating detailed drawings, models, and presentations to communicate design ideas to clients and stakeholders. Collaborates with architects to develop and implement design concepts, ensuring that projects are completed on time and within budget.",
+    "official_min_education": "B.Arch"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Arch (Bachelor of Architecture)"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Tech in Civil Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certificate in Architecture",
+        "Diploma in Building Information Modelling (BIM)"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Architectural Assistant",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Computer-Aided Design (CAD)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Autodesk Revit",
+        "SketchUp"
+      ],
+      "portfolio_proof_required": [
+        "Architecture Project Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "AutoCAD",
+        "SketchUp",
+        "Revit"
+      ],
+      "frameworks": [
+        "BIM",
+        "CAD"
+      ],
+      "tools": [
+        "Adobe Creative Suite",
+        "Microsoft Office"
+      ],
+      "core_concepts": [
+        "Building Codes",
+        "Sustainable Design"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Architectural Assistant (0-2 yrs)",
+      "mid_level": "Architectural Assistant (3-5 yrs)",
+      "senior_level": "Senior Architectural Assistant (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Architecture",
+      "topics": [
+        "Introduction to Architecture",
+        "Building Codes and Regulations"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Design and Planning",
+      "topics": [
+        "Design Principles",
+        "Building Information Modelling (BIM)"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a Building",
+        "Create a Presentation"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Adobe Creative Suite",
+        "Microsoft Office"
+      ]
+    }
+  ]
+}

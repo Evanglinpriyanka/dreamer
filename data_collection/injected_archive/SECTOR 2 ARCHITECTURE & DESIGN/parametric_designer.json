@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "Parametric Designer",
+    "alternate_titles": [
+      "3D Modeler",
+      "Design Automation Specialist"
+    ],
+    "nco_code_official": "115111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Product Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops parametric models for products using computer-aided design (CAD) software, ensuring precision, efficiency, and innovation.",
+    "description_detailed": "A Parametric Designer creates complex 3D models and designs using algorithms and mathematical equations to automate the design process. They work closely with cross-functional teams to develop and refine product designs, ensuring they meet customer needs and industry standards.",
+    "official_min_education": "Diploma in Computer-Aided Design (CAD)"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in design and technology can pursue a diploma in CAD or a related field.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "Diploma in CAD",
+        "B.Tech in Mechanical Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in engineering or design can acquire the necessary skills to become a Parametric Designer.",
+      "acceptable_base_degrees": [
+        "B.Tech in Mechanical Engineering",
+        "B.Des in Product Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified CAD Designer",
+        "Autodesk Certified User - Inventor"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced designers and engineers can transition into Parametric Design by acquiring advanced skills in algorithms, programming, and design automation.",
+      "prerequisite_experience": "2+ years of experience in CAD design or product development",
+      "advanced_skills_to_learn": [
+        "Python programming",
+        "Parametric design using Grasshopper"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can switch to Parametric Design by acquiring the necessary skills and portfolio experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "CAD software proficiency",
+        "Mathematical modeling"
+      ],
+      "portfolio_proof_required": [
+        "3D modeling projects using CAD software"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "C++"
+      ],
+      "frameworks": [
+        "Grasshopper",
+        "Rhino"
+      ],
+      "tools": [
+        "Autodesk Inventor",
+        "SolidWorks"
+      ],
+      "core_concepts": [
+        "Parametric design",
+        "Algorithmic modeling"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior CAD Designer (0-2 yrs)",
+      "mid_level": "Senior CAD Designer (3-5 yrs)",
+      "senior_level": "Lead Parametric Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in CAD",
+      "topics": [
+        "Introduction to CAD software",
+        "Basic 3D modeling"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Autodesk tutorials",
+        "YouTube tutorials"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Parametric Design Fundamentals",
+      "topics": [
+        "Introduction to parametric design",
+        "Grasshopper basics"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Grasshopper tutorials",
+        "Rhino tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone Project",
+      "topics": [
+        "Design and develop a parametric model",
+        "Present the design"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

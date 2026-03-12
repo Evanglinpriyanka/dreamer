@@ -1,0 +1,147 @@
+{
+  "identity": {
+    "role_title": "Research Architect",
+    "alternate_titles": [
+      "Data Architect",
+      "Research Scientist"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Data Science and Analytics"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements data architectures to support research and development activities.",
+    "description_detailed": "Responsible for designing, developing, and maintaining data architectures to support research and development activities. Collaborates with cross-functional teams to identify business needs and develop data solutions.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "JEE Main",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Tech in Computer Science",
+        "B.Tech in Information Technology"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.A in Economics",
+        "B.Sc in Mathematics"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Data Analyst",
+        "Certified Business Analyst"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Data Analyst",
+      "advanced_skills_to_learn": [
+        "Cloud Computing",
+        "Machine Learning"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data Visualization",
+        "SQL"
+      ],
+      "portfolio_proof_required": [
+        "Data Science Project",
+        "Research Paper"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "Java",
+        "R"
+      ],
+      "frameworks": [
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn"
+      ],
+      "tools": [
+        "Tableau",
+        "Power BI",
+        "D3.js"
+      ],
+      "core_concepts": [
+        "Data Structures",
+        "Algorithms"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Data Analyst (0-2 yrs)",
+      "mid_level": "Senior Data Analyst (3-5 yrs)",
+      "senior_level": "Lead Data Architect (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "High",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 6-8 LPA",
+      "mid_senior_avg": "INR 12-18 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Data Science",
+      "topics": [
+        "Statistics",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Coursera",
+        "edX"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Data Architecture and Design",
+      "topics": [
+        "Data Modeling",
+        "Database Design",
+        "Cloud Computing"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Pluralsight"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio",
+      "topics": [
+        "Build a Data Architecture Project",
+        "Deploy"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

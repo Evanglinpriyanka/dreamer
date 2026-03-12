@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Silviculturist",
+    "alternate_titles": [
+      "Forestry Specialist",
+      "Tree Care Specialist"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Silviculture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Silviculturist is responsible for the cultivation and management of forests, including tree planting, pruning, and harvesting.",
+    "description_detailed": "Silviculturists work to ensure the health and sustainability of forests, while also considering factors such as environmental impact, economic viability, and social responsibility.",
+    "official_min_education": "B.Sc in Forestry or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA (Forestry)"
+      ],
+      "target_degrees": [
+        "B.Sc in Forestry"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc in Agriculture",
+        "B.Sc in Environmental Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Forestry Professional (CFP)",
+        "Forestry Management Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Forestry Officer",
+      "advanced_skills_to_learn": [
+        "GIS mapping",
+        "Remote Sensing"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data Analysis",
+        "Project Management"
+      ],
+      "portfolio_proof_required": [
+        "Forestry project management experience",
+        "Tree planting and maintenance experience"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python"
+      ],
+      "frameworks": [
+        "ArcGIS",
+        "QGIS"
+      ],
+      "tools": [
+        "GPS",
+        "Drones"
+      ],
+      "core_concepts": [
+        "Forest Ecology",
+        "Sustainable Forestry"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Forestry Officer (0-2 yrs)",
+      "mid_level": "Forestry Officer (3-5 yrs)",
+      "senior_level": "Senior Forestry Officer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Forest Ecology",
+        "Sustainable Forestry"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "GIS mapping",
+        "Remote Sensing"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a forest management plan",
+        "Implement a reforestation project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

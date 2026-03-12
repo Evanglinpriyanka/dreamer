@@ -1,0 +1,145 @@
+{
+  "identity": {
+    "role_title": "Conservation Architect",
+    "alternate_titles": [
+      "Environmental Planner",
+      "Sustainable Designer"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Conservation and Sustainability"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements sustainable solutions for environmental conservation, balancing human needs with ecological preservation.",
+    "description_detailed": "Develops and implements comprehensive plans for conservation and sustainability, incorporating principles of ecology, sociology, and economics to minimize environmental impact and promote eco-friendly practices.",
+    "official_min_education": "B.Tech in Environmental Science or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in environmental conservation can pursue a degree in environmental science or a related field.",
+      "target_exams": [
+        "JEE Main",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Tech in Environmental Science",
+        "B.Sc in Environmental Studies"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications or bridge courses in environmental science, conservation biology, or sustainable design.",
+      "acceptable_base_degrees": [
+        "B.A in Social Sciences",
+        "B.Sc in Life Sciences"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Environmental Professional (CEP)",
+        "Sustainable Design Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Conservation architects with experience in environmental planning and sustainability can advance to senior roles or specialize in areas like green infrastructure or eco-tourism.",
+      "prerequisite_experience": "2-3 years of experience in environmental planning or sustainability",
+      "advanced_skills_to_learn": [
+        "Green Building Design",
+        "Ecological Restoration"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into conservation architecture by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Environmental Policy Analysis",
+        "Sustainable Development Principles"
+      ],
+      "portfolio_proof_required": [
+        "Environmental Impact Assessment Report",
+        "Sustainable Design Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R",
+        "ArcGIS"
+      ],
+      "frameworks": [],
+      "tools": [
+        "QGIS",
+        "ENVI",
+        "MATLAB"
+      ],
+      "core_concepts": [
+        "Ecological Modeling",
+        "Sustainable Development Goals"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Environmental Planner (0-2 yrs)",
+      "mid_level": "Conservation Architect (3-5 yrs)",
+      "senior_level": "Sustainability Director (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Environmental Science",
+      "topics": [
+        "Ecology",
+        "Environmental Policy",
+        "Sustainable Development"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Environmental Science Textbooks"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Conservation and Sustainability Principles",
+      "topics": [
+        "Ecological Restoration",
+        "Green Infrastructure",
+        "Sustainable Design"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera",
+        "MOOCs"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio Development",
+      "topics": [
+        "Environmental Impact Assessment",
+        "Sustainable Design Project"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle",
+        "Environmental Science Journals"
+      ]
+    }
+  ]
+}

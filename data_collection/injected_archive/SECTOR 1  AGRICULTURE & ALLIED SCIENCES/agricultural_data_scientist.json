@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "role_title": "Agricultural Data Scientist",
+    "alternate_titles": [
+      "Agricultural Data Analyst",
+      "Precision Agriculture Specialist"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Precision Agriculture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An Agricultural Data Scientist collects, analyzes, and interprets large datasets to optimize crop yields, reduce waste, and improve agricultural productivity.",
+    "description_detailed": "Agricultural Data Scientists work with farmers, researchers, and policymakers to develop data-driven solutions for sustainable agriculture. They design and implement data collection systems, develop predictive models, and create visualizations to communicate insights to stakeholders.",
+    "official_min_education": "B.Tech in Computer Science or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and data science can pursue a degree in Computer Science or a related field.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Tech in Computer Science",
+        "B.Sc in Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge into Agricultural Data Science by acquiring relevant certifications and skills.",
+      "acceptable_base_degrees": [
+        "B.Tech in Electronics and Communication",
+        "B.Sc in Computer Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Data Scientist",
+        "Certified Agricultural Specialist"
+      ]
+    },
+    "future_builder": {
+      "description": "Agricultural professionals looking to advance in their careers can develop advanced skills in data science and machine learning.",
+      "prerequisite_experience": "2+ years of experience in agriculture or a related field",
+      "advanced_skills_to_learn": [
+        "Deep Learning",
+        "Natural Language Processing"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Agricultural Data Science by acquiring relevant skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "portfolio_proof_required": [
+        "Data analysis project in agriculture",
+        "Machine learning model for crop yield prediction"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "frameworks": [
+        "TensorFlow",
+        "PyTorch",
+        "Keras"
+      ],
+      "tools": [
+        "Tableau",
+        "Power BI",
+        "QGIS"
+      ],
+      "core_concepts": [
+        "Machine Learning",
+        "Data Visualization"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Data Analyst (0-2 yrs)",
+      "mid_level": "Senior Data Analyst (3-5 yrs)",
+      "senior_level": "Lead Data Scientist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 6-8 LPA",
+      "mid_senior_avg": "INR 12-18 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Data Science",
+      "topics": [
+        "Introduction to Python",
+        "Data Structures and Algorithms"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Python Crash Course",
+        "Data Structures and Algorithms"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Machine Learning and Deep Learning",
+      "topics": [
+        "Supervised and Unsupervised Learning",
+        "Deep Learning with TensorFlow"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Andrew Ng's Machine Learning Course",
+        "TensorFlow Tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio",
+      "topics": [
+        "Data Analysis Project in Agriculture",
+        "Machine Learning Model for Crop Yield Prediction"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Kaggle",
+        "GitHub"
+      ]
+    }
+  ]
+}

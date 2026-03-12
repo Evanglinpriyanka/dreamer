@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Hydroponics / Aeroponics Technician",
+    "alternate_titles": [
+      "Hydroponics Specialist",
+      "Aeroponics Engineer"
+    ],
+    "nco_code_official": "825111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Hydroponics and Aeroponics"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs, installs, and maintains hydroponic and aeroponic systems for crop production.",
+    "description_detailed": "Responsible for the setup, operation, and maintenance of hydroponic and aeroponic systems, ensuring optimal crop growth and yield. Requires knowledge of hydroponics, aeroponics, and related technologies.",
+    "official_min_education": "12th Pass with Science"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Pursue a diploma or certificate in agriculture or a related field.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "Diploma in Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Bridge the gap with certifications in hydroponics and aeroponics.",
+      "acceptable_base_degrees": [
+        "B.Sc Agriculture"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Hydroponics Specialist",
+        "Aeroponics Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Gain experience in hydroponics and aeroponics, then pursue advanced certifications.",
+      "prerequisite_experience": "2 years as Junior Agriculture Technician",
+      "advanced_skills_to_learn": [
+        "Precision Agriculture",
+        "Irrigation Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "No degree required, focus on developing relevant skills and portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Crop Monitoring",
+        "System Troubleshooting"
+      ],
+      "portfolio_proof_required": [
+        "Hydroponic System Design Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Hydroponic System Design Software",
+        "Aeroponic System Monitoring Tools"
+      ],
+      "core_concepts": [
+        "Hydroponics",
+        "Aeroponics",
+        "Crop Science"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Agriculture Technician (0-2 yrs)",
+      "mid_level": "Hydroponics / Aeroponics Technician (3-5 yrs)",
+      "senior_level": "Senior Hydroponics / Aeroponics Specialist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-4.5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Crop Science",
+        "Soil Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Hydroponics and Aeroponics Fundamentals",
+      "topics": [
+        "Hydroponics",
+        "Aeroponics",
+        "System Design"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Hydroponic System Design Project",
+        "Aeroponic System Monitoring"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

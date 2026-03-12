@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Contract Farming Manager",
+    "alternate_titles": [
+      "Agricultural Business Manager",
+      "Farm Operations Manager"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Contract Farming"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Manages contract farming operations, ensuring timely delivery of high-quality produce to clients.",
+    "description_detailed": "Oversees the entire contract farming process, from crop selection and planting to harvesting and post-harvest management. Develops and maintains relationships with farmers, suppliers, and clients to ensure smooth operations and maximize profits.",
+    "official_min_education": "B.Sc Agriculture"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Horticulture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Botany",
+        "B.Sc Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Agricultural Manager",
+        "Certified Farm Business Manager"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Farm Manager or Assistant Farm Manager",
+      "advanced_skills_to_learn": [
+        "Crop Insurance Management",
+        "Precision Farming"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Data Analysis"
+      ],
+      "portfolio_proof_required": [
+        "Agricultural Business Plan",
+        "Farm Operations Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Crop Monitoring Software",
+        "Farm Management Software"
+      ],
+      "core_concepts": [
+        "Crop Selection",
+        "Irrigation Management"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Leadership",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Farm Assistant (0-2 yrs)",
+      "mid_level": "Farm Manager (3-5 yrs)",
+      "senior_level": "Contract Farming Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Agricultural Fundamentals",
+      "topics": [
+        "Crop Science",
+        "Soil Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Farm Management",
+      "topics": [
+        "Farm Planning",
+        "Crop Insurance"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Contract Farming Operations",
+      "topics": [
+        "Contract Negotiation",
+        "Farm Operations Management"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

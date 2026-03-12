@@ -1,0 +1,144 @@
+{
+  "identity": {
+    "role_title": "Computational Designer",
+    "alternate_titles": [
+      "Digital Designer",
+      "Data-Driven Designer"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Architecture & Design",
+    "sub_sector": "Graphic Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A computational designer uses data and algorithms to create innovative designs and solutions.",
+    "description_detailed": "Computational designers work at the intersection of art, design, and technology, using programming languages and data analysis to create interactive and immersive experiences.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in design and technology can start by learning the basics of programming and design principles.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Computer Science",
+        "B.Des in Graphic Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Students with a generic degree can bridge the gap by learning programming languages and design tools.",
+      "acceptable_base_degrees": [
+        "B.A in Fine Arts",
+        "B.Sc in Mathematics"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in UI/UX Design",
+        "Certification in Data Visualization"
+      ]
+    },
+    "future_builder": {
+      "description": "Designers and developers already in the field can advance their skills by learning machine learning and data analysis.",
+      "prerequisite_experience": "2 years of experience in design or development",
+      "advanced_skills_to_learn": [
+        "Machine Learning",
+        "Data Analysis"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can switch to computational design by learning programming languages and design principles.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming in Python",
+        "Data Analysis with Excel"
+      ],
+      "portfolio_proof_required": [
+        "Personal Projects in Design and Development"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "frameworks": [
+        "React",
+        "Django",
+        "Flask"
+      ],
+      "tools": [
+        "Adobe Creative Cloud",
+        "Figma",
+        "Sketch"
+      ],
+      "core_concepts": [
+        "Data Structures",
+        "Algorithms"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Designer (0-2 yrs)",
+      "mid_level": "Senior Designer (3-5 yrs)",
+      "senior_level": "Lead Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "High",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Introduction to Programming",
+        "Design Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Codecademy",
+        "Udemy"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Front-end Development",
+        "Data Analysis"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "FreeCodeCamp",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Personal Project in Design and Development",
+        "Portfolio Development"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Behance"
+      ]
+    }
+  ]
+}

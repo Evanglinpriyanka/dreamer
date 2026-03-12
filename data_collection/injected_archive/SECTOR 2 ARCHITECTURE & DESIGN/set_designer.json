@@ -1,0 +1,134 @@
+{
+  "identity": {
+    "role_title": "Set Designer",
+    "alternate_titles": [
+      "Theatre Set Designer",
+      "Film Set Designer"
+    ],
+    "nco_code_official": "512011",
+    "sector": "Architecture & Design",
+    "sub_sector": "Theatre & Film"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and builds sets for theatrical and film productions, considering aesthetics, functionality, and budget constraints.",
+    "description_detailed": "A Set Designer is responsible for creating and implementing the visual elements of a theatrical or film production, including sets, props, and special effects. They work closely with directors, producers, and other crew members to bring the production's vision to life, ensuring that the set is both visually appealing and functional.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in arts and design can pursue a diploma or certificate course in set design or a related field.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "Diploma in Set Design",
+        "Certificate in Theatre Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in arts or design can pursue a certification or diploma course in set design to bridge the gap.",
+      "acceptable_base_degrees": [
+        "BFA in Fine Arts",
+        "B.Des in Interior Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Set Design",
+        "Diploma in Theatre Design"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced set designers can advance their careers by learning new skills, such as 3D modeling or lighting design, and taking on more complex projects.",
+      "prerequisite_experience": "2-3 years of experience as a junior set designer",
+      "advanced_skills_to_learn": [
+        "3D Modeling",
+        "Lighting Design"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into set design by acquiring relevant skills and building a portfolio of their work.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Sketching",
+        "Model Making"
+      ],
+      "portfolio_proof_required": [
+        "Theatre or Film Production Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "SketchUp",
+        "Autodesk Maya"
+      ],
+      "core_concepts": [
+        "Perspective Drawing",
+        "Color Theory"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Set Designer (0-2 yrs)",
+      "mid_level": "Set Designer (3-5 yrs)",
+      "senior_level": "Lead Set Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Introduction to Set Design",
+        "Theatre and Film History"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Sketching and Drawing",
+        "Model Making"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Set Design Portfolio",
+        "Create a Short Film"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

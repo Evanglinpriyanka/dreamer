@@ -1,0 +1,167 @@
+{
+  "identity": {
+    "role_title": "Principal Architect",
+    "alternate_titles": [
+      "Enterprise Architect",
+      "Technical Lead"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Enterprise Software"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Principal Architect is responsible for designing and implementing large-scale software systems, ensuring scalability, reliability, and maintainability.",
+    "description_detailed": "Principal Architects lead cross-functional teams to develop and maintain complex software systems, collaborating with stakeholders to define technical vision and strategy.",
+    "official_min_education": "B.Tech"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in software development can pursue a degree in Computer Science or a related field.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Computer Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can acquire relevant skills through certifications and bridge courses.",
+      "acceptable_base_degrees": [
+        "B.Sc in Computer Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "AWS Certified Developer",
+        "Certified Scrum Master"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced software professionals can advance to Principal Architect roles by developing leadership skills and expertise in specific technologies.",
+      "prerequisite_experience": "5+ years as Senior Software Engineer",
+      "advanced_skills_to_learn": [
+        "Cloud Architecture",
+        "DevOps"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from non-technical backgrounds can transition to Principal Architect roles by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming fundamentals",
+        "Agile methodologies"
+      ],
+      "portfolio_proof_required": [
+        "Open-source projects on GitHub"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Java",
+        "Python",
+        "C++"
+      ],
+      "frameworks": [
+        "Spring",
+        "Django",
+        "React"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Jenkins"
+      ],
+      "core_concepts": [
+        "Microservices Architecture",
+        "Cloud Computing"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Software Engineer (0-2 yrs)",
+      "mid_level": "Senior Software Engineer (3-5 yrs)",
+      "senior_level": "Principal Architect (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "High",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 8-12 LPA",
+      "mid_senior_avg": "INR 20-30 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Programming",
+      "topics": [
+        "Data Structures",
+        "Algorithms"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "LeetCode",
+        "HackerRank"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Software Development Fundamentals",
+      "topics": [
+        "Object-Oriented Programming",
+        "Design Patterns"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Enterprise Software Development",
+      "topics": [
+        "Microservices Architecture",
+        "Cloud Computing"
+      ],
+      "duration_weeks": 16,
+      "resources_keywords": [
+        "AWS Documentation",
+        "Microsoft Azure Documentation"
+      ]
+    },
+    {
+      "phase": 4,
+      "title": "Leadership and Communication",
+      "topics": [
+        "Agile Methodologies",
+        "Leadership Skills"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Scrum Alliance",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 5,
+      "title": "Capstone Project",
+      "topics": [
+        "Design and Implement a Complex System"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

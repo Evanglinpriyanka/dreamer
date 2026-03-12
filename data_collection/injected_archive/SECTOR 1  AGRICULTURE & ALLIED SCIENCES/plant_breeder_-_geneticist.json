@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Plant Breeder / Geneticist",
+    "alternate_titles": [
+      "Plant Geneticist",
+      "Crop Improvement Specialist"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Science"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Develops new crop varieties with desirable traits through genetic research and breeding.",
+    "description_detailed": "Conducts experiments to understand the genetic basis of crop traits, identifies and isolates desirable genes, and develops new crop varieties with improved yield, disease resistance, and nutritional content.",
+    "official_min_education": "M.Sc. in Plant Breeding / Genetics"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in plant breeding and genetics.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc. in Agriculture / Botany / Genetics"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in a related field, looking to transition into plant breeding and genetics.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Agriculture",
+        "B.Sc. in Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "ICAR Junior Research Fellowship",
+        "Certification in Plant Breeding and Genetics"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced plant breeders and geneticists looking to advance their careers.",
+      "prerequisite_experience": "2+ years of experience in plant breeding and genetics",
+      "advanced_skills_to_learn": [
+        "Genomic selection",
+        "Precision breeding"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields looking to switch to plant breeding and genetics.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Basic understanding of genetics",
+        "Programming skills in R or Python"
+      ],
+      "portfolio_proof_required": [
+        "Project on crop improvement using genetic markers"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python"
+      ],
+      "frameworks": [],
+      "tools": [
+        "QGIS",
+        "Genomic Selection Software"
+      ],
+      "core_concepts": [
+        "Genetics",
+        "Molecular biology"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Research Fellow (0-2 yrs)",
+      "mid_level": "Senior Research Fellow (3-5 yrs)",
+      "senior_level": "Principal Scientist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Plant anatomy and physiology",
+        "Genetics and molecular biology"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Plant breeding and genetics",
+        "Crop improvement using genetic markers"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a new crop variety using genetic markers",
+        "Deploy and evaluate the new variety"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

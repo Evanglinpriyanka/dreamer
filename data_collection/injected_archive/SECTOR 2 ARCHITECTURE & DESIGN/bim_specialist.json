@@ -1,0 +1,137 @@
+{
+  "identity": {
+    "role_title": "Building Information Modelling (BIM) Specialist",
+    "alternate_titles": [
+      "BIM Manager",
+      "BIM Coordinator"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Architecture & Design",
+    "sub_sector": "Architecture, Engineering, and Construction (AEC)"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A BIM Specialist is responsible for creating and managing digital models of buildings and infrastructure projects, ensuring accuracy, efficiency, and collaboration among stakeholders.",
+    "description_detailed": "A BIM Specialist uses software tools to create detailed digital models of buildings and infrastructure projects, incorporating data from various sources, such as architectural designs, engineering specifications, and construction schedules. They ensure that the models are accurate, up-to-date, and accessible to all stakeholders, facilitating collaboration, reducing errors, and improving project outcomes.",
+    "official_min_education": "Diploma in Architecture, Engineering, or Construction Management"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in BIM can start by learning the basics of architecture, engineering, and construction, and developing skills in computer-aided design (CAD) and building information modelling (BIM).",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Civil Engineering",
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in a related field, such as architecture, engineering, or construction management, can transition into a BIM Specialist role by acquiring relevant certifications and skills.",
+      "acceptable_base_degrees": [
+        "B.Tech in Civil Engineering",
+        "B.Arch"
+      ],
+      "certifications_or_bridge_needed": [
+        "Autodesk Certified User - Revit",
+        "BIM Certification by the American Institute of Architects (AIA)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced BIM Specialists can advance their careers by developing expertise in specialized areas, such as BIM management, coordination, or data analysis, and by staying up-to-date with industry trends and technologies.",
+      "prerequisite_experience": "2+ years of experience as a BIM Specialist",
+      "advanced_skills_to_learn": [
+        "BIM data analysis",
+        "BIM management software"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into a BIM Specialist role by acquiring relevant skills and certifications, and by building a portfolio of BIM-related projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Autodesk Revit",
+        "Microsoft Excel"
+      ],
+      "portfolio_proof_required": [
+        "BIM project portfolio",
+        "Case studies of BIM implementation"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Autodesk Revit",
+        "Graphisoft ArchiCAD",
+        "Trimble Navisworks"
+      ],
+      "core_concepts": [
+        "Building information modelling (BIM)",
+        "Computer-aided design (CAD)"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior BIM Specialist (0-2 yrs)",
+      "mid_level": "BIM Specialist (3-5 yrs)",
+      "senior_level": "Senior BIM Specialist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in BIM",
+      "topics": [
+        "Introduction to BIM",
+        "BIM software basics"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Autodesk Revit tutorials",
+        "BIM Institute courses"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "BIM Skills Development",
+      "topics": [
+        "BIM data management",
+        "BIM coordination"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Trimble Navisworks tutorials",
+        "Graphisoft ArchiCAD courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "BIM Project Implementation",
+      "topics": [
+        "BIM project planning",
+        "BIM project execution"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "BIM project case studies",
+        "BIM implementation best practices"
+      ]
+    }
+  ]
+}

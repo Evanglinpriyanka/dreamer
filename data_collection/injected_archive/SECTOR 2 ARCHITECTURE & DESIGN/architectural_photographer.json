@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Architectural Photographer",
+    "alternate_titles": [
+      "Architecture Photographer",
+      "Building Photographer"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Photography"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Captures high-quality images of buildings, structures, and landscapes for architectural and design purposes.",
+    "description_detailed": "Uses technical skills and creative vision to produce visually appealing and informative photographs of buildings, structures, and landscapes for architectural and design purposes, including capturing details, textures, and lighting effects.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in photography can start by learning the basics of photography, including camera settings, lighting, and composition.",
+      "target_exams": [
+        "NIFT Entrance Exam",
+        "AIEEA Exam"
+      ],
+      "target_degrees": [
+        "BFA in Photography",
+        "B.Sc in Photography"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge their skills by taking photography courses, workshops, or certification programs.",
+      "acceptable_base_degrees": [
+        "BFA in Fine Arts",
+        "B.Sc in Visual Communication"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Photographer (CP)",
+        "Adobe Certified Expert (ACE)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced photographers can advance their careers by developing their technical skills, learning new software, and building a strong portfolio.",
+      "prerequisite_experience": "2 years of experience as a photographer",
+      "advanced_skills_to_learn": [
+        "Lightroom",
+        "Photoshop"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into architectural photography by developing their technical skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Camera operation",
+        "Lighting techniques"
+      ],
+      "portfolio_proof_required": [
+        "Architecture photography portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "English"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Adobe Lightroom",
+        "Adobe Photoshop"
+      ],
+      "core_concepts": [
+        "Camera settings",
+        "Lighting techniques"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Creativity"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Assistant Photographer (0-2 yrs)",
+      "mid_level": "Photographer (3-5 yrs)",
+      "senior_level": "Lead Photographer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Camera settings",
+        "Lighting techniques"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "YouTube tutorials",
+        "Online courses"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Composition",
+        "Post-processing"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy courses",
+        "Skillshare tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a portfolio",
+        "Network with professionals"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "Instagram"
+      ]
+    }
+  ]
+}

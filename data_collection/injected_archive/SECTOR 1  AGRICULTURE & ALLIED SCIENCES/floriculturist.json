@@ -1,0 +1,134 @@
+{
+  "identity": {
+    "role_title": "Floriculturist",
+    "alternate_titles": [
+      "Florist",
+      "Flower Arranger"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Horticulture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Floriculturist cultivates and arranges flowers for commercial purposes.",
+    "description_detailed": "Floriculturists are responsible for growing, harvesting, and arranging flowers for sale in markets, events, or as part of interior decoration. They must have knowledge of flower varieties, soil conditions, and pest management.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Horticulture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Botany",
+        "B.Sc Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Florist Course",
+        "Horticulture Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Floriculturist",
+      "advanced_skills_to_learn": [
+        "Flower arrangement techniques",
+        "Event planning"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Basic knowledge of plants",
+        "Communication skills"
+      ],
+      "portfolio_proof_required": [
+        "Flower arrangement portfolio",
+        "Event planning experience"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Greenhouse management software",
+        "Flower arrangement tools"
+      ],
+      "core_concepts": [
+        "Soil science",
+        "Pest management"
+      ]
+    },
+    "soft_skills": [
+      "Communication skills",
+      "Time management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Floriculturist (0-2 yrs)",
+      "mid_level": "Senior Floriculturist (3-5 yrs)",
+      "senior_level": "Floriculturist Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 2.5-4 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Plant biology",
+        "Soil science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Flower arrangement techniques",
+        "Event planning"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Floristry courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a flower arrangement portfolio",
+        "Event planning experience"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Event planning communities"
+      ]
+    }
+  ]
+}

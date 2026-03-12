@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Aqua-culturist / Fishery Officer",
+    "alternate_titles": [
+      "Fisheries Manager",
+      "Aquaculture Specialist"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Fisheries and Aquaculture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An Aqua-culturist/Fishery Officer is responsible for the cultivation of aquatic plants and animals, and the management of fisheries resources. They work to ensure sustainable and responsible practices in the industry.",
+    "description_detailed": "Aqua-culturists/Fishery Officers are involved in various activities such as fish farming, hatchery management, fish processing, and fisheries research. They work to promote the development of the aquaculture industry, while also ensuring the conservation of aquatic resources and the protection of the environment.",
+    "official_min_education": "12th Pass with Science stream"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA (Agriculture and Allied Sciences)"
+      ],
+      "target_degrees": [
+        "B.Sc in Fisheries Science or related field"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc in Zoology",
+        "B.Sc in Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Aquaculture",
+        "Diploma in Fisheries Management"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years of experience as a Junior Fisheries Officer",
+      "advanced_skills_to_learn": [
+        "Fisheries Management Software",
+        "Aquaculture Business Planning"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data Analysis",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Project on Fish Farming",
+        "Research Paper on Aquatic Ecology"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Microsoft Office",
+        "Fisheries Management Software"
+      ],
+      "core_concepts": [
+        "Fisheries Management",
+        "Aquaculture Practices"
+      ]
+    },
+    "soft_skills": [
+      "Communication Skills",
+      "Team Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Fisheries Assistant (0-2 yrs)",
+      "mid_level": "Fisheries Officer (3-5 yrs)",
+      "senior_level": "Fisheries Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Fisheries Management",
+        "Aquaculture Practices"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Fisheries Business Planning",
+        "Aquaculture Marketing"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a Fish Farming Business Plan",
+        "Create a Marketing Strategy for Aquaculture Products"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

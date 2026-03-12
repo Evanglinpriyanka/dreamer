@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Sustainability Consultant",
+    "alternate_titles": [
+      "Environmental Consultant",
+      "Green Consultant"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Sustainability Consulting"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Develops and implements sustainable practices for organizations to minimize environmental impact.",
+    "description_detailed": "Conducts environmental impact assessments, identifies areas for improvement, and recommends sustainable solutions to reduce carbon footprint, waste, and pollution.",
+    "official_min_education": "Bachelor's Degree in Environmental Science, Sustainability, or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in environmental science and sustainability.",
+      "target_exams": [
+        "NEET",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc Environmental Science",
+        "B.Tech Environmental Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree, seeking a career transition into sustainability.",
+      "acceptable_base_degrees": [
+        "B.A. in Social Sciences",
+        "B.Com"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Sustainability Practitioner (CSP)",
+        "LEED AP"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced sustainability professionals looking to advance their careers.",
+      "prerequisite_experience": "Minimum 3 years of experience in sustainability consulting or related field",
+      "advanced_skills_to_learn": [
+        "Life Cycle Assessment (LCA)",
+        "Carbon Footprint Analysis"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields, seeking a career transition into sustainability.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Data Analysis"
+      ],
+      "portfolio_proof_required": [
+        "Sustainability project reports",
+        "Environmental impact assessments"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [],
+      "tools": [
+        "ArcGIS",
+        "Google Earth"
+      ],
+      "core_concepts": [
+        "Climate Change",
+        "Sustainable Development Goals (SDGs)"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving",
+      "Collaboration"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Sustainability Consultant (0-2 yrs)",
+      "mid_level": "Sustainability Consultant (3-5 yrs)",
+      "senior_level": "Senior Sustainability Consultant (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Sustainability",
+      "topics": [
+        "Environmental Science",
+        "Sustainable Development"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "UN Environment Programme"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Sustainability Tools and Techniques",
+      "topics": [
+        "Life Cycle Assessment (LCA)",
+        "Carbon Footprint Analysis"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a Sustainability Plan",
+        "Present to Stakeholders"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

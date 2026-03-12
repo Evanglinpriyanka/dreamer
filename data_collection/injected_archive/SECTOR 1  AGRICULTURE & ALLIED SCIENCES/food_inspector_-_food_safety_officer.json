@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Food Inspector / Food Safety Officer",
+    "alternate_titles": [
+      "Food Safety Officer",
+      "Food Quality Inspector"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Food Safety and Quality Control"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Ensures food products meet safety and quality standards.",
+    "description_detailed": "Conducts regular inspections of food processing facilities, identifies potential hazards, and implements corrective actions to prevent contamination and ensure compliance with regulations.",
+    "official_min_education": "Bachelor's Degree in Food Technology, Food Science, or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Sc Food Technology",
+        "B.Sc Food Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Chemistry",
+        "B.Sc Biology"
+      ],
+      "certifications_or_bridge_needed": [
+        "FSSAI Certification",
+        "HACCP Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Food Quality Inspector",
+      "advanced_skills_to_learn": [
+        "Food Safety Auditing",
+        "Regulatory Compliance"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Attention to detail",
+        "Analytical skills"
+      ],
+      "portfolio_proof_required": [
+        "Food Safety Audit Report",
+        "Quality Control Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "HACCP Software",
+        "Food Safety Management Software"
+      ],
+      "core_concepts": [
+        "Food Microbiology",
+        "Food Chemistry"
+      ]
+    },
+    "soft_skills": [
+      "Communication skills",
+      "Problem-solving skills"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Food Quality Inspector (0-2 yrs)",
+      "mid_level": "Food Safety Officer (3-5 yrs)",
+      "senior_level": "Senior Food Safety Officer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Food Safety Fundamentals",
+      "topics": [
+        "Food Safety Regulations",
+        "Foodborne Illnesses"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "FSSAI Guidelines",
+        "WHO Food Safety"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Quality Control and Assurance",
+      "topics": [
+        "Quality Control Methods",
+        "Food Sampling and Testing"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "ISO 22000",
+        "HACCP Principles"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Conduct a Food Safety Audit",
+        "Develop a Quality Control Plan"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Food Safety Audit Templates",
+        "Quality Control Software"
+      ]
+    }
+  ]
+}

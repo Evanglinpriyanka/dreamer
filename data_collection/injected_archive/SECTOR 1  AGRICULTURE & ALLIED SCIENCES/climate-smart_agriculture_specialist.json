@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Climate-Smart Agriculture Specialist",
+    "alternate_titles": [
+      "Agricultural Climate Specialist",
+      "Climate Change Specialist"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Climate-Smart Agriculture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements climate-resilient agricultural practices to enhance crop productivity and reduce environmental impact.",
+    "description_detailed": "Develops and implements climate-smart agriculture strategies to improve agricultural productivity, reduce greenhouse gas emissions, and enhance the resilience of agricultural systems to climate change."
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and climate change can pursue a degree in agriculture or a related field.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Environmental Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications or bridge courses in agriculture or climate change to transition into this role.",
+      "acceptable_base_degrees": [
+        "B.Sc Life Sciences",
+        "B.Sc Physics"
+      ],
+      "certifications_or_bridge_needed": [
+        "ICAR Certification in Agriculture",
+        "Certification in Climate Change"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced agricultural professionals can advance to this role by developing expertise in climate-smart agriculture and related technologies.",
+      "prerequisite_experience": "2 years of experience as an Agricultural Extension Officer",
+      "advanced_skills_to_learn": [
+        "Climate modeling",
+        "Precision agriculture"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into this role by developing relevant skills and experience in agriculture and climate change.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data analysis",
+        "Communication skills"
+      ],
+      "portfolio_proof_required": [
+        "Project on climate-resilient agriculture"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python"
+      ],
+      "frameworks": [
+        "Django",
+        "Flask"
+      ],
+      "tools": [
+        "QGIS",
+        "ArcGIS"
+      ],
+      "core_concepts": [
+        "Climate modeling",
+        "Precision agriculture"
+      ]
+    },
+    "soft_skills": [
+      "Communication skills",
+      "Project management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Agricultural Extension Officer (0-2 yrs)",
+      "mid_level": "Climate-Smart Agriculture Specialist (3-5 yrs)",
+      "senior_level": "Senior Climate-Smart Agriculture Specialist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Soil science",
+        "Crop physiology"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Climate Change and Agriculture",
+      "topics": [
+        "Climate modeling",
+        "Climate change impacts on agriculture"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a climate-resilient agriculture plan",
+        "Deploy a precision agriculture project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

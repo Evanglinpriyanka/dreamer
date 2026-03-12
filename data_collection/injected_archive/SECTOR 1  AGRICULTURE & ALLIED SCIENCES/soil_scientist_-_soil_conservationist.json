@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "role_title": "Soil Scientist/Soil Conservationist",
+    "alternate_titles": [
+      "Soil Conservation Specialist",
+      "Soil Fertility Expert"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Soil Science and Conservation"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Soil Scientists/Conservationists analyze and develop strategies to conserve and improve soil health, ensuring sustainable agricultural practices and environmental protection.",
+    "description_detailed": "They conduct research, collect and analyze data, and develop policies to promote soil conservation, fertility, and overall ecosystem health. Their work involves collaborating with farmers, policymakers, and other stakeholders to implement effective soil management practices.",
+    "official_min_education": "Master's degree in Soil Science or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in soil science and conservation can start by taking courses in biology, chemistry, and mathematics.",
+      "target_exams": [
+        "ICAR AIEEA (Agricultural Entrance Exam)"
+      ],
+      "target_degrees": [
+        "B.Sc in Agriculture or related field"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge their skills by pursuing certifications or courses in soil science and conservation.",
+      "acceptable_base_degrees": [
+        "B.Sc in Environmental Science",
+        "B.Sc in Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Soil Scientist (CSS) certification",
+        "Soil Conservation and Management course"
+      ]
+    },
+    "future_builder": {
+      "description": "Soil Scientists/Conservationists with experience in the field can advance their careers by developing expertise in specialized areas, such as soil fertility, erosion control, or policy development.",
+      "prerequisite_experience": "At least 2 years of experience as a Junior Soil Scientist or Conservationist",
+      "advanced_skills_to_learn": [
+        "Soil mapping and surveying",
+        "Remote sensing and GIS"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into soil science and conservation by developing relevant skills and building a portfolio of projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data analysis and interpretation",
+        "Communication and stakeholder engagement"
+      ],
+      "portfolio_proof_required": [
+        "Soil conservation project proposal",
+        "Soil fertility improvement plan"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "ArcGIS",
+        "QGIS"
+      ],
+      "tools": [
+        "Soil testing equipment",
+        "Remote sensing software",
+        "GIS software"
+      ],
+      "core_concepts": [
+        "Soil physics",
+        "Soil chemistry",
+        "Soil biology"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Soil Scientist/Conservationist (0-2 yrs)",
+      "mid_level": "Soil Scientist/Conservationist (3-5 yrs)",
+      "senior_level": "Senior Soil Scientist/Conservationist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Soil Science",
+      "topics": [
+        "Soil formation and classification",
+        "Soil properties and processes"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT textbooks",
+        "Soil Science Society of India publications"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Soil Conservation and Management",
+      "topics": [
+        "Soil erosion and conservation",
+        "Soil fertility and nutrient management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy courses",
+        "Coursera specializations"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio Development",
+      "topics": [
+        "Develop a soil conservation project proposal",
+        "Create a soil fertility improvement plan"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub repositories",
+        "Kaggle competitions"
+      ]
+    }
+  ]
+}

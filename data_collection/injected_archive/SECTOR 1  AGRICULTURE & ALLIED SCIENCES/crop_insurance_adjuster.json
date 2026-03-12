@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Crop Insurance Adjuster",
+    "alternate_titles": [
+      "Crop Loss Adjuster",
+      "Agricultural Insurance Specialist"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Insurance"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Crop Insurance Adjusters assess and settle crop insurance claims, ensuring fair compensation to farmers.",
+    "description_detailed": "Crop Insurance Adjusters work with farmers, insurance companies, and government agencies to investigate crop damage or loss, determine the extent of damage, and settle claims. They must have a strong understanding of agricultural practices, crop varieties, and insurance policies.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and insurance can pursue a career as a Crop Insurance Adjuster.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can transition into Crop Insurance Adjusting by acquiring relevant certifications and experience.",
+      "acceptable_base_degrees": [
+        "B.A. Economics",
+        "B.Com"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Crop Insurance Adjuster (CCIA)",
+        "Certified Insurance Service Representative (CISR)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced Crop Insurance Adjusters can advance to senior roles or specialize in specific areas, such as crop valuation or risk management.",
+      "prerequisite_experience": "2 years as Crop Insurance Adjuster",
+      "advanced_skills_to_learn": [
+        "Crop Valuation",
+        "Risk Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Crop Insurance Adjusting by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Analytical Skills",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Project on Crop Yield Analysis"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Crop Monitoring Software",
+        "Insurance Policy Management Systems"
+      ],
+      "core_concepts": [
+        "Crop Valuation",
+        "Risk Management"
+      ]
+    },
+    "soft_skills": [
+      "Analytical Skills",
+      "Communication Skills",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Crop Insurance Assistant (0-2 yrs)",
+      "mid_level": "Crop Insurance Adjuster (3-5 yrs)",
+      "senior_level": "Senior Crop Insurance Adjuster (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Agricultural Fundamentals",
+      "topics": [
+        "Crop Science",
+        "Agricultural Economics"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Insurance and Risk Management",
+      "topics": [
+        "Insurance Policy Management",
+        "Risk Management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Crop Valuation and Adjustment",
+      "topics": [
+        "Crop Valuation",
+        "Adjustment Techniques"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Crop Monitoring Software",
+        "Insurance Policy Management Systems"
+      ]
+    }
+  ]
+}

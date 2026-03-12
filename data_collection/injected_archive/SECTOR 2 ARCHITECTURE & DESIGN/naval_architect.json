@@ -1,0 +1,142 @@
+{
+  "identity": {
+    "role_title": "Naval Architect",
+    "alternate_titles": [
+      "Marine Architect",
+      "Ship Designer"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Shipbuilding and Repair"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops naval vessels, including ships, submarines, and offshore platforms, ensuring safety, efficiency, and environmental sustainability.",
+    "description_detailed": "Naval architects work on the design, development, and testing of naval vessels, considering factors like hydrodynamics, structural integrity, and regulatory compliance. They use computer-aided design (CAD) software, computational fluid dynamics (CFD), and other tools to create detailed designs and models.",
+    "official_min_education": "B.Tech in Naval Architecture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in naval architecture can pursue a degree in a related field, such as engineering or architecture.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Naval Architecture",
+        "B.Tech in Mechanical Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate diploma or certification in naval architecture to bridge the gap.",
+      "acceptable_base_degrees": [
+        "B.Tech in Mechanical Engineering",
+        "B.Tech in Civil Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Postgraduate Diploma in Naval Architecture",
+        "Certification in Ship Design"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced naval architects can advance their careers by acquiring specialized skills, such as computational fluid dynamics (CFD) or finite element analysis (FEA).",
+      "prerequisite_experience": "Minimum 5 years of experience as a junior naval architect",
+      "advanced_skills_to_learn": [
+        "CFD",
+        "FEA"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into naval architecture by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Mathematics",
+        "Computer-Aided Design (CAD)"
+      ],
+      "portfolio_proof_required": [
+        "Ship design project",
+        "Naval architecture portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "MATLAB"
+      ],
+      "frameworks": [
+        "Autodesk Navisworks",
+        "SolidWorks"
+      ],
+      "tools": [
+        "CATIA",
+        "Ansys"
+      ],
+      "core_concepts": [
+        "Hydrodynamics",
+        "Structural Analysis"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Naval Architect (0-2 yrs)",
+      "mid_level": "Naval Architect (3-5 yrs)",
+      "senior_level": "Senior Naval Architect (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 6-8 LPA",
+      "mid_senior_avg": "INR 12-18 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Naval Architecture",
+      "topics": [
+        "Introduction to Naval Architecture",
+        "Ship Design Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency in Naval Architecture",
+      "topics": [
+        "Hydrodynamics",
+        "Structural Analysis"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio in Naval Architecture",
+      "topics": [
+        "Ship Design Project",
+        "Naval Architecture Portfolio"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

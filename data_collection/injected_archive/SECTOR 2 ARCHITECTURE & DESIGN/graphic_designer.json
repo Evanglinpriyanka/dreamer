@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "role_title": "Graphic Designer",
+    "alternate_titles": [
+      "UI Designer",
+      "Visual Designer"
+    ],
+    "nco_code_official": "221100",
+    "sector": "Architecture & Design",
+    "sub_sector": "Graphic Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs visual elements for various mediums, including digital and print.",
+    "description_detailed": "Creates graphics, logos, and other visual elements for advertisements, websites, magazines, and other media.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NIFT Entrance Exam",
+        "UCEED"
+      ],
+      "target_degrees": [
+        "B.Des in Graphic Design",
+        "BFA in Visual Arts"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "BFA",
+        "B.Des"
+      ],
+      "certifications_or_bridge_needed": [
+        "Adobe Certified Expert in Photoshop",
+        "UI Design Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Graphic Designer",
+      "advanced_skills_to_learn": [
+        "UI/UX Design",
+        "Motion Graphics"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Adobe Creative Suite",
+        "Sketching"
+      ],
+      "portfolio_proof_required": [
+        "Digital Portfolio with 5+ Projects"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "HTML/CSS",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Adobe XD",
+        "Sketch"
+      ],
+      "tools": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "core_concepts": [
+        "Color Theory",
+        "Typography"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Creativity",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Graphic Designer (0-2 yrs)",
+      "mid_level": "Senior Graphic Designer (3-5 yrs)",
+      "senior_level": "Creative Director (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Color Theory",
+        "Typography",
+        "Design Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Adobe Creative Cloud",
+        "Canva"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "UI Design",
+        "Motion Graphics",
+        "Visual Design"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Skillshare"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Full Project",
+        "Deploy on Behance"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "Dribbble"
+      ]
+    }
+  ]
+}

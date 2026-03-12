@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Feed Mill Manager",
+    "alternate_titles": [
+      "Feed Mill Supervisor",
+      "Animal Feed Production Manager"
+    ],
+    "nco_code_official": "924101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Animal Husbandry"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Feed Mill Manager oversees the production, quality control, and distribution of animal feed. Ensures compliance with regulatory standards and optimizes production processes for maximum efficiency.",
+    "description_detailed": "Feed Mill Manager is responsible for managing the day-to-day operations of a feed mill, including supervising production staff, monitoring quality control, and ensuring compliance with regulatory standards. They must also optimize production processes to minimize costs and maximize efficiency.",
+    "official_min_education": "B.Tech in Animal Science or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in animal science can pursue a degree in animal science or a related field.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc in Animal Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate diploma in animal science or a related field to bridge the gap.",
+      "acceptable_base_degrees": [
+        "B.Sc in Biology",
+        "B.Sc in Chemistry"
+      ],
+      "certifications_or_bridge_needed": [
+        "Postgraduate Diploma in Animal Science",
+        "Certified Animal Nutritionist"
+      ]
+    },
+    "future_builder": {
+      "description": "Feed Mill Managers with experience can advance to senior roles or start their own feed mills.",
+      "prerequisite_experience": "5 years of experience as a Feed Mill Manager",
+      "advanced_skills_to_learn": [
+        "Supply Chain Management",
+        "Business Development"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition to Feed Mill Management by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Animal Nutrition",
+        "Feed Mill Operations"
+      ],
+      "portfolio_proof_required": [
+        "Feed Mill Management Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Feed Mill Management Software",
+        "Quality Control Software"
+      ],
+      "core_concepts": [
+        "Animal Nutrition",
+        "Feed Mill Operations"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Feed Mill Assistant (0-2 yrs)",
+      "mid_level": "Feed Mill Supervisor (3-5 yrs)",
+      "senior_level": "Feed Mill Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Animal Science",
+      "topics": [
+        "Animal Nutrition",
+        "Feed Mill Operations"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Feed Mill Management",
+      "topics": [
+        "Feed Mill Management Software",
+        "Quality Control Software"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Feed Mill Management Project",
+        "Business Plan"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

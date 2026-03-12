@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Furniture Designer",
+    "alternate_titles": [
+      "Interior Designer",
+      "Product Designer"
+    ],
+    "nco_code_official": "115110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Furniture and Wood Products"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops furniture and interior spaces to meet aesthetic and functional requirements.",
+    "description_detailed": "Furniture designers create prototypes, test, and refine designs to ensure they meet client needs, industry standards, and safety regulations. They work with various materials, including wood, metal, and plastics, and use computer-aided design (CAD) software to create detailed drawings and models.",
+    "official_min_education": "Diploma in Interior Design or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in design and creativity can pursue a diploma or certificate course in interior design or a related field.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "Diploma in Interior Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a certification or diploma course in furniture design to bridge the gap.",
+      "acceptable_base_degrees": [
+        "BFA in Fine Arts"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Furniture Design",
+        "CAD software skills"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced designers can advance their skills by learning new software, materials, and techniques to stay competitive.",
+      "prerequisite_experience": "2+ years of experience as a Junior Designer",
+      "advanced_skills_to_learn": [
+        "3D modeling software",
+        "Sustainable design principles"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into furniture design by acquiring relevant skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Sketching and drawing",
+        "Communication skills"
+      ],
+      "portfolio_proof_required": [
+        "Furniture design project with a functional prototype"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "SketchUp",
+        "Autodesk Inventor",
+        "Adobe Creative Suite"
+      ],
+      "core_concepts": [
+        "Design principles",
+        "Materials science"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Creativity",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Designer (0-2 yrs)",
+      "mid_level": "Senior Designer (3-5 yrs)",
+      "senior_level": "Lead Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Design",
+      "topics": [
+        "Design principles",
+        "Sketching and drawing"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Design books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Software and Tools",
+      "topics": [
+        "SketchUp",
+        "Autodesk Inventor"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "YouTube tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Furniture design project with a functional prototype",
+        "Design presentation skills"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Behance"
+      ]
+    }
+  ]
+}

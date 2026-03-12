@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Agronomist",
+    "alternate_titles": [
+      "AI Agronomist",
+      "Crop Specialist"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Science"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An agronomist specializes in crop production, soil science, and plant breeding. An AI agronomist applies machine learning and data analytics to optimize crop yields and reduce environmental impact.",
+    "description_detailed": "Agronomists work with farmers, researchers, and policymakers to develop and implement sustainable agricultural practices. AI agronomists leverage data-driven insights to predict crop yields, detect diseases, and optimize irrigation systems.",
+    "official_min_education": "B.Sc in Agriculture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Pursue a degree in agriculture or a related field.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc in Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Bridge from a generic degree to a specialized agriculture degree.",
+      "acceptable_base_degrees": [
+        "B.Sc in Life Sciences",
+        "B.Sc in Environmental Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Crop Advisor",
+        "Certified Sustainable Agriculture Professional"
+      ]
+    },
+    "future_builder": {
+      "description": "Gain experience in crop production, soil science, or plant breeding.",
+      "prerequisite_experience": "2 years as a Junior Agronomist or Crop Specialist",
+      "advanced_skills_to_learn": [
+        "Machine Learning",
+        "Data Analytics"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switch from an unrelated field to a career in agronomy.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data Analysis",
+        "Programming (Python, R)"
+      ],
+      "portfolio_proof_required": [
+        "Crop Yield Prediction Project",
+        "Soil Health Analysis Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "tools": [
+        "QGIS",
+        "ArcGIS"
+      ],
+      "core_concepts": [
+        "Crop Modeling",
+        "Precision Agriculture"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Agronomist (0-2 yrs)",
+      "mid_level": "Senior Agronomist (3-5 yrs)",
+      "senior_level": "Lead Agronomist or AI Agronomist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Crop Science",
+        "Soil Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Data-Driven Agronomy",
+      "topics": [
+        "Data Analysis",
+        "Machine Learning"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Crop Yield Prediction Project",
+        "Soil Health Analysis Report"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

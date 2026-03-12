@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Aquaculture Farm Manager",
+    "alternate_titles": [
+      "Aquaculture Manager",
+      "Fish Farm Manager"
+    ],
+    "nco_code_official": "924111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Aquaculture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees the daily operations of an aquaculture farm, ensuring efficient production, quality control, and environmental sustainability.",
+    "description_detailed": "Manages the entire lifecycle of fish and other aquatic species, from hatchery to harvest, while maintaining a safe and healthy working environment for employees and minimizing the impact on the surrounding ecosystem.",
+    "official_min_education": "B.Sc in Aquaculture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc in Aquaculture",
+        "B.Tech in Fisheries Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc in Zoology",
+        "B.Sc in Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Aquaculture Professional (CAP)",
+        "Aquaculture Management Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Aquaculture Assistant or similar role",
+      "advanced_skills_to_learn": [
+        "Fish Health Management",
+        "Water Quality Monitoring"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Fish Handling",
+        "Aquatic Ecology"
+      ],
+      "portfolio_proof_required": [
+        "Aquaculture Project Management",
+        "Fish Farming Business Plan"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Fish Farm Management Software",
+        "Aquatic Monitoring Equipment"
+      ],
+      "core_concepts": [
+        "Fish Nutrition",
+        "Water Quality Management"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Aquaculture Assistant (0-2 yrs)",
+      "mid_level": "Aquaculture Manager (3-5 yrs)",
+      "senior_level": "Aquaculture Farm Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Aquaculture Fundamentals",
+      "topics": [
+        "Fish Biology",
+        "Aquatic Ecology"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Aquaculture Operations",
+      "topics": [
+        "Fish Farming Techniques",
+        "Water Quality Management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Aquaculture Project Management",
+        "Fish Farming Business Plan"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

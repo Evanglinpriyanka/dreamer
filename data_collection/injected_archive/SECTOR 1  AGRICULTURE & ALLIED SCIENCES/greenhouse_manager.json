@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Greenhouse Manager",
+    "alternate_titles": [
+      "Greenhouse Supervisor",
+      "Horticulture Manager"
+    ],
+    "nco_code_official": "924111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Horticulture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees the daily operations of a greenhouse, ensuring optimal plant growth and crop yields.",
+    "description_detailed": "Responsible for managing greenhouse conditions, monitoring plant health, and implementing integrated pest management strategies to minimize crop losses and maximize productivity.",
+    "official_min_education": "12th Pass with Science stream"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Horticulture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Botany",
+        "B.Sc Zoology"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Horticulturist",
+        "Greenhouse Management Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Horticulturist or Greenhouse Assistant",
+      "advanced_skills_to_learn": [
+        "Precision Agriculture",
+        "Data-Driven Decision Making"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Crop Monitoring",
+        "Irrigation Management"
+      ],
+      "portfolio_proof_required": [
+        "Greenhouse Management Project",
+        "Crop Yield Optimization Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Greenhouse Management Software",
+        "Crop Monitoring Tools"
+      ],
+      "core_concepts": [
+        "Photosynthesis",
+        "Transpiration"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Greenhouse Assistant (0-2 yrs)",
+      "mid_level": "Greenhouse Supervisor (3-5 yrs)",
+      "senior_level": "Greenhouse Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Greenhouse Fundamentals",
+      "topics": [
+        "Greenhouse Design",
+        "Crop Selection"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Greenhouse Management",
+      "topics": [
+        "Irrigation Management",
+        "Pest Management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Greenhouse Management Plan",
+        "Deploy"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

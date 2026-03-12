@@ -1,0 +1,134 @@
+{
+  "identity": {
+    "role_title": "Livestock Manager",
+    "alternate_titles": [
+      "Livestock Supervisor",
+      "Animal Husbandry Manager"
+    ],
+    "nco_code_official": "9211",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Livestock Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees the daily operations of livestock farms, ensuring animal health, productivity, and welfare.",
+    "description_detailed": "Responsible for managing the day-to-day activities of livestock farms, including animal breeding, feeding, and health management. Ensures compliance with animal welfare standards and government regulations.",
+    "official_min_education": "12th Pass with Science"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Animal Husbandry"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Sc Zoology",
+        "B.Sc Botany"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Animal Welfare Officer",
+        "Livestock Management Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Livestock Assistant",
+      "advanced_skills_to_learn": [
+        "Livestock Nutrition Management",
+        "Animal Health Monitoring"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Animal Behavior Understanding",
+        "Farm Management"
+      ],
+      "portfolio_proof_required": [
+        "Livestock Farm Management Project"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Farm Management Software",
+        "Animal Health Monitoring Tools"
+      ],
+      "core_concepts": [
+        "Livestock Nutrition",
+        "Animal Health and Welfare"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Leadership",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Livestock Assistant (0-2 yrs)",
+      "mid_level": "Livestock Supervisor (3-5 yrs)",
+      "senior_level": "Livestock Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Livestock Fundamentals",
+      "topics": [
+        "Livestock Nutrition",
+        "Animal Health and Welfare"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Livestock Management",
+      "topics": [
+        "Farm Management",
+        "Animal Behavior Understanding"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a Livestock Farm Management Project",
+        "Deploy"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

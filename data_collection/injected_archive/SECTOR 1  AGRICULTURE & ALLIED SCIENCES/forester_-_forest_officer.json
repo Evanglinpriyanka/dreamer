@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "role_title": "Forester / Forest Officer",
+    "alternate_titles": [
+      "Forest Ranger",
+      "Wildlife Officer"
+    ],
+    "nco_code_official": "011101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Forest Management"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Foresters and Forest Officers are responsible for the conservation and sustainable management of forests, including tree planting, forest fire prevention, and wildlife conservation.",
+    "description_detailed": "Foresters and Forest Officers work in various settings, including government agencies, NGOs, and private companies, to ensure the health and productivity of forests. They may be involved in tree planting, forest fire prevention, wildlife conservation, and community outreach.",
+    "official_min_education": "Bachelor's Degree in Forestry or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in forestry can start by taking courses in biology, chemistry, and mathematics.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Forestry",
+        "B.Sc Environmental Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate diploma or certification in forestry to bridge the gap.",
+      "acceptable_base_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Environmental Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Postgraduate Diploma in Forestry",
+        "Certified Forestry Professional"
+      ]
+    },
+    "future_builder": {
+      "description": "Foresters and Forest Officers with experience in the field can advance to senior roles by developing advanced skills in areas such as forest management, wildlife conservation, and community outreach.",
+      "prerequisite_experience": "2-3 years of experience as a Forester or Forest Officer",
+      "advanced_skills_to_learn": [
+        "Forest Management Software",
+        "Wildlife Conservation Techniques"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into forestry by developing relevant skills and building a portfolio of projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data Analysis",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Forest Conservation Project",
+        "Wildlife Monitoring Report"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "ArcGIS",
+        "QGIS"
+      ],
+      "tools": [
+        "GPS",
+        "Remote Sensing Software"
+      ],
+      "core_concepts": [
+        "Forest Ecology",
+        "Wildlife Biology"
+      ]
+    },
+    "soft_skills": [
+      "Communication Skills",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Forester (0-2 yrs)",
+      "mid_level": "Forester (3-5 yrs)",
+      "senior_level": "Forest Officer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Forest Ecology",
+        "Wildlife Biology"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Forest Management Software",
+        "Remote Sensing Techniques"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Forest Conservation Project",
+        "Wildlife Monitoring Report"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

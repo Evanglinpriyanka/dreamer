@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "role_title": "Drone Pilot/Drone Technician",
+    "alternate_titles": [
+      "Aerial Surveyor",
+      "Precision Farmer"
+    ],
+    "nco_code_official": "825111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Precision Farming"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Drone Pilots/Technicians operate and maintain drones for agricultural applications, ensuring precision and efficiency in crop monitoring, spraying, and harvesting.",
+    "description_detailed": "Drone Pilots/Technicians are responsible for pre-flight checks, navigation, and post-flight analysis, while Drone Technicians focus on maintenance, repair, and calibration of drones and their components.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and technology can pursue a career as a Drone Pilot/Drone Technician.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Tech in Agricultural Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can transition into this role by acquiring relevant certifications and skills.",
+      "acceptable_base_degrees": [
+        "B.Sc in any field",
+        "B.Tech in any field"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Drone Pilot",
+        "Certified Agricultural Drone Technician"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in agriculture or drone operations can advance to senior roles by developing advanced skills in areas like data analysis and drone programming.",
+      "prerequisite_experience": "2 years as Junior Drone Pilot/Drone Technician",
+      "advanced_skills_to_learn": [
+        "Drone Programming (e.g., PX4)",
+        "Data Analysis (e.g., Python, R)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can switch to this role by acquiring relevant skills and building a portfolio of drone-related projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Problem-solving",
+        "Attention to detail"
+      ],
+      "portfolio_proof_required": [
+        "Drone-based project in agriculture",
+        "Certified drone pilot certification"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "C++"
+      ],
+      "frameworks": [
+        "PX4",
+        "ArduPilot"
+      ],
+      "tools": [
+        "QGroundControl",
+        "DroneDeploy"
+      ],
+      "core_concepts": [
+        "Aerial Photography",
+        "Precision Agriculture"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Drone Pilot/Drone Technician (0-2 yrs)",
+      "mid_level": "Senior Drone Pilot/Drone Technician (3-5 yrs)",
+      "senior_level": "Drone Operations Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Drone Fundamentals",
+      "topics": [
+        "Drone Safety Regulations",
+        "Drone Types and Components"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "FAA Regulations",
+        "Drone Manufacturers' Documentation"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Drone Operations",
+      "topics": [
+        "Drone Navigation and Control",
+        "Aerial Photography and Videography"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "PX4 Tutorials",
+        "DroneDeploy Documentation"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Drone Programming and Data Analysis",
+      "topics": [
+        "Drone Programming (e.g., PX4)",
+        "Data Analysis (e.g., Python, R)"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "PX4 API Documentation",
+        "Python Data Analysis Tutorials"
+      ]
+    }
+  ]
+}

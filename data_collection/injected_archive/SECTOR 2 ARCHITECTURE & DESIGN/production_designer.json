@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Production Designer",
+    "alternate_titles": [
+      "Production Art Director",
+      "Art Director"
+    ],
+    "nco_code_official": "512011",
+    "sector": "Architecture & Design",
+    "sub_sector": "Film and Video Production"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Production Designers create visual elements and environments for films, television shows, and live events. They work closely with directors and other crew members to bring the story to life.",
+    "description_detailed": "Production Designers are responsible for designing and building sets, props, and special effects for films, television shows, and live events. They must have a keen eye for detail and be able to visualize the story and its characters. They work closely with directors, producers, and other crew members to ensure that the visual elements of the production align with the overall vision.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in art, design, and storytelling can pursue a career in production design.",
+      "target_exams": [
+        "NIFT Entrance Exam",
+        "UCEED"
+      ],
+      "target_degrees": [
+        "B.Des in Production Design",
+        "BFA in Production Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in fine arts, design, or a related field can transition into production design with additional training and experience.",
+      "acceptable_base_degrees": [
+        "BFA in Fine Arts",
+        "B.Des in Interior Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Production Design Certification",
+        "Set Design Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Production Designers with experience in the industry can advance to senior roles or start their own production design companies.",
+      "prerequisite_experience": "5 years of experience as a Production Designer",
+      "advanced_skills_to_learn": [
+        "3D Modeling",
+        "Virtual Reality"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into production design with relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Sketching",
+        "Storytelling"
+      ],
+      "portfolio_proof_required": [
+        "Short Film Production",
+        "Theater Set Design"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Adobe Creative Suite",
+        "SketchUp"
+      ],
+      "core_concepts": [
+        "Color Theory",
+        "Lighting Design"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Production Designer (0-2 yrs)",
+      "mid_level": "Production Designer (3-5 yrs)",
+      "senior_level": "Senior Production Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Art and Design",
+      "topics": [
+        "Color Theory",
+        "Perspective Drawing"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Production Design Fundamentals",
+      "topics": [
+        "Set Design",
+        "Prop Making"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Short Film Production",
+        "Theater Set Design"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

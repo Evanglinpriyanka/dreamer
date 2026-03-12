@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Agricultural Scientist",
+    "alternate_titles": [
+      "Agricultural Researcher",
+      "Crop Scientist"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Science"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Agricultural Scientists develop and implement sustainable agricultural practices to improve crop yields and reduce environmental impact.",
+    "description_detailed": "Agricultural Scientists design and conduct experiments to test the effects of different variables on crop growth and development. They analyze data and develop models to predict crop yields and recommend best practices for farmers.",
+    "official_min_education": "M.Sc. in Agriculture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in agriculture can start by taking science and math courses, such as biology, chemistry, and physics.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc. in Agriculture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge into the field by taking relevant certifications and courses, such as agricultural extension or farm management.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Life Sciences"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Agricultural Extension Agent",
+        "Farm Management Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Agricultural Scientists with experience can advance their careers by taking on leadership roles, pursuing higher education, or specializing in a specific area, such as plant breeding or soil science.",
+      "prerequisite_experience": "2-3 years of experience as a Junior Agricultural Scientist",
+      "advanced_skills_to_learn": [
+        "Statistical Analysis",
+        "Machine Learning"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into agricultural science by developing relevant skills, such as data analysis, programming, and communication.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Data Analysis",
+        "Programming in R or Python"
+      ],
+      "portfolio_proof_required": [
+        "Agricultural project or research paper"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [],
+      "tools": [
+        "QGIS",
+        "ArcGIS",
+        "RStudio"
+      ],
+      "core_concepts": [
+        "Crop Physiology",
+        "Soil Science"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Agricultural Scientist (0-2 yrs)",
+      "mid_level": "Agricultural Research Scientist (3-5 yrs)",
+      "senior_level": "Senior Agricultural Scientist or Research Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Crop Physiology",
+        "Soil Science",
+        "Agricultural Extension"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "ICAR publications"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Data Analysis and Programming",
+      "topics": [
+        "Data Analysis with R or Python",
+        "Programming in R or Python"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Coursera",
+        "edX"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio",
+      "topics": [
+        "Agricultural project or research paper",
+        "Communication and presentation skills"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

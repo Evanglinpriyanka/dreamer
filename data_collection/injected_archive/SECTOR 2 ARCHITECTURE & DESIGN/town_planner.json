@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "Town Planner",
+    "alternate_titles": [
+      "Urban Planner",
+      "Regional Planner"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Urban Development"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops plans for the physical growth and development of towns and cities.",
+    "description_detailed": "Analyzes data and trends to create comprehensive plans for urban development, transportation systems, and infrastructure projects.",
+    "official_min_education": "Master's Degree in Urban Planning or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in urban planning can pursue a degree in a related field.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Civil Engineering",
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate degree in urban planning.",
+      "acceptable_base_degrees": [
+        "B.A. in Geography",
+        "B.Sc. in Environmental Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Urban Planner (CUP)",
+        "GIS Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in urban planning can advance to senior roles by developing advanced skills.",
+      "prerequisite_experience": "5 years of experience as a Junior Urban Planner",
+      "advanced_skills_to_learn": [
+        "Urban Design Software",
+        "Data Analysis using R"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition to urban planning by developing relevant skills and a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "GIS skills",
+        "Urban Planning Software"
+      ],
+      "portfolio_proof_required": [
+        "Urban Planning Project Report",
+        "GIS Map"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "ArcGIS",
+        "QGIS"
+      ],
+      "tools": [
+        "AutoCAD",
+        "SketchUp"
+      ],
+      "core_concepts": [
+        "Urban Planning Principles",
+        "Transportation Planning"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Urban Planner (0-2 yrs)",
+      "mid_level": "Urban Planner (3-5 yrs)",
+      "senior_level": "Senior Urban Planner (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Urban Planning",
+      "topics": [
+        "Urban Planning Principles",
+        "Transportation Planning"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "UN Habitat",
+        "World Bank Reports"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "GIS and Data Analysis",
+      "topics": [
+        "GIS skills",
+        "Data Analysis using R"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "ESRI",
+        "RStudio"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Urban Planning Software and Tools",
+      "topics": [
+        "AutoCAD",
+        "SketchUp"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Autodesk",
+        "Trimble"
+      ]
+    }
+  ]
+}

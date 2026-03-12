@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "Acoustic Consultant",
+    "alternate_titles": [
+      "Acoustic Engineer",
+      "Noise Consultant"
+    ],
+    "nco_code_official": "221000",
+    "sector": "Architecture & Design",
+    "sub_sector": "Building Materials and Services"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An Acoustic Consultant designs and implements solutions to minimize noise pollution and optimize acoustic performance in buildings and public spaces.",
+    "description_detailed": "Acoustic Consultants work with architects, engineers, and contractors to assess and mitigate noise levels, ensuring compliance with regulations and creating comfortable environments for occupants.",
+    "official_min_education": "B.E./B.Tech in Acoustics or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in science and mathematics can pursue a degree in Acoustics or a related field.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.E./B.Tech in Acoustics or related field"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue a postgraduate diploma or certification in Acoustics to transition into this role.",
+      "acceptable_base_degrees": [
+        "B.E./B.Tech in any field"
+      ],
+      "certifications_or_bridge_needed": [
+        "Postgraduate Diploma in Acoustics",
+        "Certified Acoustician (CA)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced Acoustic Consultants can advance to senior roles or start their own consulting firms.",
+      "prerequisite_experience": "5+ years as Acoustic Consultant",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Acoustic Simulation Software"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Acoustic Consulting by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Mathematics",
+        "Physics",
+        "Programming skills (e.g., Python)"
+      ],
+      "portfolio_proof_required": [
+        "Acoustic analysis projects",
+        "Noise reduction case studies"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "MATLAB"
+      ],
+      "frameworks": [],
+      "tools": [
+        "SoundPLAN",
+        "CATT-Acoustic"
+      ],
+      "core_concepts": [
+        "Acoustic theory",
+        "Noise pollution mitigation"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-solving",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Acoustic Consultant (0-2 yrs)",
+      "mid_level": "Acoustic Consultant (3-5 yrs)",
+      "senior_level": "Senior Acoustic Consultant or Consultant Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Acoustics",
+      "topics": [
+        "Acoustic theory",
+        "Noise pollution mitigation"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "NCERT",
+        "Acoustics textbooks"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Practical Skills Development",
+      "topics": [
+        "SoundPLAN",
+        "CATT-Acoustic",
+        "Python programming"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera",
+        "Acoustics courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Acoustic analysis project",
+        "Noise reduction case study"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle",
+        "Acoustics communities"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "identity": {
+    "role_title": "Architectural Journalist",
+    "alternate_titles": [
+      "Architecture Writer",
+      "Building Journalist"
+    ],
+    "nco_code_official": "2211",
+    "sector": "Architecture & Design",
+    "sub_sector": "Publishing"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An Architectural Journalist writes engaging articles and stories about buildings, architecture, and the built environment for various publications.",
+    "description_detailed": "They conduct research, interviews, and site visits to gather information, and then craft compelling narratives that inform and entertain readers about architectural trends, designs, and innovations.",
+    "official_min_education": "Graduate"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in architecture, writing, or journalism can pursue a degree in a related field.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Arch (Bachelor of Architecture)"
+      ]
+    },
+    "choice_maker": {
+      "description": "Those with a generic degree can take courses or certifications in architecture, writing, or journalism to bridge the gap.",
+      "acceptable_base_degrees": [
+        "B.A. in English",
+        "B.A. in Mass Communications"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Journalist (CJ)",
+        "Certified Architectural Writer (CAW)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced journalists or writers looking to specialize in architecture can take advanced courses or certifications.",
+      "prerequisite_experience": "2+ years of experience as a journalist or writer",
+      "advanced_skills_to_learn": [
+        "Architectural software skills (e.g., Autodesk Revit)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into architectural journalism by developing relevant skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Writing for publications",
+        "Research and interviewing skills"
+      ],
+      "portfolio_proof_required": [
+        "Published articles or blog posts on architecture"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "English"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Adobe Creative Suite",
+        "Microsoft Office"
+      ],
+      "core_concepts": [
+        "Architecture history",
+        "Building design principles"
+      ]
+    },
+    "soft_skills": [
+      "Storytelling",
+      "Interviewing",
+      "Research"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Writer (0-2 yrs)",
+      "mid_level": "Senior Writer (3-5 yrs)",
+      "senior_level": "Editor or Columnist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Writing and Journalism",
+      "topics": [
+        "Writing for publications",
+        "Research and interviewing skills"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Poynter Institute",
+        "Journalism courses online"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Architecture Fundamentals",
+      "topics": [
+        "Architecture history",
+        "Building design principles"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "Architecture courses online",
+        "Books on architecture"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Build a portfolio of published articles or blog posts",
+        "Pitch stories to editors"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Freelance writing platforms",
+        "Architecture blogs and publications"
+      ]
+    }
+  ]
+}

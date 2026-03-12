@@ -1,0 +1,140 @@
+{
+  "identity": {
+    "role_title": "Agricultural Meteorologist",
+    "alternate_titles": [
+      "Agro Meteorologist",
+      "Crop Weather Analyst"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop and Soil Sciences"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Agricultural Meteorologists analyze weather patterns and climate trends to predict crop yields, advise farmers on optimal planting and harvesting times, and develop strategies to mitigate the impact of extreme weather events on agriculture.",
+    "description_detailed": "Agricultural Meteorologists work with farmers, researchers, and policymakers to understand the complex relationships between weather, climate, and agricultural productivity. They use advanced statistical models, remote sensing technologies, and field observations to provide actionable insights and recommendations that help farmers make informed decisions and improve crop yields.",
+    "official_min_education": "M.Sc. in Meteorology or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in Agricultural Meteorology can start by taking courses in mathematics, physics, and computer programming.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc. in Meteorology or related field"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in a related field (e.g., B.Sc. in Physics or Mathematics) can pursue a postgraduate degree in Meteorology or a related field to transition into this role.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Physics",
+        "B.Sc. in Mathematics"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Meteorologist (CM)",
+        "Certified Agricultural Meteorologist (CAM)"
+      ]
+    },
+    "future_builder": {
+      "description": "Agricultural Meteorologists with 2-5 years of experience can advance to senior roles by developing expertise in specialized areas such as climate modeling, remote sensing, or agricultural policy.",
+      "prerequisite_experience": "2-5 years as Junior Agricultural Meteorologist",
+      "advanced_skills_to_learn": [
+        "Climate modeling using GCMs",
+        "Remote sensing using satellite data"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Agricultural Meteorology by acquiring relevant skills and experience. No degree is required, but a strong portfolio of projects and certifications is essential.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming skills in Python or R",
+        "Data analysis and visualization skills"
+      ],
+      "portfolio_proof_required": [
+        "Project on crop yield prediction using machine learning",
+        "Case study on climate change impact on agriculture"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "NumPy",
+        "Pandas"
+      ],
+      "tools": [
+        "ArcGIS",
+        "QGIS"
+      ],
+      "core_concepts": [
+        "Climate modeling",
+        "Remote sensing"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Agricultural Meteorologist (0-2 yrs)",
+      "mid_level": "Senior Agricultural Meteorologist (3-5 yrs)",
+      "senior_level": "Lead Agricultural Meteorologist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Meteorology",
+      "topics": [
+        "Weather patterns and climate trends",
+        "Crop growth and development"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Data Analysis and Visualization",
+      "topics": [
+        "Data analysis using Python or R",
+        "Data visualization using ArcGIS or QGIS"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone Project and Portfolio Development",
+      "topics": [
+        "Crop yield prediction using machine learning",
+        "Case study on climate change impact on agriculture"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

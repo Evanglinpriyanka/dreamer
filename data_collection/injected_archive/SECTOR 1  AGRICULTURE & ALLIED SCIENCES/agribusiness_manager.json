@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "role_title": "Agribusiness Manager",
+    "alternate_titles": [
+      "Agricultural Business Manager",
+      "Farm Manager"
+    ],
+    "nco_code_official": "111101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Agribusiness"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Agribusiness Managers oversee the production, processing, and distribution of agricultural products. They develop and implement business strategies to maximize profits and minimize losses.",
+    "description_detailed": "Agribusiness Managers work with farmers, suppliers, and other stakeholders to ensure the efficient production and distribution of agricultural products. They analyze market trends, manage budgets, and make strategic decisions to drive business growth.",
+    "official_min_education": "Graduate"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and business can pursue a degree in agriculture, business, or a related field.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "BBA",
+        "B.Com"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications or bridge courses in agriculture or business to transition into the field.",
+      "acceptable_base_degrees": [
+        "B.A.",
+        "B.Sc.",
+        "B.Com."
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Agricultural Manager",
+        "Certified Business Analyst"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced professionals in the agriculture or business sector can transition into agribusiness management by developing advanced skills in areas like data analysis, marketing, and finance.",
+      "prerequisite_experience": "2-3 years of experience in agriculture or business",
+      "advanced_skills_to_learn": [
+        "Data Analysis",
+        "Marketing Strategy",
+        "Financial Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into agribusiness management by developing relevant skills and building a portfolio of projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Communication",
+        "Problem-Solving"
+      ],
+      "portfolio_proof_required": [
+        "Agricultural Project Management",
+        "Business Development Plan"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [
+        "Tableau",
+        "Power BI"
+      ],
+      "tools": [
+        "Microsoft Excel",
+        "Google Sheets"
+      ],
+      "core_concepts": [
+        "Crop Management",
+        "Livestock Production"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Agricultural Assistant (0-2 yrs)",
+      "mid_level": "Agricultural Manager (3-5 yrs)",
+      "senior_level": "Agribusiness Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 10-15 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Crop Science",
+        "Soil Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Business Fundamentals",
+      "topics": [
+        "Marketing",
+        "Finance"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Agribusiness Management",
+      "topics": [
+        "Project Management",
+        "Data Analysis"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

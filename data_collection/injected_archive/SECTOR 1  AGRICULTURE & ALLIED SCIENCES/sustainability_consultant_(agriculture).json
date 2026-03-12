@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Sustainability Consultant (Agriculture)",
+    "alternate_titles": [
+      "Agri Sustainability Specialist",
+      "Eco-Friendly Farming Consultant"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Sustainable Agriculture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Develops and implements sustainable agriculture practices to minimize environmental impact and maximize crop yields.",
+    "description_detailed": "Conducts site assessments, identifies areas for improvement, and recommends eco-friendly solutions to farmers, agricultural businesses, and government organizations. Collaborates with stakeholders to create and implement sustainable agriculture plans, ensuring compliance with environmental regulations and industry standards.",
+    "official_min_education": "Bachelor's Degree in Agriculture, Environmental Science, or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and sustainability can pursue a degree in agriculture or environmental science.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NEET"
+      ],
+      "target_degrees": [
+        "B.Sc Agriculture",
+        "B.Sc Environmental Science"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications or bridge courses in agriculture or sustainability.",
+      "acceptable_base_degrees": [
+        "B.Sc Life Sciences",
+        "B.A Economics"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Sustainability Practitioner (CSP)",
+        "Certified Agriculture Professional (CAP)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced sustainability consultants can advance to senior roles or specialize in specific areas like organic farming or climate change mitigation.",
+      "prerequisite_experience": "2+ years of experience as a Sustainability Consultant",
+      "advanced_skills_to_learn": [
+        "Data Analysis for Sustainability",
+        "Climate Change Mitigation Strategies"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into sustainability consulting by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Sustainability Project Report",
+        "Case Study on Eco-Friendly Farming"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "frameworks": [],
+      "tools": [
+        "ArcGIS",
+        "QGIS"
+      ],
+      "core_concepts": [
+        "Sustainable Agriculture Practices",
+        "Environmental Impact Assessment"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Project Management",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Sustainability Consultant (0-2 yrs)",
+      "mid_level": "Sustainability Consultant (3-5 yrs)",
+      "senior_level": "Senior Sustainability Consultant (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Agriculture",
+      "topics": [
+        "Agricultural Economics",
+        "Soil Science"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Sustainability Principles",
+      "topics": [
+        "Sustainable Agriculture Practices",
+        "Environmental Impact Assessment"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Develop a Sustainability Plan for a Farm",
+        "Present to Stakeholders"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

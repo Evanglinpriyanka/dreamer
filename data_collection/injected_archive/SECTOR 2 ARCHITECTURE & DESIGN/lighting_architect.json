@@ -1,0 +1,142 @@
+{
+  "identity": {
+    "role_title": "Lighting Architect",
+    "alternate_titles": [
+      "Lighting Designer",
+      "Lighting Engineer"
+    ],
+    "nco_code_official": "221000",
+    "sector": "Architecture & Design",
+    "sub_sector": "Lighting and Electrical Engineering"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and implements lighting systems for buildings and public spaces, ensuring energy efficiency, aesthetics, and safety.",
+    "description_detailed": "A Lighting Architect is responsible for creating comprehensive lighting plans, selecting and specifying lighting fixtures, and collaborating with architects, engineers, and contractors to ensure seamless integration with building design and construction.",
+    "official_min_education": "B.Tech in Electrical Engineering or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in Lighting Architecture.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Tech in Electrical Engineering",
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree, looking to transition into Lighting Architecture.",
+      "acceptable_base_degrees": [
+        "B.Tech in Electrical Engineering",
+        "B.Arch"
+      ],
+      "certifications_or_bridge_needed": [
+        "LEED AP BD+C",
+        "IESNA Lighting Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced Lighting Architects looking to advance their skills and knowledge.",
+      "prerequisite_experience": "Minimum 2 years of experience as a Lighting Designer or Engineer",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Lighting Simulation Software"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields, looking to switch to Lighting Architecture.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Autodesk Revit",
+        "SketchUp"
+      ],
+      "portfolio_proof_required": [
+        "Lighting Design Projects",
+        "Energy Efficiency Analysis"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "C++",
+        "Python"
+      ],
+      "frameworks": [
+        "IESNA Lighting Software",
+        "Autodesk Revit"
+      ],
+      "tools": [
+        "SketchUp",
+        "Adobe Creative Suite"
+      ],
+      "core_concepts": [
+        "Lighting Design Principles",
+        "Energy Efficiency Strategies"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Lighting Designer (0-2 yrs)",
+      "mid_level": "Lighting Designer (3-5 yrs)",
+      "senior_level": "Senior Lighting Designer or Lighting Engineer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Electrical Engineering",
+      "topics": [
+        "Electric Circuits",
+        "Electromagnetism"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "IE IRO"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Lighting Design Principles",
+      "topics": [
+        "Lighting Fundamentals",
+        "Lighting Design Software"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "IESNA",
+        "Autodesk"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Lighting Design Project",
+        "Energy Efficiency Analysis"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "SketchUp",
+        "Adobe Creative Suite"
+      ]
+    }
+  ]
+}

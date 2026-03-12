@@ -1,0 +1,131 @@
+{
+  "identity": {
+    "role_title": "Drafter",
+    "alternate_titles": [
+      "Draftsman",
+      "Technical Drafter"
+    ],
+    "nco_code_official": "621000",
+    "sector": "Architecture & Design",
+    "sub_sector": "Technical Drafting"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Drafter creates detailed technical drawings and documents from specifications, blueprints, and other data to visualize and communicate engineering concepts.",
+    "description_detailed": "Drafter's primary responsibility is to create accurate and precise technical drawings, models, and documents using computer-aided design (CAD) software and other tools. They work closely with engineers, architects, and other stakeholders to ensure that their designs meet the required specifications and standards.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Tech in Mechanical Engineering or related field"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Tech in Computer Science or related field"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Drafter (CD) or Certified CAD Technician (CCT)"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Drafter or related role",
+      "advanced_skills_to_learn": [
+        "Advanced CAD software like SolidWorks or Autodesk Inventor"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Proficiency in CAD software",
+        "Understanding of engineering principles"
+      ],
+      "portfolio_proof_required": [
+        "Portfolio of technical drawings or models created using CAD software"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "AutoCAD",
+        "SolidWorks",
+        "Revit"
+      ],
+      "core_concepts": [
+        "Geometric Dimensioning and Tolerancing (GD&T)",
+        "Computer-Aided Design (CAD) principles"
+      ]
+    },
+    "soft_skills": [
+      "Attention to detail",
+      "Communication skills",
+      "Teamwork"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Drafter (0-2 yrs)",
+      "mid_level": "Senior Drafter (3-5 yrs)",
+      "senior_level": "Lead Drafter or Drafter Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Introduction to CAD software",
+        "Basic drafting techniques"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "AutoCAD tutorials",
+        "SolidWorks documentation"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Advanced CAD techniques",
+        "Geometric Dimensioning and Tolerancing (GD&T)"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy courses on CAD software",
+        "Coursera courses on engineering principles"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Create a portfolio of technical drawings or models",
+        "Deploy on a cloud platform"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub repository",
+        "Kaggle competitions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "identity": {
+    "role_title": "Ceramic and Glass Designer",
+    "alternate_titles": [
+      "Glass Artist",
+      "Ceramic Craftsman"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Ceramics and Glass Products"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and crafts ceramic and glass products, such as tableware, decorative items, and architectural features.",
+    "description_detailed": "Develops concepts, sketches, and prototypes for ceramic and glass products, considering factors like aesthetics, functionality, and production feasibility. Collaborates with manufacturers to ensure efficient production processes and high-quality final products.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.F.A. in Ceramics or Glass Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.F.A. in Fine Arts"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certificate in Ceramics or Glass Design"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Designer in Ceramics or Glass",
+      "advanced_skills_to_learn": [
+        "Digital Design Software (e.g., Blender, Adobe Creative Suite)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Hand-building techniques",
+        "Glassblowing skills"
+      ],
+      "portfolio_proof_required": [
+        "Ceramic or glass art pieces created within the last 2 years"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Pottery wheel",
+        "Glassblowing furnace"
+      ],
+      "core_concepts": [
+        "Color theory",
+        "Material science"
+      ]
+    },
+    "soft_skills": [
+      "Creativity",
+      "Attention to detail",
+      "Communication skills"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Designer (0-2 yrs)",
+      "mid_level": "Senior Designer (3-5 yrs)",
+      "senior_level": "Lead Designer or Creative Director (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundational Skills",
+      "topics": [
+        "Ceramic and glass materials",
+        "Basic design principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "YouTube tutorials",
+        "Online courses on ceramics and glass design"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Design and Prototyping",
+      "topics": [
+        "Sketching and rendering",
+        "Prototyping techniques"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Adobe Creative Suite",
+        "SketchUp"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone Project and Portfolio",
+      "topics": [
+        "Create a ceramic or glass art piece",
+        "Develop a portfolio"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Local art studios",
+        "Online platforms for showcasing art"
+      ]
+    }
+  ]
+}

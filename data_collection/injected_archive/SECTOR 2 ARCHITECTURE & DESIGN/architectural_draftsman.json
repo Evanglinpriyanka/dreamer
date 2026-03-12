@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Architectural Draftsman",
+    "alternate_titles": [
+      "Draftsman",
+      "Building Designer"
+    ],
+    "nco_code_official": "221000",
+    "sector": "Architecture & Design",
+    "sub_sector": "Architecture and Building Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An Architectural Draftsman creates detailed drawings and designs for buildings, bridges, and other structures, using computer-aided design (CAD) software and traditional drafting techniques.",
+    "description_detailed": "Architectural Draftsmen work closely with architects, engineers, and contractors to ensure that designs are accurate, feasible, and meet building codes and regulations. They use a range of software, including AutoCAD, Revit, and SketchUp, to create 2D and 3D models, elevations, and cross-sections of buildings and structures.",
+    "official_min_education": "12th Pass with Science and Maths"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Arch (Bachelor of Architecture)"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Tech in Civil Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in AutoCAD",
+        "Certification in Revit"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2 years as Junior Draftsman",
+      "advanced_skills_to_learn": [
+        "BIM (Building Information Modelling)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Proficiency in CAD software",
+        "Understanding of building codes and regulations"
+      ],
+      "portfolio_proof_required": [
+        "Portfolio of 3D models and designs created using CAD software"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "AutoCAD",
+        "Revit",
+        "SketchUp"
+      ],
+      "frameworks": [],
+      "tools": [
+        "CAD software",
+        "3D printing software"
+      ],
+      "core_concepts": [
+        "Building codes and regulations",
+        "Structural analysis"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Attention to detail"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Draftsman (0-2 yrs)",
+      "mid_level": "Senior Draftsman (3-5 yrs)",
+      "senior_level": "Lead Draftsman (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "The Fundamentals",
+      "topics": [
+        "Introduction to CAD software",
+        "Basic drafting techniques"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Autodesk tutorials",
+        "YouTube tutorials"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Core Competency",
+      "topics": [
+        "Advanced drafting techniques",
+        "3D modeling and rendering"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy courses",
+        "Coursera courses"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Create a 3D model of a building",
+        "Present a portfolio of designs"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "SketchUp tutorials",
+        "Revit tutorials"
+      ]
+    }
+  ]
+}

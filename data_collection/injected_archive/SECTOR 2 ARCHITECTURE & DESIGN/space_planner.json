@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Space Planner",
+    "alternate_titles": [
+      "Interior Space Planner",
+      "Facilities Planner"
+    ],
+    "nco_code_official": "221100",
+    "sector": "Architecture & Design",
+    "sub_sector": "Interior Design and Planning"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Space Planners design and optimize interior spaces to meet the needs of occupants, balancing aesthetics, functionality, and safety.",
+    "description_detailed": "Space Planners work with architects, engineers, and clients to create functional and aesthetically pleasing spaces, considering factors like ergonomics, acoustics, and sustainability."
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in design, architecture, or engineering can pursue a degree in a related field.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Arch (Bachelor of Architecture)"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can acquire relevant skills through certifications or bridge courses.",
+      "acceptable_base_degrees": [
+        "B.Arch",
+        "B.Des (Interior Design)"
+      ],
+      "certifications_or_bridge_needed": [
+        "LEED AP (Leadership in Energy and Environmental Design Accredited Professional)",
+        "NCIDQ (National Council for Interior Design Qualification)"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced Space Planners can advance their careers by developing expertise in specialized areas like sustainable design or healthcare planning.",
+      "prerequisite_experience": "5+ years of experience as a Junior Space Planner",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Space Planning Software (e.g., AutoCAD, Revit)"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Space Planning by acquiring relevant skills and experience.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Graphic Design",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Space Planning Project (e.g., designing a commercial interior)"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "AutoCAD",
+        "Revit"
+      ],
+      "frameworks": [
+        "BIM",
+        "LEED"
+      ],
+      "tools": [
+        "SketchUp",
+        "Adobe Creative Suite"
+      ],
+      "core_concepts": [
+        "Space Planning Principles",
+        "Interior Design Elements"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Problem-Solving",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Space Planner (0-2 yrs)",
+      "mid_level": "Space Planner (3-5 yrs)",
+      "senior_level": "Senior Space Planner (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Design",
+      "topics": [
+        "Design Principles",
+        "Color Theory"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Design Books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Space Planning Fundamentals",
+      "topics": [
+        "Space Planning Principles",
+        "Interior Design Elements"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a Commercial Interior",
+        "Create a Portfolio"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "SketchUp",
+        "Adobe Creative Suite"
+      ]
+    }
+  ]
+}

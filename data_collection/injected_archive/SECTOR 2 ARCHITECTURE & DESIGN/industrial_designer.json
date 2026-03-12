@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "Industrial Designer",
+    "alternate_titles": [
+      "Product Designer",
+      "Design Engineer"
+    ],
+    "nco_code_official": "115110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Product Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Industrial Designers create and develop concepts for new products, focusing on aesthetics, functionality, and usability.",
+    "description_detailed": "Industrial Designers work with cross-functional teams to design and develop products, considering factors like ergonomics, safety, and sustainability. They use computer-aided design (CAD) software, 3D modeling, and prototyping to bring their ideas to life.",
+    "official_min_education": "B.Des"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in design and creativity can pursue a degree in Industrial Design.",
+      "target_exams": [
+        "JEE Main",
+        "UCEED"
+      ],
+      "target_degrees": [
+        "B.Des in Industrial Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge into Industrial Design by acquiring relevant skills and certifications.",
+      "acceptable_base_degrees": [
+        "B.Arch",
+        "B.Des in Fashion Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in CAD software",
+        "Certification in Design Thinking"
+      ]
+    },
+    "future_builder": {
+      "description": "Industrial Designers with experience can advance to senior roles or specialize in areas like user experience (UX) or service design.",
+      "prerequisite_experience": "2+ years as Junior Industrial Designer",
+      "advanced_skills_to_learn": [
+        "Advanced CAD software",
+        "Prototyping techniques"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into Industrial Design by acquiring relevant skills and building a portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Sketching and drawing",
+        "Design thinking"
+      ],
+      "portfolio_proof_required": [
+        "Design portfolio with 3-5 projects"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "SolidWorks",
+        "Fusion 360",
+        "Blender"
+      ],
+      "frameworks": [],
+      "tools": [
+        "Adobe Creative Suite",
+        "SketchUp",
+        "InVision"
+      ],
+      "core_concepts": [
+        "Design principles",
+        "Human-centered design"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Industrial Designer (0-2 yrs)",
+      "mid_level": "Industrial Designer (3-5 yrs)",
+      "senior_level": "Senior Industrial Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Design Fundamentals",
+      "topics": [
+        "Design principles",
+        "Design thinking",
+        "Sketching and drawing"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Design books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "CAD and Prototyping",
+      "topics": [
+        "SolidWorks",
+        "Fusion 360",
+        "Prototyping techniques"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "YouTube tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Design Portfolio and Capstone",
+      "topics": [
+        "Design portfolio development",
+        "Capstone project"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "Design blogs"
+      ]
+    }
+  ]
+}

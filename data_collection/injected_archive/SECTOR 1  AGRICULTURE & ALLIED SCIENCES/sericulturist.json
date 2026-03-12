@@ -1,0 +1,132 @@
+{
+  "identity": {
+    "role_title": "Sericulturist",
+    "alternate_titles": [
+      "Sericulture Specialist",
+      "Silk Production Expert"
+    ],
+    "nco_code_official": "924111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Sericulture"
+  },
+  "ncs_standard_definition": {
+    "description_short": "A Sericulturist is responsible for the cultivation of silkworms and the production of silk. They oversee the entire sericulture process, from mulberry cultivation to cocoon harvesting and silk reeling.",
+    "description_detailed": "Sericulturists work in sericulture farms, research institutions, or government organizations. Their primary responsibilities include managing mulberry plantations, breeding silkworms, monitoring cocoon quality, and ensuring efficient silk production. They must also stay updated on the latest sericulture techniques, technologies, and market trends.",
+    "official_min_education": "B.Sc in Sericulture or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in agriculture and sericulture can pursue a degree in Sericulture or a related field.",
+      "target_exams": [
+        "ICAR AIEEA"
+      ],
+      "target_degrees": [
+        "B.Sc in Sericulture"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in agriculture or a related field can pursue a certification or a bridge course in sericulture to transition into this role.",
+      "acceptable_base_degrees": [
+        "B.Sc in Agriculture"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certification in Sericulture",
+        "Diploma in Sericulture"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced Sericulturists can advance to senior roles by acquiring advanced skills in sericulture technology, business management, or research and development.",
+      "prerequisite_experience": "2-3 years of experience as a Sericulturist",
+      "advanced_skills_to_learn": [
+        "Sericulture technology",
+        "Business management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into sericulture by acquiring relevant skills and experience. No degree is required, but a strong portfolio and survival skills are essential.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project management",
+        "Data analysis"
+      ],
+      "portfolio_proof_required": [
+        "Sericulture project report",
+        "Silk production data analysis"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Mulberry cultivation software",
+        "Cocoon quality analysis tools"
+      ],
+      "core_concepts": [
+        "Sericulture technology",
+        "Silk production processes"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Team management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Sericulture Assistant (0-2 yrs)",
+      "mid_level": "Sericulture Officer (3-5 yrs)",
+      "senior_level": "Sericulture Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-4.5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Sericulture Fundamentals",
+      "topics": [
+        "Mulberry cultivation",
+        "Silkworm breeding"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Sericulture Technology",
+      "topics": [
+        "Sericulture technology",
+        "Cocoon quality analysis"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Sericulture project report",
+        "Silk production data analysis"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "role_title": "Real Estate Developer",
+    "alternate_titles": [
+      "Property Developer",
+      "Real Estate Entrepreneur"
+    ],
+    "nco_code_official": "123001",
+    "sector": "Architecture & Design",
+    "sub_sector": "Residential and Commercial Development"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Real Estate Developers design, build, and manage properties to meet the needs of buyers and investors.",
+    "description_detailed": "They oversee the entire development process, from land acquisition to project completion, ensuring timely delivery, quality, and profitability."
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in real estate can start by learning about property markets, laws, and regulations.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "NATA"
+      ],
+      "target_degrees": [
+        "B.Sc in Real Estate",
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge their skills by taking certifications in real estate, construction, or project management.",
+      "acceptable_base_degrees": [
+        "B.Com",
+        "BBA"
+      ],
+      "certifications_or_bridge_needed": [
+        "CREA Certification",
+        "PRC Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced real estate professionals can advance by learning advanced skills like project finance, urban planning, or sustainable development.",
+      "prerequisite_experience": "5 years as a Real Estate Manager",
+      "advanced_skills_to_learn": [
+        "Project Finance",
+        "Urban Planning"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into real estate by acquiring relevant skills and building a portfolio of projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Financial Analysis"
+      ],
+      "portfolio_proof_required": [
+        "Real Estate Project Proposal",
+        "Feasibility Study"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "frameworks": [
+        "Tableau",
+        "Power BI"
+      ],
+      "tools": [
+        "Autodesk",
+        "SketchUp"
+      ],
+      "core_concepts": [
+        "Property Valuation",
+        "Construction Management"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Negotiation",
+      "Leadership"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Real Estate Associate (0-2 yrs)",
+      "mid_level": "Real Estate Manager (3-5 yrs)",
+      "senior_level": "Senior Real Estate Developer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 10-15 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Real Estate",
+      "topics": [
+        "Real Estate Laws and Regulations",
+        "Property Market Analysis"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "RICS",
+        "CREA"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Development and Construction",
+      "topics": [
+        "Construction Management",
+        "Project Finance"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Autodesk",
+        "Tableau"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Advanced Development and Entrepreneurship",
+      "topics": [
+        "Urban Planning",
+        "Sustainable Development"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Kaggle",
+        "GitHub"
+      ]
+    }
+  ]
+}

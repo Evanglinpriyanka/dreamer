@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Municipal Architect",
+    "alternate_titles": [
+      "Urban Planner",
+      "Town Planner"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Urban Planning"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops plans for the physical development of cities and towns, ensuring they are functional, sustainable, and aesthetically pleasing.",
+    "description_detailed": "Municipal Architects work with government agencies, private developers, and community groups to create plans for urban development, infrastructure, and public spaces. They must balance competing demands for space, resources, and aesthetics while ensuring that plans meet regulatory requirements and are environmentally sustainable.",
+    "official_min_education": "B.Arch"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in architecture and urban planning.",
+      "target_exams": [
+        "JEE Main",
+        "NATA"
+      ],
+      "target_degrees": [
+        "B.Arch"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree, looking to transition into urban planning.",
+      "acceptable_base_degrees": [
+        "B.A. in Geography",
+        "B.A. in Environmental Studies"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Urban Planner (CUP)",
+        "Urban Planning Certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced architects and urban planners looking to advance their careers.",
+      "prerequisite_experience": "Minimum 5 years of experience in urban planning or architecture",
+      "advanced_skills_to_learn": [
+        "Urban Design Software",
+        "GIS Mapping"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields looking to transition into urban planning.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Communication Skills"
+      ],
+      "portfolio_proof_required": [
+        "Urban Planning Project Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "AutoCAD",
+        "Revit"
+      ],
+      "frameworks": [
+        "Urban Design Software",
+        "GIS Mapping"
+      ],
+      "tools": [
+        "SketchUp",
+        "Adobe Creative Suite"
+      ],
+      "core_concepts": [
+        "Urban Planning Principles",
+        "Sustainable Design"
+      ]
+    },
+    "soft_skills": [
+      "Communication Skills",
+      "Project Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Urban Planner (0-2 yrs)",
+      "mid_level": "Urban Planner (3-5 yrs)",
+      "senior_level": "Senior Urban Planner (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Architecture",
+      "topics": [
+        "Introduction to Architecture",
+        "Urban Planning Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Urban Planning Fundamentals",
+      "topics": [
+        "Urban Design Software",
+        "GIS Mapping"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Urban Planning Project Portfolio",
+        "Presentation Skills"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

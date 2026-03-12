@@ -1,0 +1,142 @@
+{
+  "identity": {
+    "role_title": "Architectural Designer",
+    "alternate_titles": [
+      "Building Designer",
+      "Interior Designer"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Architecture and Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and develops building layouts, spaces, and structures to meet client requirements.",
+    "description_detailed": "Architectural designers use computer-aided design (CAD) software and other tools to create detailed drawings and models of buildings, spaces, and structures. They work closely with clients, engineers, and contractors to ensure that designs meet building codes, regulations, and client expectations.",
+    "official_min_education": "B.Tech in Architecture or equivalent"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in pursuing a career in architecture and design.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Arch (Bachelor of Architecture)"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree, looking to transition into the field of architecture and design.",
+      "acceptable_base_degrees": [
+        "B.Tech in Civil Engineering",
+        "B.Tech in Computer Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Interior Designer (CID) certification",
+        "Autodesk Revit certification"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced architectural designers looking to advance their skills and knowledge.",
+      "prerequisite_experience": "2+ years of experience as a Junior Architectural Designer",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Sustainable Design"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields looking to transition into architectural design.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "SketchUp",
+        "Adobe Creative Suite"
+      ],
+      "portfolio_proof_required": [
+        "3D modeling projects",
+        "Design portfolios"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "AutoCAD",
+        "SketchUp",
+        "Revit"
+      ],
+      "frameworks": [
+        "BIM",
+        "GIS"
+      ],
+      "tools": [
+        "Adobe Creative Suite",
+        "Microsoft Office"
+      ],
+      "core_concepts": [
+        "Building codes and regulations",
+        "Sustainable design principles"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Architectural Designer (0-2 yrs)",
+      "mid_level": "Architectural Designer (3-5 yrs)",
+      "senior_level": "Senior Architectural Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Architecture",
+      "topics": [
+        "Introduction to Architecture",
+        "Design Principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Design Tools and Software",
+      "topics": [
+        "AutoCAD",
+        "SketchUp",
+        "Revit"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a Building",
+        "Create a Design Portfolio"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

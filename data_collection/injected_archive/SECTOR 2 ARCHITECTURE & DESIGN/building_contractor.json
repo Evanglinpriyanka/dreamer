@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "role_title": "Building Contractor",
+    "alternate_titles": [
+      "Construction Manager",
+      "Project Manager"
+    ],
+    "nco_code_official": "422000",
+    "sector": "Architecture & Design",
+    "sub_sector": "Building Construction"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees construction projects, ensuring timely completion within budget.",
+    "description_detailed": "Manages construction projects from planning to execution, coordinating with architects, engineers, and laborers to deliver high-quality buildings on time and within budget.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "ITI (Construction Trades)"
+      ],
+      "target_degrees": [
+        "Diploma in Civil Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.A. in Architecture",
+        "B.Tech in Civil Engineering"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Construction Manager (CCM)",
+        "Project Management Professional (PMP)"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "5 years as Site Engineer",
+      "advanced_skills_to_learn": [
+        "Building Information Modelling (BIM)",
+        "Lean Construction"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Management",
+        "Team Leadership"
+      ],
+      "portfolio_proof_required": [
+        "Construction Project Management Portfolio"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Autodesk Revit",
+        "MS Project"
+      ],
+      "core_concepts": [
+        "Building Codes",
+        "Construction Materials"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Time Management",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Site Engineer (0-2 yrs)",
+      "mid_level": "Project Manager (3-5 yrs)",
+      "senior_level": "Construction Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 10-15 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Construction Fundamentals",
+      "topics": [
+        "Building Codes",
+        "Construction Materials"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "IS Codes"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Project Management",
+      "topics": [
+        "Project Planning",
+        "Scheduling"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "PMBOK",
+        "MS Project"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Construction Project Management Portfolio",
+        "Case Studies"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Construction Industry Magazines"
+      ]
+    }
+  ]
+}

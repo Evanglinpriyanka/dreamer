@@ -1,0 +1,136 @@
+{
+  "identity": {
+    "role_title": "Architectural Illustrator",
+    "alternate_titles": [
+      "Architectural Visualizer",
+      "Building Illustrator"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Graphic Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Architectural Illustrators create detailed drawings and visualizations of buildings and structures for architects, engineers, and clients. They must have a keen eye for detail and be skilled in various software and techniques.",
+    "description_detailed": "Architectural Illustrators work closely with architects, engineers, and clients to create accurate and visually appealing drawings and visualizations of buildings and structures. They must have a strong understanding of architectural principles, building codes, and design software. They must also be skilled in various techniques, such as hand drawing, computer-aided design (CAD), and 3D modeling.",
+    "official_min_education": "12th Pass"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in art and design can pursue a career as an Architectural Illustrator.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Arch (Bachelor of Architecture)"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree in art, design, or a related field can transition into an Architectural Illustrator role with additional training and certifications.",
+      "acceptable_base_degrees": [
+        "B.F.A. (Bachelor of Fine Arts)"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Illustrator (CI)",
+        "Autodesk Certified User - AutoCAD"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced Architectural Illustrators can advance to senior roles or start their own businesses with additional skills and certifications.",
+      "prerequisite_experience": "2+ years as Junior Architectural Illustrator",
+      "advanced_skills_to_learn": [
+        "3D modeling software (e.g., Revit, SketchUp)",
+        "Rendering and animation techniques"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into an Architectural Illustrator role with relevant skills and a strong portfolio.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Proficiency in Adobe Creative Suite (Photoshop, Illustrator, etc.)",
+        "Basic understanding of architectural principles and building codes"
+      ],
+      "portfolio_proof_required": [
+        "3D modeling and rendering projects",
+        "Architectural illustration portfolios"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Adobe Creative Suite (Photoshop, Illustrator, etc.)",
+        "Autodesk AutoCAD",
+        "SketchUp"
+      ],
+      "core_concepts": [
+        "Architectural principles",
+        "Building codes",
+        "Design software"
+      ]
+    },
+    "soft_skills": [
+      "Attention to detail",
+      "Communication skills",
+      "Time management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Architectural Illustrator (0-2 yrs)",
+      "mid_level": "Senior Architectural Illustrator (3-5 yrs)",
+      "senior_level": "Lead Architectural Illustrator (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Art and Design",
+      "topics": [
+        "Introduction to drawing and sketching",
+        "Basic design principles"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Software Skills and Techniques",
+      "topics": [
+        "Adobe Creative Suite (Photoshop, Illustrator, etc.)",
+        "Autodesk AutoCAD",
+        "SketchUp"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone and Portfolio Development",
+      "topics": [
+        "3D modeling and rendering projects",
+        "Architectural illustration portfolios"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

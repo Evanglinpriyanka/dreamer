@@ -1,0 +1,138 @@
+{
+  "identity": {
+    "role_title": "Project Manager (Architecture)",
+    "alternate_titles": [
+      "Project Coordinator",
+      "Program Manager"
+    ],
+    "nco_code_official": "111111",
+    "sector": "Architecture & Design",
+    "sub_sector": "Architecture and Engineering Services"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Oversees the planning, execution, and delivery of architectural projects.",
+    "description_detailed": "Responsible for coordinating cross-functional teams, managing project timelines, budgets, and resources to ensure successful project outcomes.",
+    "official_min_education": "Bachelor's Degree"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "JEE Main",
+        "BITSAT"
+      ],
+      "target_degrees": [
+        "B.Arch",
+        "B.Tech in Civil Engineering"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "BBA",
+        "B.Com"
+      ],
+      "certifications_or_bridge_needed": [
+        "PRINCE2",
+        "Agile PM"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "Minimum 3 years of experience in project management or a related field.",
+      "advanced_skills_to_learn": [
+        "Project Management Information Systems (PMIS)",
+        "Construction Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Project Planning",
+        "Risk Management"
+      ],
+      "portfolio_proof_required": [
+        "Project Management Certification",
+        "Case Study"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "MS Project",
+        "Asana",
+        "Trello"
+      ],
+      "core_concepts": [
+        "Project Scheduling",
+        "Budgeting"
+      ]
+    },
+    "soft_skills": [
+      "Leadership",
+      "Communication",
+      "Problem-Solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Project Coordinator (0-2 yrs)",
+      "mid_level": "Project Manager (3-5 yrs)",
+      "senior_level": "Program Manager (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "High"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 10-15 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Project Management",
+      "topics": [
+        "Project Management Fundamentals",
+        "Risk Management"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "PMI",
+        "Project Management Institute"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Project Planning and Execution",
+      "topics": [
+        "Project Scheduling",
+        "Budgeting",
+        "Team Management"
+      ],
+      "duration_weeks": 12,
+      "resources_keywords": [
+        "MS Project",
+        "Asana"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Project Management Certification",
+        "Case Study"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "PRINCE2",
+        "Agile PM"
+      ]
+    }
+  ]
+}

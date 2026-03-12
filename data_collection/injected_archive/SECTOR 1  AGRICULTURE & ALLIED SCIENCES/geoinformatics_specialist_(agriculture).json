@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "role_title": "Geoinformatics Specialist (Agriculture)",
+    "alternate_titles": [
+      "Geo-Agricultural Specialist",
+      "Agricultural Geospatial Analyst"
+    ],
+    "nco_code_official": "011101",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Geospatial Technology"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Geoinformatics Specialist (Agriculture) applies geospatial technologies to analyze and interpret agricultural data, providing insights for informed decision-making.",
+    "description_detailed": "Geoinformatics Specialist (Agriculture) uses geospatial tools and techniques to analyze and interpret agricultural data, including satellite imagery, GPS data, and other spatial data. They apply statistical and machine learning algorithms to identify patterns and trends, and provide actionable insights to stakeholders in the agricultural sector.",
+    "official_min_education": "B.Tech/M.Tech in Geoinformatics/Geomatics/Remote Sensing"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in geospatial technologies and agriculture can pursue a degree in Geoinformatics or a related field.",
+      "target_exams": [
+        "ICAR AIEEA",
+        "JEE Main"
+      ],
+      "target_degrees": [
+        "B.Sc in Geoinformatics",
+        "B.Tech in Geomatics"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can pursue certifications or bridge courses in geospatial technologies and agriculture to transition into this role.",
+      "acceptable_base_degrees": [
+        "B.Sc in Agriculture",
+        "B.Sc in Computer Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Geospatial Analyst (CGA)",
+        "Certified Agricultural Geospatial Analyst (CAGA)"
+      ]
+    },
+    "future_builder": {
+      "description": "Geoinformatics Specialists with experience in the agricultural sector can advance to senior roles by developing advanced skills in machine learning, data analytics, and project management.",
+      "prerequisite_experience": "2+ years of experience as a Geoinformatics Specialist in the agricultural sector",
+      "advanced_skills_to_learn": [
+        "Machine Learning",
+        "Data Analytics",
+        "Project Management"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into this role by developing skills in geospatial technologies, programming languages, and data analysis.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Programming in Python/R",
+        "Data Analysis with R/Python",
+        "Geospatial Analysis with QGIS/ ArcGIS"
+      ],
+      "portfolio_proof_required": [
+        "Geospatial analysis project in agriculture",
+        "Data visualization project in agriculture"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "Python",
+        "R",
+        "SQL"
+      ],
+      "frameworks": [
+        "QGIS",
+        "ArcGIS",
+        "GDAL"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "core_concepts": [
+        "Geospatial Analysis",
+        "Data Mining",
+        "Machine Learning"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Geoinformatics Specialist (0-2 yrs)",
+      "mid_level": "Senior Geoinformatics Specialist (3-5 yrs)",
+      "senior_level": "Lead Geoinformatics Specialist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Medium",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 4-6 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Geoinformatics",
+      "topics": [
+        "Introduction to Geoinformatics",
+        "Geospatial Analysis with QGIS"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Official Docs"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Geospatial Analysis and Data Mining",
+      "topics": [
+        "Geospatial Analysis with ArcGIS",
+        "Data Mining with R/Python"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "Coursera"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Geospatial analysis project in agriculture",
+        "Data visualization project in agriculture"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub",
+        "Kaggle"
+      ]
+    }
+  ]
+}

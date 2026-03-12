@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "role_title": "Entomologist (Agricultural)",
+    "alternate_titles": [
+      "Agricultural Entomologist",
+      "Pest Management Specialist"
+    ],
+    "nco_code_official": "0111",
+    "sector": "Agriculture & Allied Sciences",
+    "sub_sector": "Crop Science"
+  },
+  "ncs_standard_definition": {
+    "description_short": "An entomologist in agriculture studies the behavior, ecology, and management of insects that affect crops. They develop strategies to minimize crop damage and ensure food security.",
+    "description_detailed": "Entomologists in agriculture work with farmers, researchers, and policymakers to understand the complex relationships between insects, crops, and the environment. They use this knowledge to develop integrated pest management (IPM) strategies, which combine physical, cultural, biological, and chemical controls to minimize harm to people, the environment, and beneficial insects.",
+    "official_min_education": "M.Sc. in Entomology or related field"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "High school students interested in entomology can start by taking courses in biology, chemistry, and mathematics. They can also participate in insect-related projects and internships to gain hands-on experience.",
+      "target_exams": [
+        "ICAR AIEEA (Agricultural Sciences)"
+      ],
+      "target_degrees": [
+        "B.Sc. in Agriculture or related field"
+      ]
+    },
+    "choice_maker": {
+      "description": "Individuals with a generic degree can bridge their skills by taking courses in entomology, ecology, and agriculture. They can also gain experience by working in agricultural research institutions or private companies.",
+      "acceptable_base_degrees": [
+        "B.Sc. in Life Sciences",
+        "B.Sc. in Environmental Science"
+      ],
+      "certifications_or_bridge_needed": [
+        "Certified Entomologist (CE) credential",
+        "IPM training"
+      ]
+    },
+    "future_builder": {
+      "description": "Experienced entomologists can advance their careers by taking on leadership roles, pursuing higher education, or specializing in a particular area of entomology.",
+      "prerequisite_experience": "At least 2 years of experience as a Junior Entomologist or Research Assistant",
+      "advanced_skills_to_learn": [
+        "Statistical analysis using R or Python",
+        "GIS mapping and spatial analysis"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Individuals from unrelated fields can transition into entomology by acquiring relevant skills and experience. They can start by taking online courses, attending workshops, and participating in insect-related projects.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Basic knowledge of biology and chemistry",
+        "Data analysis and interpretation"
+      ],
+      "portfolio_proof_required": [
+        "Insect-related project or research paper"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "R",
+        "Python"
+      ],
+      "frameworks": [],
+      "tools": [
+        "GIS software (e.g., ArcGIS)",
+        "Statistical software (e.g., SPSS)"
+      ],
+      "core_concepts": [
+        "Ecological principles",
+        "Pest management strategies"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Entomologist (0-2 yrs)",
+      "mid_level": "Senior Entomologist (3-5 yrs)",
+      "senior_level": "Lead Entomologist or Research Scientist (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 6-8 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Biology and Chemistry",
+      "topics": [
+        "Biology of insects",
+        "Chemistry of insecticides"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT textbooks",
+        "Online resources (e.g., Khan Academy)"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Ecological Principles and Pest Management",
+      "topics": [
+        "Ecological principles of insect populations",
+        "Pest management strategies"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "University courses or online resources (e.g., Coursera)"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone Project and Portfolio Development",
+      "topics": [
+        "Insect-related project or research paper",
+        "Development of a portfolio showcasing skills and experience"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "GitHub or other version control platforms",
+        "Kaggle or other data science platforms"
+      ]
+    }
+  ]
+}

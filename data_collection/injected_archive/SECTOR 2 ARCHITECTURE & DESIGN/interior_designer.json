@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "role_title": "Interior Designer",
+    "alternate_titles": [
+      "Interior Decorator",
+      "Space Planner"
+    ],
+    "nco_code_official": "924110",
+    "sector": "Architecture & Design",
+    "sub_sector": "Interior Design"
+  },
+  "ncs_standard_definition": {
+    "description_short": "Designs and plans interior spaces to meet client needs, balancing aesthetics, functionality, and safety.",
+    "description_detailed": "Interior designers create functional and aesthetically pleasing interior spaces for residential, commercial, and industrial buildings. They consider factors like lighting, color schemes, furniture, and materials to achieve a desired atmosphere and meet client requirements.",
+    "official_min_education": "Diploma in Interior Design"
+  },
+  "persona_pathways": {
+    "first_stepper": {
+      "description": "Standard route for a high school student.",
+      "target_exams": [
+        "NATA (National Aptitude Test in Architecture)"
+      ],
+      "target_degrees": [
+        "B.Des in Interior Design"
+      ]
+    },
+    "choice_maker": {
+      "description": "Has a generic degree, needs a bridge.",
+      "acceptable_base_degrees": [
+        "B.Arch",
+        "B.Des in Fashion Design"
+      ],
+      "certifications_or_bridge_needed": [
+        "CID (Certified Interior Designer) certification",
+        "IDC (Interior Design Certification) course"
+      ]
+    },
+    "future_builder": {
+      "description": "Already in the sector, looking to advance.",
+      "prerequisite_experience": "2+ years of experience as an Interior Designer",
+      "advanced_skills_to_learn": [
+        "Space Planning",
+        "Sustainable Design"
+      ]
+    },
+    "problem_solver_uturn": {
+      "description": "Switching from an unrelated field. No degree required.",
+      "is_u_turn_possible": true,
+      "survival_skills_needed": [
+        "Sketching",
+        "Color Theory"
+      ],
+      "portfolio_proof_required": [
+        "3D Modeling projects",
+        "Interior Design case studies"
+      ]
+    }
+  },
+  "skills_matrix": {
+    "technical": {
+      "languages": [
+        "SketchUp",
+        "Autodesk Revit"
+      ],
+      "frameworks": [
+        "Adobe Creative Suite",
+        "Figma"
+      ],
+      "tools": [
+        "3D printing",
+        "Virtual Reality"
+      ],
+      "core_concepts": [
+        "Color Psychology",
+        "Lighting Design"
+      ]
+    },
+    "soft_skills": [
+      "Communication",
+      "Time Management"
+    ]
+  },
+  "career_insights": {
+    "progression": {
+      "entry_level": "Junior Interior Designer (0-2 yrs)",
+      "mid_level": "Senior Interior Designer (3-5 yrs)",
+      "senior_level": "Lead Interior Designer (5+ yrs)"
+    },
+    "work_environment": {
+      "remote_possibility": "Low",
+      "stress_level": "Medium"
+    },
+    "salary_india": {
+      "fresher_avg": "INR 3.5-5 LPA",
+      "mid_senior_avg": "INR 8-12 LPA"
+    }
+  },
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "Foundations in Design",
+      "topics": [
+        "Design Principles",
+        "Color Theory"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "NCERT",
+        "Design books"
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "Technical Skills",
+      "topics": [
+        "SketchUp",
+        "Autodesk Revit"
+      ],
+      "duration_weeks": 8,
+      "resources_keywords": [
+        "Udemy",
+        "YouTube tutorials"
+      ]
+    },
+    {
+      "phase": 3,
+      "title": "Capstone & Portfolio",
+      "topics": [
+        "Design a Full Project",
+        "Present to Clients"
+      ],
+      "duration_weeks": 4,
+      "resources_keywords": [
+        "Behance",
+        "Design blogs"
+      ]
+    }
+  ]
+}
