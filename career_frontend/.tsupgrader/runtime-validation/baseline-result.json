@@ -1,0 +1,50 @@
+{
+  "planHash": "d7ec173b7fe89197c9023ddb1871a56547c3d13c4e2502c3c15e077456dbeb50",
+  "phase": "baseline",
+  "recordedAtUtc": "2026-08-23T18:46:52.2598689Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 7282,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "tsc-no-emit",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": false,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 2,
+        "outputSample": "tsconfig.json(3,27): error TS5103: Invalid value for \u0027--ignoreDeprecations\u0027.\r\n",
+        "durationMs": 10534
+      },
+      {
+        "name": "next-builds",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": false,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": -4055,
+        "outputSample": "npm error code ENOSPC\r\nnpm error syscall write\r\nnpm error errno -4055\r\nnpm error nospc ENOSPC: no space left on device, write\r\nnpm error nospc There appears to be insufficient space on your system to finish.\r\nnpm error nospc Clear up some disk space and try again.\r\nnpm error A complete log of this run can be found in: C:\\Users\\thiru\\AppData\\Local\\npm-cache\\_logs\\2026-08-23T18_46_51_429Z-debug-0.log\r\n",
+        "durationMs": 720
+      },
+      {
+        "name": "lint-pass",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": false,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": -4055,
+        "outputSample": "npm error code ENOSPC\r\nnpm error syscall write\r\nnpm error errno -4055\r\nnpm error nospc ENOSPC: no space left on device, write\r\nnpm error nospc There appears to be insufficient space on your system to finish.\r\nnpm error nospc Clear up some disk space and try again.\r\nnpm error A complete log of this run can be found in: C:\\Users\\thiru\\AppData\\Local\\npm-cache\\_logs\\2026-08-23T18_46_52_123Z-debug-0.log\r\n",
+        "durationMs": 697
+      }
+    ]
+  }
+}
