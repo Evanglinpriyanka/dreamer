@@ -1,9 +1,12 @@
+"use client";
+
 import { useState, useEffect, useCallback } from "react";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { apiUrl } from "@/services/api";
 import {
   BrainCircuit,
   Sparkles,
@@ -122,18 +125,15 @@ export default function SkillAssessment() {
         const controller = new AbortController();
         setTimeout(() => controller.abort(), 10000);
 
-        const response = await fetch(
-          "http://127.0.0.1:8000/api/v1/assessment/generate",
-          {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            signal: controller.signal,
-            body: JSON.stringify({
-              user_id: getUserId(),
-              psychometric_traits: psychometricTraits,
-            }),
-          },
-        );
+        const response = await fetch(apiUrl("/api/v1/assessment/generate"), {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          signal: controller.signal,
+          body: JSON.stringify({
+            user_id: getUserId(),
+            psychometric_traits: psychometricTraits,
+          }),
+        });
 
         if (!response.ok)
           throw new Error("Backend failed to generate assessment");
@@ -243,19 +243,16 @@ export default function SkillAssessment() {
       // Call backend to evaluate answers with timeout
       const controller = new AbortController();
       setTimeout(() => controller.abort(), 10000);
-      const response = await fetch(
-        "http://127.0.0.1:8000/api/v1/assessment/evaluate",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          signal: controller.signal,
-          body: JSON.stringify({
-            user_id: getUserId(),
-            psychometric_traits: psychometricTraits,
-            answers: userAnswers,
-          }),
-        },
-      );
+      const response = await fetch(apiUrl("/api/v1/assessment/evaluate"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
+        body: JSON.stringify({
+          user_id: getUserId(),
+          psychometric_traits: psychometricTraits,
+          answers: userAnswers,
+        }),
+      });
 
       if (!response.ok) throw new Error("Backend failed to evaluate answers");
 

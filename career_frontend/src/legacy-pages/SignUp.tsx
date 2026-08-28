@@ -1,13 +1,26 @@
+"use client";
+
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { Sparkles, Mail, Lock, Eye, EyeOff, ArrowRight } from "lucide-react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import {
+  Sparkles,
+  Mail,
+  Lock,
+  Eye,
+  EyeOff,
+  ArrowRight,
+  User,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
+import { authApi } from "@/services/api";
 
-const SignIn = () => {
-  const navigate = useNavigate();
+const SignUp = () => {
+  const router = useRouter();
+  const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -19,19 +32,30 @@ const SignIn = () => {
     setIsLoading(true);
     setError("");
 
-    // Simulate API call
-    setTimeout(() => {
-      if (email && password) {
-        localStorage.setItem(
-          "user",
-          JSON.stringify({ email, name: "John Doe" }),
-        );
-        navigate("/dashboard");
-      } else {
-        setError("Please fill in all fields");
-      }
+    if (password.length < 8) {
+      setError("Password must be at least 8 characters");
       setIsLoading(false);
-    }, 1500);
+      return;
+    }
+
+    try {
+      const response = await authApi.signUp({
+        name: fullName,
+        email,
+        password,
+      });
+      localStorage.setItem("user", JSON.stringify(response.user));
+      if (response.token) localStorage.setItem("authToken", response.token);
+      router.push("/persona-selection");
+    } catch (requestError) {
+      setError(
+        requestError instanceof Error
+          ? requestError.message
+          : "Unable to create your account. Please try again.",
+      );
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -45,7 +69,7 @@ const SignIn = () => {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <Link to="/" className="inline-flex items-center gap-2">
+          <Link href="/" className="inline-flex items-center gap-2">
             <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
               <Sparkles className="w-7 h-7 text-white" />
             </div>
@@ -58,13 +82,30 @@ const SignIn = () => {
         {/* Card */}
         <div className="glass rounded-2xl p-8 shadow-lg">
           <div className="text-center mb-8">
-            <h1 className="text-2xl font-bold mb-2">Welcome Back</h1>
+            <h1 className="text-2xl font-bold mb-2">Create Account</h1>
             <p className="text-muted-foreground">
-              Sign in to continue your career journey
+              Start your career journey with AI-powered guidance
             </p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-5">
+            {/* Full Name */}
+            <div className="space-y-2">
+              <Label htmlFor="fullName">Full Name</Label>
+              <div className="relative">
+                <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+                <Input
+                  id="fullName"
+                  type="text"
+                  placeholder="Enter your full name"
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
+                  className="pl-10 h-12"
+                  required
+                />
+              </div>
+            </div>
+
             {/* Email */}
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>
@@ -84,21 +125,13 @@ const SignIn = () => {
 
             {/* Password */}
             <div className="space-y-2">
-              <div className="flex items-center justify-between">
-                <Label htmlFor="password">Password</Label>
-                <Link
-                  to="/forgot-password"
-                  className="text-sm text-primary hover:underline"
-                >
-                  Forgot password?
-                </Link>
-              </div>
+              <Label htmlFor="password">Password</Label>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
                 <Input
                   id="password"
                   type={showPassword ? "text" : "password"}
-                  placeholder="Enter your password"
+                  placeholder="Create a password (min 8 chars)"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="pl-10 pr-10 h-12"
@@ -118,14 +151,14 @@ const SignIn = () => {
               </div>
             </div>
 
-            {/* Remember me */}
-            <div className="flex items-center gap-2">
-              <Checkbox id="remember" />
+            {/* Terms */}
+            <div className="flex items-start gap-2">
+              <Checkbox id="terms" />
               <label
-                htmlFor="remember"
+                htmlFor="terms"
                 className="text-sm text-muted-foreground cursor-pointer"
               >
-                Remember me for 30 days
+                I agree to the Terms of Service and Privacy Policy
               </label>
             </div>
 
@@ -142,11 +175,11 @@ const SignIn = () => {
               {isLoading ? (
                 <div className="flex items-center gap-2">
                   <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                  Signing in...
+                  Creating account...
                 </div>
               ) : (
                 <>
-                  Sign In
+                  Create Account
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </>
               )}
@@ -201,14 +234,14 @@ const SignIn = () => {
           </div>
         </div>
 
-        {/* Sign up link */}
+        {/* Sign in link */}
         <p className="text-center mt-6 text-muted-foreground">
-          Don't have an account?{" "}
+          Already have an account?{" "}
           <Link
-            to="/signup"
+            href="/signin"
             className="text-primary font-medium hover:underline"
           >
-            Sign up for free
+            Sign in
           </Link>
         </p>
       </div>
@@ -216,4 +249,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default SignUp;

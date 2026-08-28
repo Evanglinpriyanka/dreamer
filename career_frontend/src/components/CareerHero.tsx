@@ -1,19 +1,17 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Target, TrendingUp } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight, Sparkles, Target, TrendingUp, Check } from "lucide-react";
 import heroCareer from "@/assets/hero-career.jpg";
 
 const CareerHero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-secondary/10" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_18%,hsl(var(--primary)/0.14),transparent_32%),radial-gradient(circle_at_8%_72%,hsl(var(--secondary)/0.12),transparent_28%)]" />
+      <div className="absolute inset-0 opacity-40 [background-image:linear-gradient(hsl(var(--foreground)/0.04)_1px,transparent_1px),linear-gradient(90deg,hsl(var(--foreground)/0.04)_1px,transparent_1px)] [background-size:48px_48px]" />
       
       {/* Floating elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-pulse" />
-      <div className="absolute bottom-20 right-10 w-32 h-32 bg-secondary/20 rounded-full blur-xl animate-pulse delay-1000" />
-      <div className="absolute top-1/2 left-20 w-16 h-16 bg-accent/20 rounded-full blur-xl animate-pulse delay-500" />
-
-      <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+      <div className="container mx-auto px-6 pt-16 grid lg:grid-cols-[0.9fr_1.1fr] gap-12 lg:gap-20 items-center relative z-10">
         {/* Left Content */}
         <div className="space-y-8 fade-in-up">
           <div className="space-y-4">
@@ -22,41 +20,34 @@ const CareerHero = () => {
               AI-Powered Career Discovery
             </div>
             
-            <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-              Discover Your
-              <span className="gradient-text block">Dream Career</span>
+            <h1 className="text-5xl lg:text-7xl font-bold leading-[0.98] tracking-tight">
+              A clearer path to your
+              <span className="gradient-text block">next chapter.</span>
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-              Unlock your potential with our AI-powered career exploration platform. 
-              Get personalized insights, discover new paths, and build the career you've always dreamed of.
+              CareerDreamer turns your interests, strengths, and ambitions into a focused career direction you can act on.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="lg" className="group">
-              Start Your Journey
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+            <Button asChild variant="hero" size="lg" className="group">
+              <Link href="/signup">
+                Start your assessment
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </Link>
             </Button>
-            <Button variant="outline" size="lg" className="glass">
-              Watch Demo
+            <Button asChild variant="outline" size="lg" className="glass">
+              <a href="#process">See how it works</a>
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-6 pt-8">
-            <div className="text-center">
-              <div className="text-2xl font-bold text-primary">50K+</div>
-              <div className="text-sm text-muted-foreground">Career Paths</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-primary">95%</div>
-              <div className="text-sm text-muted-foreground">Success Rate</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-primary">24/7</div>
-              <div className="text-sm text-muted-foreground">AI Support</div>
-            </div>
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 pt-2 text-sm text-muted-foreground">
+            {["Personalized assessment", "Career matching", "Actionable roadmap"].map((item) => (
+              <span key={item} className="inline-flex items-center gap-2">
+                <Check className="h-4 w-4 text-secondary" /> {item}
+              </span>
+            ))}
           </div>
         </div>
 
@@ -75,12 +66,22 @@ const CareerHero = () => {
             </div>
 
             {/* Main hero image */}
-            <div className="glass rounded-3xl p-6 transform hover:scale-105 transition-transform duration-500">
-              <img 
+            <div className="glass rounded-[2rem] p-3 sm:p-5 transform hover:scale-[1.02] transition-transform duration-500 shadow-elegant">
+              <Image
                 src={heroCareer} 
                 alt="Career exploration and growth visualization" 
                 className="w-full h-auto rounded-2xl"
               />
+            </div>
+
+            <div className="absolute -bottom-5 left-5 sm:left-10 glass rounded-2xl px-4 py-3 shadow-elegant flex items-center gap-3">
+              <div className="h-9 w-9 rounded-xl bg-secondary/15 flex items-center justify-center">
+                <Target className="h-5 w-5 text-secondary" />
+              </div>
+              <div>
+                <p className="text-xs text-muted-foreground">Your direction</p>
+                <p className="font-semibold">Becomes a plan</p>
+              </div>
             </div>
 
             {/* Gradient overlay on image */}

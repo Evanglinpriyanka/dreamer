@@ -1,8 +1,11 @@
+"use client";
+
 import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { apiUrl } from "@/services/api";
 import {
   BrainCircuit,
   Sparkles,
@@ -114,31 +117,27 @@ export default function IdentityStatement() {
     }
 
     try {
-      const response = await fetch(
-        "http://127.0.0.1:8000/api/v1/identity/generate",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            user_id: "student_mvp_01",
-            constraints: {
-              education:
-                education.length > 0 ? education : ["Computer Science"],
-              skills:
-                skills.length > 0
-                  ? skills
-                  : verifiedSkills.map((s) => s.skill_name),
-              interests:
-                interests.length > 0
-                  ? interests
-                  : ["Technology", "Problem Solving"],
-            },
-            psychometric_profile:
-              psychometricDraft?.psychological_profile ||
-              "Analytical and empathetic problem solver",
-          }),
-        },
-      );
+      const response = await fetch(apiUrl("/api/v1/identity/generate"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          user_id: "student_mvp_01",
+          constraints: {
+            education: education.length > 0 ? education : ["Computer Science"],
+            skills:
+              skills.length > 0
+                ? skills
+                : verifiedSkills.map((s) => s.skill_name),
+            interests:
+              interests.length > 0
+                ? interests
+                : ["Technology", "Problem Solving"],
+          },
+          psychometric_profile:
+            psychometricDraft?.psychological_profile ||
+            "Analytical and empathetic problem solver",
+        }),
+      });
 
       if (!response.ok)
         throw new Error("Failed to generate identity statement");
@@ -231,7 +230,7 @@ export default function IdentityStatement() {
       };
 
       // Call graph fusion endpoint
-      const response = await fetch("http://127.0.0.1:8000/api/v1/roles/match", {
+      const response = await fetch(apiUrl("/api/v1/roles/match"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

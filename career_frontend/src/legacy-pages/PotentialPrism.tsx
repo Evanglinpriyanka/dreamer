@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect, useCallback } from "react";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -27,6 +29,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { apiUrl } from "@/services/api";
 
 // --- THE 12-TRAIT PSYCHOMETRIC INTERFACES ---
 interface ComprehensiveTraits {
@@ -504,18 +507,15 @@ export default function PotentialPrism() {
   const finalizeAssessment = async () => {
     setIsComputing(true);
     try {
-      const response = await fetch(
-        "http://127.0.0.1:8000/api/v1/prism/calculate",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            user_id: "student_mvp_01",
-            persona: "First Stepper",
-            final_scores: scores,
-          }),
-        },
-      );
+      const response = await fetch(apiUrl("/api/v1/prism/calculate"), {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          user_id: "student_mvp_01",
+          persona: "First Stepper",
+          final_scores: scores,
+        }),
+      });
 
       if (!response.ok) throw new Error("Backend connection failed");
       const data = await response.json();

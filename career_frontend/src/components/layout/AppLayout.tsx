@@ -1,5 +1,7 @@
-import { useState } from "react";
-import { Outlet, useNavigate, useLocation } from "react-router-dom";
+"use client";
+
+import { useEffect, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import {
   Sparkles,
@@ -21,15 +23,30 @@ const navItems = [
   { label: "Roadmap", href: "/roadmap/product-manager", icon: Map },
 ];
 
-const AppLayout = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
+const AppLayout = ({ children }: { children: React.ReactNode }) => {
+  const router = useRouter();
+  const pathname = usePathname();
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [userName, setUserName] = useState("Your career space");
+  const [userEmail, setUserEmail] = useState("");
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (!storedUser) return;
+    try {
+      const user = JSON.parse(storedUser) as { name?: string; email?: string };
+      setUserName(user.name || "Your career space");
+      setUserEmail(user.email || "");
+    } catch {
+      localStorage.removeItem("user");
+    }
+  }, []);
 
   const handleSignOut = () => {
     localStorage.removeItem("user");
-    navigate("/");
+    localStorage.removeItem("authToken");
+    router.push("/");
   };
 
   return (
@@ -65,7 +82,7 @@ const AppLayout = () => {
             </button>
 
             <button
-              onClick={() => navigate("/")}
+              onClick={() => router.push("/")}
               className="flex items-center gap-2 group"
             >
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
@@ -81,13 +98,12 @@ const AppLayout = () => {
           <div className="hidden lg:flex items-center gap-2">
             {navItems.map((item) => {
               const isActive =
-                location.pathname === item.href ||
-                (item.href === "/dashboard" &&
-                  location.pathname === "/dashboard");
+                pathname === item.href ||
+                (item.href === "/dashboard" && pathname === "/dashboard");
               return (
                 <button
                   key={item.label}
-                  onClick={() => navigate(item.href)}
+                  onClick={() => router.push(item.href)}
                   className={cn(
                     "flex items-center gap-2 px-4 py-2 rounded-lg transition-colors",
                     isActive
@@ -107,7 +123,7 @@ const AppLayout = () => {
             <Button
               variant="ghost"
               size="sm"
-              onClick={() => navigate("/dashboard")}
+              onClick={() => router.push("/profile")}
               className="hidden sm:flex items-center gap-2"
             >
               <User className="w-4 h-4" />
@@ -138,7 +154,7 @@ const AppLayout = () => {
               <button
                 key={item.label}
                 onClick={() => {
-                  navigate(item.href);
+                  router.push(item.href);
                   setIsMobileMenuOpen(false);
                 }}
                 className="flex items-center gap-3 w-full px-4 py-3 rounded-lg text-left hover:bg-primary/10 transition-colors"
@@ -151,7 +167,7 @@ const AppLayout = () => {
             <hr className="my-2 border-border" />
             <button
               onClick={() => {
-                navigate("/");
+                router.push("/");
                 setIsMobileMenuOpen(false);
               }}
               className="flex items-center gap-3 w-full px-4 py-3 rounded-lg text-left hover:bg-primary/10 transition-colors"
@@ -176,11 +192,11 @@ const AppLayout = () => {
               Quick Links
             </p>
             {navItems.map((item) => {
-              const isActive = location.pathname === item.href;
+              const isActive = pathname === item.href;
               return (
                 <button
                   key={item.label}
-                  onClick={() => navigate(item.href)}
+                  onClick={() => router.push(item.href)}
                   className={cn(
                     "flex items-center gap-3 w-full px-3 py-2.5 rounded-lg text-left transition-colors",
                     isActive
@@ -200,11 +216,11 @@ const AppLayout = () => {
               Settings
             </p>
             <button
-              onClick={() => navigate("/dashboard")}
+              onClick={() => router.push("/dashboard")}
               className="flex items-center gap-3 w-full px-3 py-2.5 rounded-lg text-left text-muted-foreground hover:text-foreground hover:bg-primary/5 transition-colors"
             >
               <Settings className="w-5 h-5" />
-              Account Settings
+              Profile settings
             </button>
           </div>
 
@@ -215,10 +231,8 @@ const AppLayout = () => {
                 <User className="w-5 h-5 text-white" />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="font-medium truncate">John Doe</p>
-                <p className="text-xs text-muted-foreground truncate">
-                  john@example.com
-                </p>
+                <p className="font-medium truncate">{userName}</p>
+                {userEmail && <p className="text-xs text-muted-foreground truncate">{userEmail}</p>}
               </div>
             </div>
           </div>
@@ -232,9 +246,7 @@ const AppLayout = () => {
           isSidebarOpen ? "lg:pl-64" : "lg:pl-0",
         )}
       >
-        <div className="p-4 md:p-6 lg:p-8">
-          <Outlet />
-        </div>
+        <div className="p-4 md:p-6 lg:p-8">{children}</div>
       </main>
     </div>
   );

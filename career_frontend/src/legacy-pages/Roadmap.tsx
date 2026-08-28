@@ -1,5 +1,7 @@
+"use client";
+
 import { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useRouter } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -52,8 +54,9 @@ const itemVariants = {
 };
 
 const Roadmap = () => {
-  const { careerType } = useParams();
-  const navigate = useNavigate();
+  const params = useParams<{ careerType: string }>();
+  const careerType = params?.careerType;
+  const router = useRouter();
   const [selectedCareer, setSelectedCareer] = useState<any>(null);
   const [roadmapSteps, setRoadmapSteps] = useState<RoadmapStep[]>([]);
   const [jobMarketData, setJobMarketData] = useState<JobMarketData | null>(
@@ -64,14 +67,14 @@ const Roadmap = () => {
   useEffect(() => {
     const career = JSON.parse(localStorage.getItem("selectedCareer") || "{}");
     if (!career.id) {
-      navigate("/dashboard");
+      router.push("/dashboard");
       return;
     }
 
     setSelectedCareer(career);
     generateRoadmap(career);
     generateJobMarketData(career);
-  }, [careerType, navigate]);
+  }, [careerType, router]);
 
   const generateRoadmap = (career: any) => {
     const baseSteps: RoadmapStep[] = [
@@ -280,7 +283,7 @@ const Roadmap = () => {
         <Button
           variant="outline"
           size="sm"
-          onClick={() => navigate("/dashboard")}
+          onClick={() => router.push("/dashboard")}
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back

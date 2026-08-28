@@ -49,7 +49,7 @@ export default function Dashboard() {
       // If data is missing, send them back to the start
       router.push("/potential-prism");
     }
-  }, [navigate]);
+  }, [router]);
 
   if (isLoading || !draft) {
     return (

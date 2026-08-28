@@ -1,8 +1,9 @@
+"use client";
+
 import CareerHero from "@/components/CareerHero";
 import CareerFeatures from "@/components/CareerFeatures";
 import CareerProcess from "@/components/CareerProcess";
 import { Button } from "@/components/ui/button";
-("use client");
 
 import { useRouter } from "next/navigation";
 
@@ -23,13 +24,13 @@ const Index = () => {
               Ready to Discover Your Perfect Career?
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join thousands of students who've found their dream careers with
-              Project Beacon's AI-powered guidance.
+              Start with a clearer understanding of your strengths, then turn
+              that insight into a practical next step.
             </p>
             <Button
               size="lg"
               variant="hero"
-              onClick={() => router.push("/persona-selection")}
+              onClick={() => router.push("/signup")}
               className="text-lg px-8 py-4"
             >
               Start Your Journey Now

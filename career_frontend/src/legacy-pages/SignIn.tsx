@@ -1,22 +1,17 @@
+"use client";
+
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import {
-  Sparkles,
-  Mail,
-  Lock,
-  Eye,
-  EyeOff,
-  ArrowRight,
-  User,
-} from "lucide-react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { Sparkles, Mail, Lock, Eye, EyeOff, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
+import { authApi } from "@/services/api";
 
-const SignUp = () => {
-  const navigate = useNavigate();
-  const [fullName, setFullName] = useState("");
+const SignIn = () => {
+  const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -28,22 +23,20 @@ const SignUp = () => {
     setIsLoading(true);
     setError("");
 
-    if (password.length < 8) {
-      setError("Password must be at least 8 characters");
+    try {
+      const response = await authApi.signIn({ email, password });
+      localStorage.setItem("user", JSON.stringify(response.user));
+      if (response.token) localStorage.setItem("authToken", response.token);
+      router.push("/dashboard");
+    } catch (requestError) {
+      setError(
+        requestError instanceof Error
+          ? requestError.message
+          : "Unable to sign in. Please try again.",
+      );
+    } finally {
       setIsLoading(false);
-      return;
     }
-
-    // Simulate API call
-    setTimeout(() => {
-      if (fullName && email && password) {
-        localStorage.setItem("user", JSON.stringify({ email, name: fullName }));
-        navigate("/persona-selection");
-      } else {
-        setError("Please fill in all fields");
-      }
-      setIsLoading(false);
-    }, 1500);
   };
 
   return (
@@ -57,7 +50,7 @@ const SignUp = () => {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <Link to="/" className="inline-flex items-center gap-2">
+          <Link href="/" className="inline-flex items-center gap-2">
             <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
               <Sparkles className="w-7 h-7 text-white" />
             </div>
@@ -70,30 +63,13 @@ const SignUp = () => {
         {/* Card */}
         <div className="glass rounded-2xl p-8 shadow-lg">
           <div className="text-center mb-8">
-            <h1 className="text-2xl font-bold mb-2">Create Account</h1>
+            <h1 className="text-2xl font-bold mb-2">Welcome Back</h1>
             <p className="text-muted-foreground">
-              Start your career journey with AI-powered guidance
+              Sign in to continue your career journey
             </p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-5">
-            {/* Full Name */}
-            <div className="space-y-2">
-              <Label htmlFor="fullName">Full Name</Label>
-              <div className="relative">
-                <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
-                <Input
-                  id="fullName"
-                  type="text"
-                  placeholder="Enter your full name"
-                  value={fullName}
-                  onChange={(e) => setFullName(e.target.value)}
-                  className="pl-10 h-12"
-                  required
-                />
-              </div>
-            </div>
-
             {/* Email */}
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>
@@ -113,13 +89,15 @@ const SignUp = () => {
 
             {/* Password */}
             <div className="space-y-2">
-              <Label htmlFor="password">Password</Label>
+              <div className="flex items-center justify-between">
+                <Label htmlFor="password">Password</Label>
+              </div>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
                 <Input
                   id="password"
                   type={showPassword ? "text" : "password"}
-                  placeholder="Create a password (min 8 chars)"
+                  placeholder="Enter your password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="pl-10 pr-10 h-12"
@@ -139,21 +117,14 @@ const SignUp = () => {
               </div>
             </div>
 
-            {/* Terms */}
-            <div className="flex items-start gap-2">
-              <Checkbox id="terms" />
+            {/* Remember me */}
+            <div className="flex items-center gap-2">
+              <Checkbox id="remember" />
               <label
-                htmlFor="terms"
+                htmlFor="remember"
                 className="text-sm text-muted-foreground cursor-pointer"
               >
-                I agree to the{" "}
-                <a href="#" className="text-primary hover:underline">
-                  Terms of Service
-                </a>{" "}
-                and{" "}
-                <a href="#" className="text-primary hover:underline">
-                  Privacy Policy
-                </a>
+                Remember me for 30 days
               </label>
             </div>
 
@@ -170,11 +141,11 @@ const SignUp = () => {
               {isLoading ? (
                 <div className="flex items-center gap-2">
                   <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                  Creating account...
+                  Signing in...
                 </div>
               ) : (
                 <>
-                  Create Account
+                  Sign In
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </>
               )}
@@ -229,14 +200,14 @@ const SignUp = () => {
           </div>
         </div>
 
-        {/* Sign in link */}
+        {/* Sign up link */}
         <p className="text-center mt-6 text-muted-foreground">
-          Already have an account?{" "}
+          Don't have an account?{" "}
           <Link
-            to="/signin"
+            href="/signup"
             className="text-primary font-medium hover:underline"
           >
-            Sign in
+            Sign up for free
           </Link>
         </p>
       </div>
@@ -244,4 +215,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignIn;

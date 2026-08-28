@@ -31,7 +31,7 @@ const pageVariants = {
 };
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
-  const pathname = usePathname();
+  const pathname = usePathname() ?? "";
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 

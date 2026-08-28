@@ -28,8 +28,6 @@ import {
 const navItems = [
   { label: "Features", href: "#features" },
   { label: "How It Works", href: "#process" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "About", href: "#about" },
 ];
 
 export default function Navbar() {
@@ -110,10 +108,7 @@ export default function Navbar() {
 
                 <DropdownMenuContent align="end" className="w-56">
                   <div className="px-3 py-2">
-                    <p className="font-medium">John Doe</p>
-                    <p className="text-sm text-muted-foreground">
-                      john@example.com
-                    </p>
+                    <p className="font-medium">Your career space</p>
                   </div>
 
                   <DropdownMenuSeparator />
@@ -123,19 +118,18 @@ export default function Navbar() {
                     Dashboard
                   </DropdownMenuItem>
 
-                  <DropdownMenuItem>
-                    <BookOpen className="w-4 h-4 mr-2" />
-                    My Roadmaps
-                  </DropdownMenuItem>
-
-                  <DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => router.push("/profile")}>
                     <Settings className="w-4 h-4 mr-2" />
-                    Settings
+                    Profile settings
                   </DropdownMenuItem>
 
                   <DropdownMenuSeparator />
 
-                  <DropdownMenuItem className="text-destructive">
+                  <DropdownMenuItem className="text-destructive" onClick={() => {
+                    localStorage.removeItem("user");
+                    localStorage.removeItem("authToken");
+                    router.push("/");
+                  }}>
                     <LogOut className="w-4 h-4 mr-2" />
                     Sign Out
                   </DropdownMenuItem>
@@ -208,10 +202,11 @@ export default function Navbar() {
                         Dashboard
                       </Button>
 
-                      <Button
-                        variant="destructive"
-                        className="w-full justify-start"
-                      >
+                      <Button variant="destructive" className="w-full justify-start" onClick={() => {
+                        localStorage.removeItem("user");
+                        localStorage.removeItem("authToken");
+                        router.push("/");
+                      }}>
                         <LogOut className="w-4 h-4 mr-2" />
                         Sign Out
                       </Button>

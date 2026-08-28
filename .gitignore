@@ -29,6 +29,11 @@ dist-ssr
 *.ntvs*
 *.njsproj
 *.sln
+# Next.js generated output
+career_frontend/.next/
+
+# Local packaging artifacts
+career_frontend.zip
 *.sw?
 
 .env

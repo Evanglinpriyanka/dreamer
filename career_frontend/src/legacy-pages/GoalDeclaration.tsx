@@ -1,9 +1,11 @@
+"use client";
+
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
-import { useNavigate } from "react-router-dom";
+import { useRouter } from "next/navigation";
 import { Target, Search, Sparkles, TrendingUp } from "lucide-react";
 
 const popularCareers = [
@@ -24,7 +26,7 @@ const careerSuggestions = [
 ];
 
 const GoalDeclaration = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCareer, setSelectedCareer] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -46,7 +48,7 @@ const GoalDeclaration = () => {
         dreamCareer: selectedCareer || searchTerm,
         completed: true
       }));
-      navigate("/dashboard");
+      router.push("/dashboard");
     }
   };
 
